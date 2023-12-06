@@ -6,23 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
-    <link rel="icon" href="../assets/images/favicon-32x32.png" type="image/png" />
-    <!--extraJS-->
-    <link href="../assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-    <link href="../assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-    <!-- loader-->
-    <link href="../assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="../assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
-
-
-    <!-- Bootstrap CSS -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-extended.css" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
-    <link href="../assets/css/app.css" rel="stylesheet">
-    <link href="../assets/css/icons.css" rel="stylesheet">
-    <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="../assets/css/semi-dark.css" />
+ 
     <title> Schemes</title>
 </head>
 
@@ -156,22 +140,182 @@
 
 
                                 <div class="row">
-                                    <div class="col-xl-9 mx-auto">
+                                    <div class="col-xl-12 mx-auto">
 
                                         <div class="card">
                                             <div class="card-body">
-                                                <form action="" method="post">
+
                                                 <div class="col-md-12">
+
+
+
+
+
+                                                    <div class="table-responsive ">
+                                                        <table class="table table-striped table-bordered" style="width:100%">
+                                                            <strong>SCHEMES</strong>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Scheme Name</th>
+                                                                    <th>Scheme Type:</th>
+                                                                    <th>Scheme Owner.</th>
+                                                                    <th>Validity:</th>
+
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Product A</td>
+                                                                    <td>Scheme 1</td>
+                                                                    <td>3 months</td>
+                                                                    <td>North Region</td>
+
+                                                                </tr>
+
+                                                                <!-- Add more rows as needed -->
+                                                            </tbody>
+
+                                                        </table>
+                                                    </div>
+
+                                                    <div class="table-responsive ">
+                                                        <table class="table table-striped table-bordered" style="width:100%">
+                                                            <strong>GEOGRAPHY DETAILS</strong>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Country</th>
+                                                                    <th>State</th>
+                                                                    <th>Region</th>
+                                                                    <th>Area</th>
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Product A</td>
+                                                                    <td>Scheme 1</td>
+                                                                    <td>3 months</td>
+                                                                    <td>North Region</td>
+
+                                                                </tr>
+
+                                                                <!-- Add more rows as needed -->
+                                                            </tbody>
+
+                                                        </table>
+                                                    </div>
+
+                                                    <div class="table-responsive ">
+                                                        <table class="table table-striped table-bordered" style="width:100%">
+                                                            <strong>RETAILER CATEGORY</strong>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Channel</th>
+                                                                    <th>Sub Channel</th>
+                                                                    <th>Type</th>
+                                                                    <th>Outlet</th>
+
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Product A</td>
+                                                                    <td>Scheme 1</td>
+                                                                    <td>3 months</td>
+                                                                    <td>North Region</td>
+
+                                                                </tr>
+
+                                                                <!-- Add more rows as needed -->
+                                                            </tbody>
+
+                                                        </table>
+                                                    </div>
+
+                                                    <div class="table-responsive ">
+                                                        <table class="table table-striped table-bordered" style="width:100%">
+                                                            <strong>SALES CRITERIA</strong>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Company:</th>
+                                                                    <th>Category:</th>
+                                                                    <th>Category-1:</th>
+                                                                    <th>Category </th>
+                                                                    <th>Brand: </th>
+                                                                    <th>Sub brand:</th>
+                                                                    <th>SKU</th>
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Product A</td>
+                                                                    <td>Scheme 1</td>
+                                                                    <td>3 months</td>
+                                                                    <td>Product A</td>
+                                                                    <td>Scheme 1</td>
+                                                                    <td>3 months</td>
+                                                                    <td>3 months</td>
+
+
+                                                                </tr>
+
+                                                                <!-- Add more rows as needed -->
+                                                            </tbody>
+
+                                                        </table>
+                                                    </div>
+
+                                                    <div class="table-responsive ">
+                                                        <table class="table table-striped table-bordered" style="width:100%">
+                                                            <strong>SLABS</strong>
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Calculation Type</th>
+                                                                    <th>Scheme Type</th>
+                                                                    <th>FOC Type</th>
+                                                                    <th>Type quantity/value</th>
+                                                                    <th>UOM </th>
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Product A</td>
+                                                                    <td>Scheme 1</td>
+                                                                    <td>3 months</td>
+                                                                    <td>North Region</td>
+                                                                    <td>North Region</td>
+
+
+
+
+
+
+                                                                </tr>
+
+                                                                <!-- Add more rows as needed -->
+                                                            </tbody>
+
+                                                        </table>
+                                                    </div>
+
+
+
+
+
                                                     <div class="d-md-flex d-grid align-items-center gap-3 mt-5 ">
                                                         <button type="button" class="btn btn-primary px-4">Submit</button>
-                                                 
+
 
                                                         <button onclick="history.back()" type="button" class="btn btn-danger bx-pull-right">Back</button>
 
                                                     </div>
                                                 </div>
-                                                </form>
-                
+
+
                                             </div>
                                         </div>
                                     </div>
@@ -209,47 +353,7 @@
         </footer>
     </div>
     <!--end wrapper-->
-    <script src="../assets/js/jquery.min.js"></script>
-
-    <!-- Bootstrap JS -->
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
-    <!--extraJS-->
-    <script src="../assets/extraJS/metismenu/js/metisMenu.min.js"></script>
-    <script src="../assets/extraJS/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="../assets/extraJS/datatable/js/dataTables.bootstrap5.min.js"></script>
-    <script src="../assets/extraJS/simplebar/js/simplebar.min.js"></script>
-    <script src="../assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-
-
-
-    <link href="https://codervent.com/rocker/demo/vertical/assets/plugins/fancy-file-uploader/fancy_fileupload.css" rel="stylesheet" />
-    <link href="https://codervent.com/rocker/demo/vertical/assets/plugins/Drag-And-Drop/dist/imageuploadify.min.css" rel="stylesheet" />
-
-    <script src="https://codervent.com/rocker/demo/vertical/assets/plugins/fancy-file-uploader/jquery.ui.widget.js"></script>
-
-    <script src="https://codervent.com/rocker/demo/vertical/assets/plugins/fancy-file-uploader/jquery.fileupload.js"></script>
-    <script src="https://codervent.com/rocker/demo/vertical/assets/plugins/fancy-file-uploader/jquery.iframe-transport.js"></script>
-    <script src="https://codervent.com/rocker/demo/vertical/assets/plugins/fancy-file-uploader/jquery.fancy-fileupload.js"></script>
-    <script src="https://codervent.com/rocker/demo/vertical/assets/plugins/Drag-And-Drop/dist/imageuploadify.min.js"></script>
-    <script>
-        $('#fancy-file-upload').FancyFileUpload({
-            params: {
-                action: 'fileuploader'
-            },
-            maxfilesize: 1000000
-        });
-    </script>
-    <script>
-        $(document).ready(function() {
-            $('#image-uploadify').imageuploadify();
-        })
-    </script>
-
-    <script>
-        $(document).ready(function() {
-            $('#example').DataTable();
-        });
-    </script>
+    <?php include('../footer.php'); ?>
 
     <!--app JS-->
     <script src="../assets/js/app.js"></script>

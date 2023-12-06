@@ -6,22 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
-    <link rel="icon" href="../assets/images/favicon-32x32.png" type="image/png" />
-    <!--extraJS-->
-    <link href="../assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-    <link href="../assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-    <!-- loader-->
-    <link href="../assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="../assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
 
-
-    <!-- Bootstrap CSS -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-extended.css" rel="stylesheet">
-    <link href="../assets/css/app.css" rel="stylesheet">
-    <link href="../assets/css/icons.css" rel="stylesheet">
-    <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="../assets/css/semi-dark.css" />
     <title> SCHEME CPS</title>
 </head>
 
@@ -239,13 +224,13 @@
                 <div class="modal-body">
                     <form action="">
                         <div class="row">
-                        <div class="mb-3 col-md-12">
-                            <label for="Retailers" class="form-label">Retailers </label>
-                            <input type="text" class="form-control" id="Retailers" name="Retailers">
-                        </div>
-                        <div class="mb-3 col-md-12">
-                         <button type="submit" class="btn btn-warning ">Search</button>
-                        </div>
+                            <div class="mb-3 col-md-12">
+                                <label for="Retailers" class="form-label">Retailers </label>
+                                <input type="text" class="form-control" id="Retailers" name="Retailers">
+                            </div>
+                            <div class="mb-3 col-md-12">
+                                <button type="submit" class="btn btn-warning ">Search</button>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -255,70 +240,61 @@
 
 
 
-        <!--end page wrapper -->
-        <!--start overlay-->
-        <div class="overlay toggle-icon"></div>
-        <!--end overlay-->
-        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-        <!--End Back To Top Button-->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright © 2023. All right reserved.</p>
-        </footer>
+    <!--end page wrapper -->
+    <!--start overlay-->
+    <div class="overlay toggle-icon"></div>
+    <!--end overlay-->
+    <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
+    <!--End Back To Top Button-->
+    <footer class="page-footer">
+        <p class="mb-0">Copyright © 2023. All right reserved.</p>
+    </footer>
 
-        <!--end wrapper-->
-        <script src="../assets/js/jquery.min.js"></script>
+    <!--end wrapper-->
+	<?php include('footer.php'); ?>
 
-        <!-- Bootstrap JS -->
-        <script src="../assets/js/bootstrap.bundle.min.js"></script>
-        <!--extraJS-->
-        <script src="../assets/extraJS/metismenu/js/metisMenu.min.js"></script>
-        <script src="../assets/extraJS/datatable/js/jquery.dataTables.min.js"></script>
-        <script src="../assets/extraJS/datatable/js/dataTables.bootstrap5.min.js"></script>
-        <script src="../assets/extraJS/simplebar/js/simplebar.min.js"></script>
-        <script src="../assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-
-        <!--app JS-->
-        <script src="../assets/js/app.js"></script>
+    <!--app JS-->
+    <script src="../assets/js/app.js"></script>
 
 
 
 
-        <script>
-            $(document).ready(function() {
-                $('#example').DataTable();
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+        });
+    </script>
+
+    <script>
+        // Function to filter and save table data
+        function filterAndSaveData() {
+            const tableRows = document.querySelectorAll("table tbody tr");
+            const filteredData = [];
+
+            tableRows.forEach((row) => {
+                const checkbox = row.querySelector("input[type='checkbox']");
+                if (checkbox && checkbox.checked) {
+                    // If the checkbox is checked, save the row's data
+                    const cpNumber = row.querySelector("td:nth-child(1)").textContent;
+                    const id = row.querySelector("td:nth-child(2)").textContent;
+                    const status = row.querySelector("label[for='flexSwitchCheckDefault1']").textContent;
+
+                    filteredData.push({
+                        cpNumber,
+                        id,
+                        status
+                    });
+                }
             });
-        </script>
 
-        <script>
-            // Function to filter and save table data
-            function filterAndSaveData() {
-                const tableRows = document.querySelectorAll("table tbody tr");
-                const filteredData = [];
+            // Use the filteredData array as needed (e.g., send it to the server or perform actions with it)
+            console.log(filteredData);
+        }
 
-                tableRows.forEach((row) => {
-                    const checkbox = row.querySelector("input[type='checkbox']");
-                    if (checkbox && checkbox.checked) {
-                        // If the checkbox is checked, save the row's data
-                        const cpNumber = row.querySelector("td:nth-child(1)").textContent;
-                        const id = row.querySelector("td:nth-child(2)").textContent;
-                        const status = row.querySelector("label[for='flexSwitchCheckDefault1']").textContent;
-
-                        filteredData.push({
-                            cpNumber,
-                            id,
-                            status
-                        });
-                    }
-                });
-
-                // Use the filteredData array as needed (e.g., send it to the server or perform actions with it)
-                console.log(filteredData);
-            }
-
-            // Add a click event handler for the "Add" button
-            const addButton = document.getElementById("addButton");
-            addButton.addEventListener("click", filterAndSaveData);
-        </script>
+        // Add a click event handler for the "Add" button
+        const addButton = document.getElementById("addButton");
+        addButton.addEventListener("click", filterAndSaveData);
+    </script>
 
 
 </body>

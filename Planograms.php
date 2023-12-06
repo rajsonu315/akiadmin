@@ -9,23 +9,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
-    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
-    <!--extraJS-->
-    <link href="assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-    <link href="assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-    <!-- loader-->
-    <link href="assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
 
-
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
-    <link href="assets/css/app.css" rel="stylesheet">
-    <link href="assets/css/icons.css" rel="stylesheet">
-    <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="assets/css/semi-dark.css" />
     <title> Planograms</title>
 </head>
 
@@ -33,7 +17,7 @@
     <!--wrapper-->
     <div class="wrapper">
         <!--sidebar wrapper -->
-		<?php include('header.php'); ?>
+        <?php include('header.php'); ?>
 
         <!--end header -->
         <!--start page wrapper -->
@@ -69,8 +53,7 @@
                                         <!-- Add Name -->
                                         <div class="mb-3">
                                             <label for="inputName" class="form-label">Name</label>
-                                            <input type="text" class="form-control" id="inputName" name="name"
-                                                placeholder="Enter Name">
+                                            <input type="text" class="form-control" id="inputName" name="name" placeholder="Enter Name">
                                         </div>
 
                                         <!-- Add Retailer Type (Dropdown Select) -->
@@ -110,26 +93,14 @@
         <!--start overlay-->
         <div class="overlay toggle-icon"></div>
         <!--end overlay-->
-        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i
-                class='bx bxs-up-arrow-alt'></i></a>
+        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
         <!--End Back To Top Button-->
         <footer class="page-footer">
             <p class="mb-0">Copyright © 2023. All right reserved.</p>
         </footer>
     </div>
     <!--end wrapper-->
-    <script src="assets/js/jquery.min.js"></script>
-
-    <!-- Bootstrap JS -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!--extraJS-->
-    <script src="assets/extraJS/metismenu/js/metisMenu.min.js"></script>
-    <script src="assets/extraJS/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="assets/extraJS/datatable/js/dataTables.bootstrap5.min.js"></script>
-    <script src="assets/extraJS/simplebar/js/simplebar.min.js"></script>
-    <script src="assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-
-
+	<?php include('footer.php'); ?>
 
     <!--app JS-->
     <script src="assets/js/app.js"></script>

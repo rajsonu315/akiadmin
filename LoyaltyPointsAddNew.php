@@ -9,31 +9,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
-    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
-    <!--extraJS-->
-    <link href="assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-    <link href="assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-    <!-- loader-->
-    <link href="assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
 
-
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
-    <link href="assets/css/app.css" rel="stylesheet">
-    <link href="assets/css/icons.css" rel="stylesheet">
-    <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="assets/css/semi-dark.css" />
-    <title> Edit</title>
+    <title> add</title>
 </head>
 
 <body>
     <!--wrapper-->
     <div class="wrapper">
         <!--sidebar wrapper -->
-		<?php include('header.php'); ?>
+        <?php include('header.php'); ?>
 
         <!--end header -->
         <!--start page wrapper -->
@@ -46,7 +30,7 @@
                             <ol class="breadcrumb mb-0 p-0">
                                 <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page">Edit</li>
+                                <li class="breadcrumb-item active" aria-current="page">Add</li>
                             </ol>
                         </nav>
                     </div>
@@ -62,38 +46,204 @@
                 <div class="card">
                     <div class="card-body p-4">
 
-                        <div class="form-body">
-                            <div class="row">
-                                <div class="col-lg-8">
-                                    <div class="border border-3 p-4 rounded">
-                                        <!-- Add Name -->
-                                        <div class="mb-3">
-                                            <label for="inputName" class="form-label">Name</label>
-                                            <input type="text" class="form-control" id="inputName" name="name"
-                                                placeholder="Enter Name">
-                                        </div>
-
-                                        <!-- Add Retailer Type (Dropdown Select) -->
-                                        <div class="mb-3">
-                                            <label for="inputRetailerType" class="form-label">Retailer Type</label>
-                                            <select class="form-select" id="inputRetailerType" name="retailer_type">
-                                                <option value="type1">Salesman</option>
-                                                <option value="type2">Telecaller</option>
-                                                <option value="type3">Merchandiser</option>
-                                                <!-- Add more options as needed -->
-                                            </select>
-                                        </div>
+                        <div class="row">
 
 
+                            <div class="col-md-3 mb-3 ">
 
-                                        <div class="col-12">
-                                            <div class="d-grid">
-                                                <button type="button" class="btn btn-primary">Save Changes</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!--end row-->
+
+                                <label>category1 name:</label>
+                                <select class="selectpicker" name="category1_name" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>category2 name:</label>
+                                <select class="selectpicker" name="category2_name" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>category3 name:</label>
+                                <select class="selectpicker" name="category3_name" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>brand id:</label>
+                                <select class="selectpicker" name="brand_id" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>subBrand id:</label>
+                                <select class="selectpicker" name="subBrand_id" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>gio1 label:</label>
+                                <select class="selectpicker" name="gio1_label" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>gio2 label:</label>
+                                <select class="selectpicker" name="gio2_label" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>gio3 label:</label>
+                                <select class="selectpicker" name="gio3_label" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>SKUsku:</label>
+                                <select class="selectpicker" name="SKUsku" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>customer class:</label>
+                                <select class="selectpicker" name="customer_class" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>order value:</label>
+                                <select class="selectpicker" name="order_value" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>loyalty point:</label>
+                                <select class="selectpicker" name="loyalty_point" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>discount amount:</label>
+                                <select class="selectpicker" name="discount_amount" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>deleted status:</label>
+                                <select class="selectpicker" name="deleted_status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-3 mb-3 ">
+
+
+                                <label>status:</label>
+                                <select class="selectpicker" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+
+                                    <option value="Company">Company 1</option>
+                                    <option value="Company2">Company 2</option>
+                                    <option value="Company3">Company 3</option>
+                                </select>
+                            </div>
+
+
+
+
+
+
+
+
+
                         </div>
 
 
@@ -110,25 +260,16 @@
         <!--start overlay-->
         <div class="overlay toggle-icon"></div>
         <!--end overlay-->
-        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i
-                class='bx bxs-up-arrow-alt'></i></a>
+        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
         <!--End Back To Top Button-->
         <footer class="page-footer">
             <p class="mb-0">Copyright © 2023. All right reserved.</p>
         </footer>
     </div>
     <!--end wrapper-->
-    <script src="assets/js/jquery.min.js"></script>
+    <?php include('footer.php'); ?>
 
-    <!-- Bootstrap JS -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!--extraJS-->
-    <script src="assets/extraJS/metismenu/js/metisMenu.min.js"></script>
-    <script src="assets/extraJS/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="assets/extraJS/datatable/js/dataTables.bootstrap5.min.js"></script>
-    <script src="assets/extraJS/simplebar/js/simplebar.min.js"></script>
-    <script src="assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js'></script>
 
 
     <!--app JS-->

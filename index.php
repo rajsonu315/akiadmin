@@ -6,23 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--favicon-->
-	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
-	<!--extraJS-->
-	<link href="assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-	<link href="assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-	<!-- loader-->
-	<link href="assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
-	<link href="assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
 
-
-	<!-- Bootstrap CSS -->
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="assets/css/bootstrap-extended.css" rel="stylesheet">
-	<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
-	<link href="assets/css/app.css" rel="stylesheet">
-	<link href="assets/css/icons.css" rel="stylesheet">
-	<!-- Theme Style CSS -->
-	<link rel="stylesheet" href="assets/css/semi-dark.css" />
 	<title> Admin Dashboard</title>
 
 
@@ -87,70 +71,70 @@
 				</div><!--end row-->
 
 				<div class="row">
-                   <div class="col-12 col-lg-8">
-                      <div class="card radius-10">
-						<div class="card-header">
-							<div class="d-flex align-items-center">
-								<div>
-									<h6 class="mb-0">Sales Overview</h6>
+					<div class="col-12 col-lg-8">
+						<div class="card radius-10">
+							<div class="card-header">
+								<div class="d-flex align-items-center">
+									<div>
+										<h6 class="mb-0">Sales Overview</h6>
+									</div>
+									<div class="dropdown ms-auto">
+										<a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="javascript:;">Action</a>
+											</li>
+											<li><a class="dropdown-item" href="javascript:;">Another action</a>
+											</li>
+											<li>
+												<hr class="dropdown-divider">
+											</li>
+											<li><a class="dropdown-item" href="javascript:;">Something else here</a>
+											</li>
+										</ul>
+									</div>
 								</div>
-								<div class="dropdown ms-auto">
-									<a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
-									</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="javascript:;">Action</a>
-										</li>
-										<li><a class="dropdown-item" href="javascript:;">Another action</a>
-										</li>
-										<li>
-											<hr class="dropdown-divider">
-										</li>
-										<li><a class="dropdown-item" href="javascript:;">Something else here</a>
-										</li>
-									</ul>
+							</div>
+							<div class="card-body">
+								<div class="chart-container-0">
+									<canvas id="chart1"></canvas>
 								</div>
 							</div>
 						</div>
-						  <div class="card-body">
-							<div class="chart-container-0">
-								<canvas id="chart1"></canvas>
-							  </div>
-						  </div>
-					  </div>
-				   </div>
-				   <div class="col-12 col-lg-4">
-                       <div class="card radius-10">
-						<div class="card-header">
-							<div class="d-flex align-items-center">
-								<div>
-									<h6 class="mb-0">Trending Products</h6>
+					</div>
+					<div class="col-12 col-lg-4">
+						<div class="card radius-10">
+							<div class="card-header">
+								<div class="d-flex align-items-center">
+									<div>
+										<h6 class="mb-0">Trending Products</h6>
+									</div>
+									<div class="dropdown ms-auto">
+										<a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="javascript:;">Action</a>
+											</li>
+											<li><a class="dropdown-item" href="javascript:;">Another action</a>
+											</li>
+											<li>
+												<hr class="dropdown-divider">
+											</li>
+											<li><a class="dropdown-item" href="javascript:;">Something else here</a>
+											</li>
+										</ul>
+									</div>
 								</div>
-								<div class="dropdown ms-auto">
-									<a class="dropdown-toggle dropdown-toggle-nocaret" href="#" data-bs-toggle="dropdown"><i class='bx bx-dots-horizontal-rounded font-22 text-option'></i>
-									</a>
-									<ul class="dropdown-menu">
-										<li><a class="dropdown-item" href="javascript:;">Action</a>
-										</li>
-										<li><a class="dropdown-item" href="javascript:;">Another action</a>
-										</li>
-										<li>
-											<hr class="dropdown-divider">
-										</li>
-										<li><a class="dropdown-item" href="javascript:;">Something else here</a>
-										</li>
-									</ul>
+							</div>
+							<div class="card-body">
+								<div class="chart-container-0">
+									<canvas id="chart2"></canvas>
 								</div>
 							</div>
 						</div>
-						   <div class="card-body">
-							<div class="chart-container-0">
-								<canvas id="chart2"></canvas>
-							  </div>
-						   </div>
-					   </div>
-				   </div>
+					</div>
 				</div><!--end row-->
-				
+
 
 
 				<div class="card radius-10">
@@ -248,16 +232,10 @@
 	</div>
 	<!--end wrapper-->
 
-	<script src="assets/js/jquery.min.js"></script>
+	<?php include('footer.php'); ?>
 
-	<!-- Bootstrap JS -->
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
-	<!--extraJS-->
-	<script src="assets/extraJS/metismenu/js/metisMenu.min.js"></script>
-	<script src="assets/extraJS/datatable/js/jquery.dataTables.min.js"></script>
-	<script src="assets/extraJS/datatable/js/dataTables.bootstrap5.min.js"></script>
-	<script src="assets/extraJS/simplebar/js/simplebar.min.js"></script>
-	<script src="assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+
+
 	<script src="assets/extraJS/chartjs/js/Chart.min.js"></script>
 
 
@@ -272,116 +250,115 @@
 
 	<script>
 		$(function() {
-    "use strict";
-
-	
-// chart 1
-
-  var ctx = document.getElementById("chart1").getContext('2d');
-   
-  var gradientStroke1 = ctx.createLinearGradient(0, 0, 0, 300);
-      gradientStroke1.addColorStop(0, '#6078ea');  
-      gradientStroke1.addColorStop(1, '#17c5ea'); 
-   
-  var gradientStroke2 = ctx.createLinearGradient(0, 0, 0, 300);
-      gradientStroke2.addColorStop(0, '#ff8359');
-      gradientStroke2.addColorStop(1, '#ffdf40');
-
-      var myChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
-          datasets: [{
-            label: 'A',
-            data: [65, 59, 80, 81, 65, 59, 80, 60, 59],
-            borderColor: '#008cff',
-            backgroundColor:  '#008cff',
-            hoverBackgroundColor:  '#008cff',
-            pointRadius: 0,
-            fill: false,
-            borderWidth: 0
-          }, {
-            label: 'B',
-            data: [50, 48, 55, 45, 37, 58, 64, 50, 54],
-            borderColor: '#ffc107',
-            backgroundColor: '#ffc107',
-            hoverBackgroundColor: '#ffc107',
-            pointRadius: 0,
-            fill: false,
-            borderWidth: 0
-          }]
-        },
-		 options:{
-		  maintainAspectRatio: false,
-		  legend: {
-			  position: 'bottom',
-              display: true,
-			  labels: {
-                boxWidth:40
-              }
-            },
-			tooltips: {
-			  displayColors:false,
-			},	
-		  scales: {
-			  xAxes: [{
-				  barPercentage: .5
-			  }]
-		     }
-		}
-      });
-	  
-	 
-// chart 2
-
- var ctx = document.getElementById("chart2").getContext('2d');
-
-      var myChart = new Chart(ctx, {
-        type: 'doughnut',
-        data: {
-          labels: ["a", "b", "c"],
-          datasets: [{
-            backgroundColor: [
-              '#008cff',
-              '#fd3550',
-              '#15ca20'
-            ],
-            hoverBackgroundColor: [
-              '#008cff',
-              '#fd3550',
-              '#15ca20'
-            ],
-            data: [45, 40, 25],
-			      borderWidth: [1, 1, 1]
-          }]
-        },
-        options: {
-			maintainAspectRatio: false,
-			cutoutPercentage: 75,
-            legend: {
-			  position: 'bottom',
-              display: true,
-			  labels: {
-                boxWidth:20
-              }
-            },
-			tooltips: {
-			  displayColors:false,
-			}
-        }
-      });
-
-   
-
-// worl map
+			"use strict";
 
 
+			// chart 1
+
+			var ctx = document.getElementById("chart1").getContext('2d');
+
+			var gradientStroke1 = ctx.createLinearGradient(0, 0, 0, 300);
+			gradientStroke1.addColorStop(0, '#6078ea');
+			gradientStroke1.addColorStop(1, '#17c5ea');
+
+			var gradientStroke2 = ctx.createLinearGradient(0, 0, 0, 300);
+			gradientStroke2.addColorStop(0, '#ff8359');
+			gradientStroke2.addColorStop(1, '#ffdf40');
+
+			var myChart = new Chart(ctx, {
+				type: 'bar',
+				data: {
+					labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+					datasets: [{
+						label: 'A',
+						data: [65, 59, 80, 81, 65, 59, 80, 60, 59],
+						borderColor: '#008cff',
+						backgroundColor: '#008cff',
+						hoverBackgroundColor: '#008cff',
+						pointRadius: 0,
+						fill: false,
+						borderWidth: 0
+					}, {
+						label: 'B',
+						data: [50, 48, 55, 45, 37, 58, 64, 50, 54],
+						borderColor: '#ffc107',
+						backgroundColor: '#ffc107',
+						hoverBackgroundColor: '#ffc107',
+						pointRadius: 0,
+						fill: false,
+						borderWidth: 0
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						position: 'bottom',
+						display: true,
+						labels: {
+							boxWidth: 40
+						}
+					},
+					tooltips: {
+						displayColors: false,
+					},
+					scales: {
+						xAxes: [{
+							barPercentage: .5
+						}]
+					}
+				}
+			});
+
+
+			// chart 2
+
+			var ctx = document.getElementById("chart2").getContext('2d');
+
+			var myChart = new Chart(ctx, {
+				type: 'doughnut',
+				data: {
+					labels: ["a", "b", "c"],
+					datasets: [{
+						backgroundColor: [
+							'#008cff',
+							'#fd3550',
+							'#15ca20'
+						],
+						hoverBackgroundColor: [
+							'#008cff',
+							'#fd3550',
+							'#15ca20'
+						],
+						data: [45, 40, 25],
+						borderWidth: [1, 1, 1]
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					cutoutPercentage: 75,
+					legend: {
+						position: 'bottom',
+						display: true,
+						labels: {
+							boxWidth: 20
+						}
+					},
+					tooltips: {
+						displayColors: false,
+					}
+				}
+			});
+
+
+
+			// worl map
 
 
 
 
-   });	 
-   
+
+
+		});
 	</script>
 </body>
 

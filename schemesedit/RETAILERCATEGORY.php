@@ -6,24 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--favicon-->
-	<link rel="icon" href="../assets/images/favicon-32x32.png" type="image/png" />
-	<!--extraJS-->
-	<link href="../assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-	<link href="../assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-	<!-- loader-->
-	<link href="../assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
-	<link href="../assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
 
-
-	<!-- Bootstrap CSS -->
-	<link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="../assets/css/bootstrap-extended.css" rel="stylesheet">
-	<link href="../assets/css/app.css" rel="stylesheet">
-	<link href="../assets/css/icons.css" rel="stylesheet">
-	<!-- Theme Style CSS -->
-	<link rel="stylesheet" href="../assets/css/semi-dark.css" />
-
-	<link rel="stylesheet" href="../assets/dist/css/bootstrap-multiselect.css" type="text/css">
 	<title> Schemes</title>
 </head>
 
@@ -175,26 +158,22 @@
 
 														<div class="col-md-3 mb-3">
 															<label>Channel</label>
-															<select class="form-select  " name="Channel" id="Channel" multiple="multiple">
-
-																<option value="Channel">GT</option>
-																<option value="Channel2">MT</option>
-																<option value="Channel3">Self Service</option>
+															<select name="basic[]" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" class="selectpicker">
+																<option value="AL">Alabama</option>
+																<option value="AK">Alaska</option>
+																<!-- ... other options ... -->
+																<option value="WY">Wyoming</option>
 															</select>
 														</div>
 														<div class="col-md-3 mb-3">
 															<label>Sub Channel</label>
-															<select class="form-select" name="subChannel" id="subChannel" multiple="multiple">
-
-																<option value="status">Channel 1</option>
-																<option value="status2">Channel 2</option>
-																<option value="status3">Channel 3</option>
+															<select name="basic[]" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" class="selectpicker">
 															</select>
 														</div>
 
 														<div class="col-md-3 mb-3">
 															<label>Type:</label>
-															<select class="form-select" name="TypeChannel" id="TypeChannel" multiple="multiple">
+															<select class="selectpicker" name="TypeChannel" id="TypeChannel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
 
 																<option value="TypeChannel">Merge Geographical </option>
 																<option value="TypeChannel2">Retailer into One</option>
@@ -203,7 +182,7 @@
 														</div>
 														<div class="col-md-3 mb-3">
 															<label>Outlet:</label>
-															<select class="form-select" name="outletChannel" id="outletChannel" multiple="multiple">
+															<select class="selectpicker" name="outletChannel" id="outletChannel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
 
 																<option value="outletChannel">outletChannel </option>
 																<option value="outletChannel2">outletChannel2</option>
@@ -255,20 +234,9 @@
 		</footer>
 	</div>
 	<!--end wrapper-->
-	<script src="../assets/js/jquery.min.js"></script>
+	<?php include('../footer.php'); ?>
 
-	<script type="text/javascript" src="../assets/docs/js/bootstrap.bundle-4.5.2.min.js"></script>
-
-	<!-- Bootstrap JS -->
-	<script src="../assets/js/bootstrap.bundle.min.js"></script>
-	<!--extraJS-->
-	<script src="../assets/extraJS/metismenu/js/metisMenu.min.js"></script>
-	<script src="../assets/extraJS/datatable/js/jquery.dataTables.min.js"></script>
-	<script src="../assets/extraJS/datatable/js/dataTables.bootstrap5.min.js"></script>
-	<script src="../assets/extraJS/simplebar/js/simplebar.min.js"></script>
-	<script src="../assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-
-	<script type="text/javascript" src="../assets/dist/js/bootstrap-multiselect.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js'></script>
 
 	<script>
 		$(document).ready(function() {

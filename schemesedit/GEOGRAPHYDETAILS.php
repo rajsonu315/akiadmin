@@ -6,31 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
-    <link rel="icon" href="../assets/images/favicon-32x32.png" type="image/png" />
-    <!--extraJS-->
-    <link href="../assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-    <link href="../assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-    <!-- loader-->
-    <link href="../assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="../assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
-
-
-    <!-- Bootstrap CSS -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-extended.css" rel="stylesheet">
-    <link href="../assets/css/app.css" rel="stylesheet">
-    <link href="../assets/css/icons.css" rel="stylesheet">
-    <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="../assets/css/semi-dark.css" />
-
-
-
-
-
-
-
-    <link rel="stylesheet" href="../assets/dist/css/bootstrap-multiselect.css" type="text/css">
-
 
 
     <title> GEOGRAPHY DETAILS</title>
@@ -172,25 +147,7 @@
 
 
 
-                                    <!-- <div class="card">
-                                        <div class="card-body">
-                                            <div class="d-flex align-items-center gap-3">
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="Area">
-                                                    <label class="form-check-label" for="Area">
-                                                        Area
-                                                    </label>
-                                                </div>
-                                                <div class="form-check form-check-success">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="Depot">
-                                                    <label class="form-check-label" for="Depot">
-                                                        Depot
-                                                    </label>
-                                                </div>
 
-                                            </div>
-                                        </div>
-                                    </div> -->
 
 
 
@@ -201,7 +158,13 @@
                                         <label for=""> Country</label>
 
 
-                                        <select class="form-select" id="Country" multiple="multiple">
+                                        <select class="selectpicker" id="Country" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                            <option value="1-2">Option 1.2</option>
+                                            <option value="2-3">Option 1.3</option>
+                                            <option value="3-2">Option 1.2</option>
+                                            <option value="4-3">Option 1.3</option>
+                                            <option value="5-2">Option 1.2</option>
+                                            <option value="6-3">Option 1.3</option>
                                             <option value="1-2">Option 1.2</option>
                                             <option value="2-3">Option 1.3</option>
                                             <option value="3-2">Option 1.2</option>
@@ -213,15 +176,17 @@
                                     </div>
                                     <div class="col-md-3 mb-3">
                                         <label for=""> State</label>
-                                        <select class="form-select" id="State" name="status" multiple="multiple">
+                                        <select class="selectpicker" id="State" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
                                             <option value="status">status 1</option>
+                                            <option value="status2">status 2</option>
+                                            <option value="status3">status 3</option>
                                             <option value="status2">status 2</option>
                                             <option value="status3">status 3</option>
                                         </select>
                                     </div>
                                     <div class="col-md-3 mb-3">
                                         <label for=""> Region</label>
-                                        <select class="form-select" id="Region" name="status" multiple="multiple">
+                                        <select class="selectpicker" id="Region" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
                                             <option value="status">status 1</option>
                                             <option value="status2">status 2</option>
                                             <option value="status3">status 3</option>
@@ -230,13 +195,14 @@
 
                                     <div class="col-md-3 mb-3">
                                         <label for=""> Area</label>
-                                        <select class="form-select" id="Area" name="status" multiple="multiple">
+                                        <select class="selectpicker" id="Area" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
                                             <option value="status">status 1</option>
                                             <option value="status2">status 2</option>
                                             <option value="status3">status 3</option>
                                         </select>
                                     </div>
                                 </div>
+
 
 
 
@@ -270,20 +236,9 @@
         </footer>
     </div>
     <!--end wrapper-->
-    <script src="../assets/js/jquery.min.js"></script>
+    <?php include('../footer.php'); ?>
 
-    <script type="text/javascript" src="../assets/docs/js/bootstrap.bundle-4.5.2.min.js"></script>
-
-    <!-- Bootstrap JS -->
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
-    <!--extraJS-->
-    <script src="../assets/extraJS/metismenu/js/metisMenu.min.js"></script>
-    <script src="../assets/extraJS/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="../assets/extraJS/datatable/js/dataTables.bootstrap5.min.js"></script>
-    <script src="../assets/extraJS/simplebar/js/simplebar.min.js"></script>
-    <script src="../assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-
-    <script type="text/javascript" src="../assets/dist/js/bootstrap-multiselect.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js'></script>
 
 
     <script>

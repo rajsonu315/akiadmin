@@ -11,7 +11,8 @@ body {
 	letter-spacing: .5px;
 	background: #f7f7ff;
 	overflow-x: hidden;
-	font-family: Roboto, sans-serif
+	font-family: Roboto, sans-serif;
+	text-transform:capitalize !important;
 }
 
 a {
@@ -2000,4 +2001,42 @@ a:hover {
 	  overflow: hidden;
 	  clip: rect(1px 1px 1px 1px);
 	  clip: rect(1px, 1px, 1px, 1px);
+  }
+
+  span.check-mark{
+	color: #b69c6f !important;
+  }
+
+  .dropdown{
+	
+  }
+
+  .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100% !important;
+	border: 1px solid #b69c6f;
+}
+
+.btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:active{
+	background-color: #fff6e6;
+}
+
+.bs-searchbox .form-control{
+	border: 1px solid #b69c6f !important;
+}
+.bs-searchbox input {
+	/* Add your styles for the input when it is clicked */
+	outline: none !important; /* Remove default focus outline, add your specific styles */
+  }
+  .form-control:focus {
+	border-color: inherit;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+  }
+  .bs-select-all{
+	background-color: #fff6e6;
+
+  }
+  .bs-deselect-all{
+	background-color: rgb(255, 234, 230);
+
   }

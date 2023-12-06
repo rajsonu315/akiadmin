@@ -6,22 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
-    <link rel="icon" href="../assets/images/favicon-32x32.png" type="image/png" />
-    <!--extraJS-->
-    <link href="../assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-    <link href="../assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-    <!-- loader-->
-    <link href="../assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="../assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
 
-
-    <!-- Bootstrap CSS -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-extended.css" rel="stylesheet">
-    <link href="../assets/css/app.css" rel="stylesheet">
-    <link href="../assets/css/icons.css" rel="stylesheet">
-    <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="../assets/css/semi-dark.css" />
     <title> SLABS</title>
 </head>
 
@@ -85,6 +70,15 @@
                             <div class="card-body">
                                 <ul class="nav  nav-pills mb-3" role="tablist">
 
+                                <li class="nav-item">
+                                        <a class="nav-link  " href="./SchemesListview.php">
+                                            <div class="d-flex align-items-center">
+
+                                                <div class="tab-title">SCHEMES DETAILS</div>
+                                            </div>
+                                        </a>
+                                    </li>
+
                                     <li class="nav-item">
                                         <a class="nav-link  " href="./Schemes.php">
                                             <div class="d-flex align-items-center">
@@ -138,14 +132,7 @@
                                     </li>
 
 
-                                    <li class="nav-item">
-                                        <a class="nav-link  " href="./SchemesListview.php">
-                                            <div class="d-flex align-items-center">
-
-                                                <div class="tab-title">SCHEMES DETAILS</div>
-                                            </div>
-                                        </a>
-                                    </li>
+                     
 
                                 </ul>
 
@@ -216,17 +203,7 @@
         </footer>
     </div>
     <!--end wrapper-->
-    <script src="../assets/js/jquery.min.js"></script>
-
-    <!-- Bootstrap JS -->
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
-    <!--extraJS-->
-    <script src="../assets/extraJS/metismenu/js/metisMenu.min.js"></script>
-    <script src="../assets/extraJS/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="../assets/extraJS/datatable/js/dataTables.bootstrap5.min.js"></script>
-    <script src="../assets/extraJS/simplebar/js/simplebar.min.js"></script>
-    <script src="../assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-
+    <?php include('../footer.php'); ?>
     <script>
         $(document).ready(function() {
             $('#example').DataTable();

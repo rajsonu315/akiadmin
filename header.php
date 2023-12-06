@@ -1,15 +1,35 @@
-<link rel="stylesheet" type="text/css" href="./assets/css/sweetalert.min.css">
-<link rel='stylesheet' href='../assets/css/bootstrap-select.min.css'>
-
-
-<script src="./assets/js/sweetalert.min.js"></script>
-
 <?php
 // Define the base URL
 $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
 
 // Example link with the base URL
 ?>
+
+<link rel="icon" href="<?php echo $base_url; ?>assets/images/favicon-32x32.png" type="image/png" />
+<!--extraJS-->
+<link href="<?php echo $base_url; ?>assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+<link href="<?php echo $base_url; ?>assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+<!-- loader-->
+<link href="<?php echo $base_url; ?>assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
+<link href="<?php echo $base_url; ?>assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+<!-- Bootstrap CSS -->
+<link href="<?php echo $base_url; ?>assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="<?php echo $base_url; ?>assets/css/bootstrap-extended.css" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
+<link href="<?php echo $base_url; ?>assets/css/app.css" rel="stylesheet">
+<link href="<?php echo $base_url; ?>assets/css/icons.css" rel="stylesheet">
+<!-- Theme Style CSS -->
+<link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/semi-dark.css" />
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>assets/css/sweetalert.min.css">
+<link rel='stylesheet' href='<?php echo $base_url; ?>assets/css/bootstrap-select.min.css'>
+
+
 
 <div class="sidebar-wrapper" data-simplebar="true">
     <div class="sidebar-header">

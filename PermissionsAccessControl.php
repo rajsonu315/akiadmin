@@ -5,24 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--favicon-->
-    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
-    <!--extraJS-->
-    <link href="assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-    <link href="assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-    <!-- loader-->
-    <link href="assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
 
-
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
-    <link href="assets/css/app.css" rel="stylesheet">
-    <link href="assets/css/icons.css" rel="stylesheet">
-    <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="assets/css/semi-dark.css" />
     <title> Admin Dashboard</title>
 </head>
 
@@ -89,20 +72,20 @@
                                         <td><a href="#">View Passport</a></td>
                                         <td>123-456-7890</td>
                                         <td>
-                  
+
 
 
 
                                             <div class="d-flex order-actions">
-												 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-													<a href="./PermissionsAccessControlEdit.php" class="href">
-														<div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
-														</div>
-													</a>
+                                                <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                    <a href="./PermissionsAccessControlEdit.php" class="href">
+                                                        <div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
+                                                        </div>
+                                                    </a>
 
-												</div> 
+                                                </div>
 
-												<!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                <!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
 													<a href="#" class="href">
 														<div class="font-22 "> <i class="lni lni-eye"></i>
 														</div>
@@ -110,17 +93,17 @@
 
 												</div> -->
 
-												<div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-														<button class="delete-button">
-														<a href="#" class="href">
-															<div class="font-22 text-danger"> <i class="lni lni-trash"></i>
-															</div>
-														</a>
+                                                <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                    <button class="delete-button">
+                                                        <a href="#" class="href">
+                                                            <div class="font-22 text-danger"> <i class="lni lni-trash"></i>
+                                                            </div>
+                                                        </a>
 
-													</button>
+                                                    </button>
 
-												</div>  
-											</div>
+                                                </div>
+                                            </div>
                                         </td>
                                     </tr>
                                     <tr>
@@ -130,16 +113,16 @@
                                         <td><a href="#">View Passport</a></td>
                                         <td>456-789-1230</td>
                                         <td>
-                                        <div class="d-flex order-actions">
-												 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-													<a href="./PermissionsAccessControlEdit.php" class="href">
-														<div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
-														</div>
-													</a>
+                                            <div class="d-flex order-actions">
+                                                <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                    <a href="./PermissionsAccessControlEdit.php" class="href">
+                                                        <div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
+                                                        </div>
+                                                    </a>
 
-												</div> 
+                                                </div>
 
-												<!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                <!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
 													<a href="#" class="href">
 														<div class="font-22 "> <i class="lni lni-eye"></i>
 														</div>
@@ -147,17 +130,17 @@
 
 												</div> -->
 
-												<div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-														<button class="delete-button">
-														<a href="#" class="href">
-															<div class="font-22 text-danger"> <i class="lni lni-trash"></i>
-															</div>
-														</a>
+                                                <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                    <button class="delete-button">
+                                                        <a href="#" class="href">
+                                                            <div class="font-22 text-danger"> <i class="lni lni-trash"></i>
+                                                            </div>
+                                                        </a>
 
-													</button>
+                                                    </button>
 
-												</div>  
-											</div>
+                                                </div>
+                                            </div>
                                         </td>
                                     </tr>
                                     <!-- Add more rows as needed -->
@@ -181,17 +164,7 @@
         </footer>
     </div>
     <!--end wrapper-->
-    <script src="assets/js/jquery.min.js"></script>
-
-    <!-- Bootstrap JS -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!--extraJS-->
-    <script src="assets/extraJS/metismenu/js/metisMenu.min.js"></script>
-    <script src="assets/extraJS/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="assets/extraJS/datatable/js/dataTables.bootstrap5.min.js"></script>
-    <script src="assets/extraJS/simplebar/js/simplebar.min.js"></script>
-    <script src="assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script>
-
+    <?php include('footer.php'); ?>
     <script>
         $(document).ready(function() {
             $('#example').DataTable();

@@ -6,23 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
-    <link rel="icon" href="../assets/images/favicon-32x32.png" type="image/png" />
-    
-    <!--extraJS-->
-    <link href="../assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-    <link href="../assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
-    <!-- loader-->
-    <link href="../assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="../assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
 
-
-    <!-- Bootstrap CSS -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-extended.css" rel="stylesheet">
-    <link href="../assets/css/app.css" rel="stylesheet">
-    <link href="../assets/css/icons.css" rel="stylesheet">
-    <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="../assets/css/semi-dark.css" />
 
 
 
@@ -364,12 +348,12 @@
                                         <!-- Modal -->
                                         <div class="modal fade" id="Rejected" tabindex="-1" aria-hidden="true">
                                             <div class="modal-dialog modal-lg modal-dialog-centered">
-                                                <div class="modal-content bg-danger">
+                                                <div class="modal-content ">
                                                     <div class="modal-header">
-                                                        <h5 class="modal-title text-white">Query Raised</h5>
+                                                        <h5 class="modal-title ">Query Raised</h5>
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                     </div>
-                                                    <div class="modal-body text-white">
+                                                    <div class="modal-body ">
                                                         <form id="jQueryValidationForm" method="post3" action="">
 
 
@@ -408,12 +392,12 @@
                                         <!-- Modal -->
                                         <div class="modal fade" id="Clarification" tabindex="-1" aria-hidden="true">
                                             <div class="modal-dialog modal-lg modal-dialog-centered">
-                                                <div class="modal-content bg-success">
+                                                <div class="modal-content ">
                                                     <div class="modal-header">
-                                                        <h5 class="modal-title text-white">Query Raised</h5>
+                                                        <h5 class="modal-title ">Query Raised</h5>
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                     </div>
-                                                    <div class="modal-body text-white">
+                                                    <div class="modal-body ">
 
                                                         <form id="jQueryValidationForm" method="post3" action="">
 
@@ -430,8 +414,8 @@
                                                                 <div class="col-sm-9">
                                                                     <div class="d-md-flex d-grid align-items-center gap-3">
 
-                                                                        <button type="submit" class="btn btn-light  rounded-0" name="submit2">Submit</button>
-                                                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                                        <button type="submit" class="btn btn-success px-4" name="submit2">Submit</button>
+                                                                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -471,16 +455,9 @@
         </footer>
     </div>
     <!--end wrapper-->
-    <script src="../assets/js/jquery.min.js"></script>
 
-    <!-- Bootstrap JS -->
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
-    <!--extraJS-->
-    <script src="../assets/extraJS/metismenu/js/metisMenu.min.js"></script>
-    <script src="../assets/extraJS/datatable/js/jquery.dataTables.min.js"></script>
-    <script src="../assets/extraJS/datatable/js/dataTables.bootstrap5.min.js"></script>
-    <script src="../assets/extraJS/simplebar/js/simplebar.min.js"></script>
-    <script src="../assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+
+    <?php include('../footer.php'); ?>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js'></script>
 
