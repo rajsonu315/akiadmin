@@ -273,11 +273,7 @@
 	<!--end wrapper-->
 	<?php include('../footer.php'); ?>
 
-	<script>
-		$(document).ready(function() {
-			$('#example').DataTable();
-		});
-	</script>
+
 
 
 

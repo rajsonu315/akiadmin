@@ -114,6 +114,13 @@ $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
                 <div class="menu-title">Props Module</div>
             </a>
         </li>
+        <li>
+            <a href="<?php echo $base_url; ?>BeatManagement/index.php">
+                <div class="parent-icon"> <i class="fadeIn animated bx bx-gift"></i>
+                </div>
+                <div class="menu-title">Beat Management</div>
+            </a>
+        </li>
 
 
 

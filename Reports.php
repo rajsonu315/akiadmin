@@ -81,6 +81,20 @@
 
 							</table>
 						</div>
+						<nav aria-label="Page navigation example">
+                            <ul class="pagination round-pagination  bx-pull-right">
+                                <li class="page-item"><a class="page-link" href="javascript:;">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;javascript:;">1</a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="javascript:;">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">3</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
 					</div>
 				</div>
 				

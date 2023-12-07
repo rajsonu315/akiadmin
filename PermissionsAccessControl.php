@@ -53,6 +53,25 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="table-responsive">
+                        <div aria-label="Page navigation example ">
+
+<div class="bx-pull-left">
+    <select class="form-select" id="inputCategory" name="category">
+        <option value="5">5
+        </option>
+        <option value="10">10
+        </option>
+        <option value="20">20
+        </option>
+        <option value="50">50
+        </option>
+    </select>
+</div>
+<ul class="  bx-pull-right">
+    <input type="text" class="form-control" placeholder="search ...">
+
+</ul>
+</div>
                             <table id="example" class="table table-striped table-bordered" style="width:100%">
                                 <thead>
                                     <tr>
@@ -148,6 +167,20 @@
                             </table>
 
                         </div>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination round-pagination  bx-pull-right">
+                                <li class="page-item"><a class="page-link" href="javascript:;">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;javascript:;">1</a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="javascript:;">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">3</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
 
@@ -165,11 +198,7 @@
     </div>
     <!--end wrapper-->
     <?php include('footer.php'); ?>
-    <script>
-        $(document).ready(function() {
-            $('#example').DataTable();
-        });
-    </script>
+    
 
 </body>
 

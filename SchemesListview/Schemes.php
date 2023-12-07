@@ -243,11 +243,7 @@
 	<script src='https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js'></script>
 
 
-	<script>
-		$(document).ready(function() {
-			$('#example').DataTable();
-		});
-	</script>
+
 
 
 

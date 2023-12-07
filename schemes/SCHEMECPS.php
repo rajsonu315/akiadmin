@@ -265,11 +265,7 @@
 
 
 
-    <script>
-        $(document).ready(function() {
-            $('#example').DataTable();
-        });
-    </script>
+
 
     <script>
         // Function to filter and save table data

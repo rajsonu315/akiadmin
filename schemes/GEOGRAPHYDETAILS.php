@@ -253,11 +253,7 @@
 
 
 
-    <script>
-        $(document).ready(function() {
-            $('#example').DataTable();
-        });
-    </script>
+
 
     <!-- <script type="text/javascript">
         $(document).ready(function() {

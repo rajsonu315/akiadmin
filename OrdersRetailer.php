@@ -55,9 +55,32 @@
                 <!--end breadcrumb-->
 
                 <div class="card">
+
+
+
                     <div class="card-body">
                         <div class="table-responsive">
-                            <table id="example" class="table table-striped table-bordered" style="width:100%">
+                            <div aria-label="Page navigation example ">
+
+                                <div class="bx-pull-left">
+                                    <select class="form-select" id="inputCategory" name="category">
+                                        <option value="5">5
+                                        </option>
+                                        <option value="10">10
+                                        </option>
+                                        <option value="20">20
+                                        </option>
+                                        <option value="50">50
+                                        </option>
+                                    </select>
+                                </div>
+                                <ul class="  bx-pull-right">
+                                    <input type="text" class="form-control" placeholder="search ...">
+
+                                </ul>
+                            </div>
+
+                            <table class="table table-striped table-bordered" style="width:100%">
                                 <thead>
                                     <tr>
                                         <th>S.no.</th>
@@ -101,12 +124,12 @@
                                         </td>
                                         <td>test delhi</td>
                                         <td>
-                     
+
 
 
 
                                             <div class="d-flex order-actions">
-												<!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                <!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
 													<a href="#" class="href">
 														<div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
 														</div>
@@ -114,15 +137,15 @@
 
 												</div> -->
 
-												 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-													<a href="./OrdersRetailerView.php" class="href">
-														<div class="font-22 "> <i class="lni lni-eye"></i>
-														</div>
-													</a>
+                                                <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                    <a href="./OrdersRetailerView.php" class="href">
+                                                        <div class="font-22 "> <i class="lni lni-eye"></i>
+                                                        </div>
+                                                    </a>
 
-												</div> 
+                                                </div>
 
-												<!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                <!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
 														<button class="delete-button">
 														<a href="#" class="href">
 															<div class="font-22 text-danger"> <i class="lni lni-trash"></i>
@@ -132,7 +155,7 @@
 													</button>
 
 												</div> -->
-											</div>
+                                            </div>
                                         </td>
                                     </tr>
 
@@ -141,7 +164,22 @@
                                 </tbody>
 
                             </table>
+
                         </div>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination round-pagination  bx-pull-right">
+                                <li class="page-item"><a class="page-link" href="javascript:;">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;javascript:;">1</a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="javascript:;">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">3</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
 
@@ -158,13 +196,9 @@
         </footer>
     </div>
     <!--end wrapper-->
-	<?php include('footer.php'); ?>
+    <?php include('footer.php'); ?>
 
-    <script>
-        $(document).ready(function() {
-            $('#example').DataTable();
-        });
-    </script>
+    
 
 </body>
 
