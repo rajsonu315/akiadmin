@@ -2005,6 +2005,7 @@ a:hover {
 
   span.check-mark{
 	color: #b69c6f !important;
+	
   }
 
   .dropdown{
@@ -2038,5 +2039,12 @@ a:hover {
   }
   .bs-deselect-all{
 	background-color: rgb(255, 234, 230);
+
+  }
+
+  .dropdown-menu .selected{
+	background-color: #d9ccb7 !important;
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
+	margin: 2px;
 
   }

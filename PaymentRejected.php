@@ -170,8 +170,6 @@
         });
     </script>
 
-    <!--app JS-->
-    <script src="assets/js/app.js"></script>
 	<script>
 		$(document).ready(function () {
 			// Function to filter table rows based on the selected option

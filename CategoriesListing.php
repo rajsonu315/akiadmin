@@ -206,8 +206,6 @@
         });
     </script>
 
-    <!--app JS-->
-    <script src="assets/js/app.js"></script>
     <script>
         // Function to handle file upload
         function handleFileUpload() {

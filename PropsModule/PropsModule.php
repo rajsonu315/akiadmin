@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
 
-    <title> Orders Retailer View</title>
+    <title> Props Module</title>
 </head>
 
 <body>
     <!--wrapper-->
     <div class="wrapper">
         <!--sidebar wrapper -->
-        <?php include('header.php'); ?>
+        <?php include('../header.php'); ?>
 
         <!--end header -->
         <!--start page wrapper -->
@@ -27,23 +27,26 @@
                             <ol class="breadcrumb mb-0 p-0">
                                 <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page">Orders Retailer View</li>
+                                <li class="breadcrumb-item active" aria-current="page">Props Module</li>
                             </ol>
                         </nav>
                     </div>
                     <div class="ms-auto">
                         <div class="">
 
-                            <!-- <button type="button" class="btn btn-warning px-5" data-toggle="modal" data-target="#uploadModal">
-                                Sub-Accounts
-                            </button>
-                            <button type="button" class="btn btn-warning px-5" data-toggle="modal" data-target="#uploadModal">
-                                <i class="bx bx-cloud-download mr-1"></i> Download
+                            <button type="button" class="btn btn-warning px-5" >
+                                Approve
+                                Props
+                                
                             </button>
 
-                            <a href="./RetailerDetailsAddNew.php" class="href">
-                                <button type="button" class="btn btn-warning px-5"></i>Add New +</button>
-                            </a> -->
+
+
+                            <button type="button" class="btn btn-warning px-5" >
+                                <i class="bx bx-cloud-download mr-1"></i> Export
+                            </button>
+
+
 
 
 
@@ -61,19 +64,17 @@
                                 <thead>
                                     <tr>
                                         <th>S.no.</th>
-                                        <th>Product
-                                            Name</th>
-                                        <th>Category</th>
-                                        <th>Bill-to-address</th>
-                                        <th>Ship-to-address
-                                        </th>
-                                        <th>Quantity</th>
-                                        <th>Schemes
-                                            Discount</th>
-                                        <th>FOC</th>
-                                        <th>Price</th>
+                                        <th>Props ID</th>
+                                        <th>Retailer ID</th>
+                                        <th>Retailer Name</th>
+                                        <th>Props Creator
+                                            Name.</th>
+                                        <th>Creation
+                                            Date</th>
                                         <th>Remarks</th>
+                                        <th>Status</th>
 
+                                        <th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -84,31 +85,48 @@
                                         <td>test</td>
                                         <td>test</td>
                                         <td>test</td>
-                                        <td>test</td>
 
+                                        <td>123456789</td>
                                         <td>
-                                            test
+                                            <div class="col-md-12">
+                                                <!-- <label for="inputCategory" class="form-label">Select
+                                                    Category</label> -->
+                                                <select class="form-select" id="inputCategory" name="category">
+                                                    <option></option>
+                                                    <option value="Placed">Order
+                                                        Placed</option>
+                                                    <option value="Delivered">Order
+                                                        Delivered</option>
+                                                    <option value="Hold">Order
+                                                        Hold</option>
+                                                    <option value="Cancelled">Order
+                                                        Cancelled</option>
+                                                </select>
+                                            </div>
                                         </td>
-                                        <td>test delhi</td>
                                         <td>
-                                        <div class="d-flex order-actions">
-												<!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-													<a href="#" class="href">
+
+
+
+
+                                            <div class="d-flex order-actions">
+                                                <!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+													<a href="./AllOrdersDetailsEdit.php" class="href">
 														<div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
 														</div>
 													</a>
 
-												</div> -->
+												</div>  -->
 
-												 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-													<a href="#" class="href">
-														<div class="font-22 "> <i class="lni lni-eye"></i>
-														</div>
-													</a>
+                                                <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                    <a href="./LiquidationView.php" class="href">
+                                                        <div class="font-22 "> <i class="lni lni-eye"></i>
+                                                        </div>
+                                                    </a>
 
-												</div> 
+                                                </div>
 
-												<!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                <!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
 														<button class="delete-button">
 														<a href="#" class="href">
 															<div class="font-22 text-danger"> <i class="lni lni-trash"></i>
@@ -118,7 +136,7 @@
 													</button>
 
 												</div> -->
-											</div>
+                                            </div>
                                         </td>
                                     </tr>
 
@@ -144,7 +162,7 @@
         </footer>
     </div>
     <!--end wrapper-->
-	<?php include('footer.php'); ?>
+	<?php include('../footer.php'); ?>
 
     <script>
         $(document).ready(function() {
@@ -152,7 +170,7 @@
         });
     </script>
 
-
+    <!--app JS-->
 </body>
 
 </html>

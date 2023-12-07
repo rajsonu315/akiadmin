@@ -272,8 +272,6 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js'></script>
 
 
-    <!--app JS-->
-    <script src="assets/js/app.js"></script>
 </body>
 
 </html>

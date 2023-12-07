@@ -8,7 +8,7 @@ $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
 <link rel="icon" href="<?php echo $base_url; ?>assets/images/favicon-32x32.png" type="image/png" />
 <!--extraJS-->
 <link href="<?php echo $base_url; ?>assets/extraJS/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-<link href="<?php echo $base_url; ?>assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+<!-- <link href="<?php echo $base_url; ?>assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" /> -->
 <!-- loader-->
 <link href="<?php echo $base_url; ?>assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
 <link href="<?php echo $base_url; ?>assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
@@ -104,6 +104,14 @@ $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
                 <div class="parent-icon"> <i class="fadeIn animated bx bx-gift"></i>
                 </div>
                 <div class="menu-title">Loyalty Points</div>
+            </a>
+        </li>
+
+        <li>
+            <a href="<?php echo $base_url; ?>PropsModule/PropsModule.php">
+                <div class="parent-icon"> <i class="fadeIn animated bx bx-gift"></i>
+                </div>
+                <div class="menu-title">Props Module</div>
             </a>
         </li>
 

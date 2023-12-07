@@ -259,8 +259,6 @@
         });
     </script>
 
-    <!--app JS-->
-    <script src="../assets/js/app.js"></script>
     <!-- <script type="text/javascript">
         $(document).ready(function() {
             $('#Country').multiselect({

@@ -102,8 +102,7 @@
     <!--end wrapper-->
 	<?php include('footer.php'); ?>
 
-    <!--app JS-->
-    <script src="assets/js/app.js"></script>
+
 </body>
 
 </html>
