@@ -1,20 +1,5 @@
-<!doctype html>
-<html lang="en" class="semi-dark">
+<?php include('../header.php'); ?>
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--favicon-->
-
-    <title> SCHEME CPS</title>
-</head>
-
-<body>
-    <!--wrapper-->
-    <div class="wrapper">
-        <!--sidebar wrapper -->
-        <?php include('../header.php'); ?>
 
         <!--end header -->
         <!--start page wrapper -->
@@ -218,7 +203,7 @@
 
 
 
-    </div>
+    
 
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -248,21 +233,7 @@
 
 
     <!--end page wrapper -->
-    <!--start overlay-->
-    <div class="overlay toggle-icon"></div>
-    <!--end overlay-->
-    <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-    <!--End Back To Top Button-->
-    <footer class="page-footer">
-        <p class="mb-0">Copyright © 2023. All right reserved.</p>
-    </footer>
-
-    <!--end wrapper-->
-    <?php include('../footer.php'); ?>
-
-
-
-
+	<?php include('../footer.php'); ?>
 
 
 
@@ -299,6 +270,3 @@
     </script>
 
 
-</body>
-
-</html>

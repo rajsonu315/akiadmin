@@ -7,6 +7,21 @@ $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
 
 
 
+
+<!--start overlay-->
+<div class="overlay toggle-icon"></div>
+<!--end overlay-->
+<!--Start Back To Top Button-->
+<a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
+<!--End Back To Top Button-->
+<footer class="page-footer">
+    <p class="mb-0">Copyright © 2023. All right reserved.</p>
+</footer>
+</div>
+<!--end wrapper-->
+
+
+
 <script src="<?php echo $base_url; ?>assets/js/jquery.min.js"></script>
 
 <!-- Bootstrap JS -->
@@ -20,3 +35,6 @@ $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
 <script src="<?php echo $base_url; ?>assets/js/sweetalert.min.js"></script>
 <script src="<?php echo $base_url; ?>assets/js/app.js"></script>
 
+</body>
+
+</html>

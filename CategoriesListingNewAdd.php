@@ -1,20 +1,5 @@
-<!doctype html>
-<html lang="en" class="semi-dark">
+<?php include('header.php'); ?>
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--favicon-->
-
-    <title> Admin Dashboard</title>
-</head>
-
-<body>
-    <!--wrapper-->
-    <div class="wrapper">
-        <!--sidebar wrapper -->
-		<?php include('header.php'); ?>
 
         <!--end header -->
         <!--start page wrapper -->
@@ -60,8 +45,7 @@
                                                 <div class="col-md-6 mb-3">
                                                     <label for="inputSubCategory" class="form-label">Select
                                                         Sub-Category</label>
-                                                    <select class="form-select" id="inputSubCategory"
-                                                        name="sub_category">
+                                                    <select class="form-select" id="inputSubCategory" name="sub_category">
                                                         <option></option>
                                                         <option value="sub_category1">Sub-Category 1</option>
                                                         <option value="sub_category2">Sub-Category 2</option>
@@ -96,15 +80,13 @@
                                                 <!-- Add Line -->
                                                 <div class=" col-md-6 mb-3">
                                                     <label for="inputLine" class="form-label">Line</label>
-                                                    <input type="text" class="form-control" id="inputLine" name="line"
-                                                        placeholder="Enter line">
+                                                    <input type="text" class="form-control" id="inputLine" name="line" placeholder="Enter line">
                                                 </div>
 
                                                 <!-- Add Brand -->
                                                 <div class="col-md-6 mb-3">
                                                     <label for="inputBrand" class="form-label">Brand</label>
-                                                    <input type="text" class="form-control" id="inputBrand" name="brand"
-                                                        placeholder="Enter brand">
+                                                    <input type="text" class="form-control" id="inputBrand" name="brand" placeholder="Enter brand">
                                                 </div>
                                             </div>
 
@@ -113,16 +95,14 @@
                                                 <!-- Add Brand Name -->
                                                 <div class="col-md-6 mb-3">
                                                     <label for="inputBrandName" class="form-label">Brand Name</label>
-                                                    <input type="text" class="form-control" id="inputBrandName"
-                                                        name="brand_name" placeholder="Enter brand name">
+                                                    <input type="text" class="form-control" id="inputBrandName" name="brand_name" placeholder="Enter brand name">
                                                 </div>
 
                                                 <!-- Add Retailer Type -->
                                                 <div class="col-md-6 mb-3">
                                                     <label for="inputRetailerType" class="form-label">Retailer
                                                         Type</label>
-                                                    <select class="form-select" id="inputRetailerType"
-                                                        name="retailer_type">
+                                                    <select class="form-select" id="inputRetailerType" name="retailer_type">
                                                         <option></option>
                                                         <option value="type1">Type 1</option>
                                                         <option value="type2">Type 2</option>
@@ -153,25 +133,4 @@
             </div>
         </div>
         <!--end page wrapper -->
-        <!--start overlay-->
-        <div class="overlay toggle-icon"></div>
-        <!--end overlay-->
-        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i
-                class='bx bxs-up-arrow-alt'></i></a>
-        <!--End Back To Top Button-->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright © 2023. All right reserved.</p>
-        </footer>
-    </div>
-	<?php include('footer.php'); ?>
-
-    <script>
-        $(document).ready(function () {
-            $('#example').DataTable();
-        });
-    </script>
-
-
-</body>
-
-</html>
+        <?php include('footer.php'); ?>

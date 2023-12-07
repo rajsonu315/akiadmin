@@ -1,20 +1,5 @@
-<!doctype html>
-<html lang="en" class="semi-dark">
+<?php include('header.php'); ?>
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--favicon-->
-
-    <title> Order Telecaller</title>
-</head>
-
-<body>
-    <!--wrapper-->
-    <div class="wrapper">
-        <!--sidebar wrapper -->
-        <?php include('header.php'); ?>
 
         <!--end header -->
         <!--start page wrapper -->
@@ -57,25 +42,25 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="table-responsive">
-                        <div aria-label="Page navigation example ">
+                            <div aria-label="Page navigation example ">
 
-<div class="bx-pull-left">
-    <select class="form-select" id="inputCategory" name="category">
-        <option value="5">5
-        </option>
-        <option value="10">10
-        </option>
-        <option value="20">20
-        </option>
-        <option value="50">50
-        </option>
-    </select>
-</div>
-<ul class="  bx-pull-right">
-    <input type="text" class="form-control" placeholder="search ...">
+                                <div class="bx-pull-left">
+                                    <select class="form-select" id="inputCategory" name="category">
+                                        <option value="5">5
+                                        </option>
+                                        <option value="10">10
+                                        </option>
+                                        <option value="20">20
+                                        </option>
+                                        <option value="50">50
+                                        </option>
+                                    </select>
+                                </div>
+                                <ul class="  bx-pull-right">
+                                    <input type="text" class="form-control" placeholder="search ...">
 
-</ul>
-</div>
+                                </ul>
+                            </div>
                             <table id="example" class="table table-striped table-bordered" style="width:100%">
                                 <thead>
                                     <tr>
@@ -178,20 +163,4 @@
             </div>
         </div>
         <!--end page wrapper -->
-        <!--start overlay-->
-        <div class="overlay toggle-icon"></div>
-        <!--end overlay-->
-        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-        <!--End Back To Top Button-->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright © 2023. All right reserved.</p>
-        </footer>
-    </div>
-    <!--end wrapper-->
-    <?php include('footer.php'); ?>
-
-    
-
-</body>
-
-</html>
+        <?php include('footer.php'); ?>

@@ -1,47 +1,31 @@
-<!doctype html>
-<html lang="en" class="semi-dark">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--favicon-->
+<?php include('../header.php'); ?>
 
 
-    <title> Schemes</title>
-</head>
-
-<body>
-    <!--wrapper-->
-    <div class="wrapper">
-        <!--sidebar wrapper -->
-        <?php include('../header.php'); ?>
-
-        <!--end header -->
-        <!--start page wrapper -->
-        <div class="page-wrapper">
-            <div class="page-content">
-                <!--breadcrumb-->
-                <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
-                    <div class="ps-3">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb mb-0 p-0">
-                                <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
-                                </li>
-                                <li class="breadcrumb-item active" aria-current="page">Schemes Details</li>
-                            </ol>
-                        </nav>
-                    </div>
-                    <div class="ms-auto">
-                        <div class="">
-                            <!-- <a href="./Schemes.php" class="href">
+<!--end header -->
+<!--start page wrapper -->
+<div class="page-wrapper">
+    <div class="page-content">
+        <!--breadcrumb-->
+        <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+            <div class="ps-3">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0 p-0">
+                        <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">Schemes Details</li>
+                    </ol>
+                </nav>
+            </div>
+            <div class="ms-auto">
+                <div class="">
+                    <!-- <a href="./Schemes.php" class="href">
 
                                 <button type="button" class="btn btn-warning px-5">Scheme Create New
 
                                 </button>
 
                             </a> -->
-                            <!-- <a href="./SchemeCreateNew.php" class="href">
+                    <!-- <a href="./SchemeCreateNew.php" class="href">
 								<button type="button" class="btn btn-warning px-5">+ Create New
 									Scheme
 								</button>
@@ -51,34 +35,34 @@
 
 
 
-                        </div>
-                    </div>
                 </div>
-                <!--end breadcrumb-->
+            </div>
+        </div>
+        <!--end breadcrumb-->
 
 
 
-                <!--  -->
+        <!--  -->
 
 
-                <div class="container">
-                    <div class="main-body">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-body">
+        <div class="container">
+            <div class="main-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
 
-                                        <ul class="nav  nav-pills mb-3" role="tablist">
+                                <ul class="nav  nav-pills mb-3" role="tablist">
 
-                                            <li class="nav-item">
-                                                <a class="nav-link  " href="#">
-                                                    <div class="d-flex align-items-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link  " href="#">
+                                            <div class="d-flex align-items-center">
 
-                                                        <div class="tab-title">SCHEMES</div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <!-- <li class="nav-item">
+                                                <div class="tab-title">SCHEMES</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!-- <li class="nav-item">
     <a class="nav-link" href="COSTOBJECTS.php">
         <div class="d-flex align-items-center">
 
@@ -86,23 +70,23 @@
         </div>
     </a>
 </li> -->
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">
-                                                    <div class="d-flex align-items-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <div class="d-flex align-items-center">
 
-                                                        <div class="tab-title">GEOGRAPHY DETAILS</div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="#">
-                                                    <div class="d-flex align-items-center">
+                                                <div class="tab-title">GEOGRAPHY DETAILS</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">
+                                            <div class="d-flex align-items-center">
 
-                                                        <div class="tab-title">RETAILER CATEGORY</div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <!-- <li class="nav-item">
+                                                <div class="tab-title">RETAILER CATEGORY</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <!-- <li class="nav-item">
     <a class="nav-link" href="SCHEMECPS.php">
         <div class="d-flex align-items-center">
 
@@ -110,115 +94,105 @@
         </div>
     </a>
 </li> -->
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">
-                                                    <div class="d-flex align-items-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <div class="d-flex align-items-center">
 
-                                                        <div class="tab-title">SALES CRITERIA</div>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">
-                                                    <div class="d-flex align-items-center">
-
-                                                        <div class="tab-title">SLABS</div>
-                                                    </div>
-                                                </a>
-                                            </li>
-
-                                            <li class="nav-item">
-                                                <a class="nav-link " href="#">
-                                                    <div class="d-flex align-items-center">
-
-                                                        <div class="tab-title">REMARKS & ATTACHMENTS</div>
-                                                    </div>
-                                                </a>
-                                            </li>
-
-                                        </ul>
-
-
-                               
-
-
-
-
-
-
-
-
-
-
-
-
-                                        <div class="d-flex flex-column align-items-center text-center">
-                                            <!-- <img src="../assets/images/avatars/avatar-2.png" alt="Admin" class="rounded-circle p-1 bg-primary" width="110"> -->
-                                            <div class="mt-3">
-                                                <h4>Schemes test</h4>
-                                                <p class="text-secondary mb-1">Schemes testr</p>
-                                                <p class="text-muted font-size-sm">Lorem ipsum dolor sit amet.</p>
-                                                <button class="btn btn-success" >Approve</button>
+                                                <div class="tab-title">SALES CRITERIA</div>
                                             </div>
-                                        </div>
-                                        <hr class="my-4">
-                                        <ul class="list-group list-group-flush">
-                                            <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                                                <h6 class="mb-0">Scheme ID</h6>
-                                                <span class="text-secondary">Schemes Test</span>
-                                            </li>
-                                            <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                                                <h6 class="mb-0">Scheme Type</h6>
-                                                <span class="text-secondary">Schemes Test</span>
-                                            </li>
-                                            <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                                                <h6 class="mb-0">Scheme Owne</h6>
-                                                <span class="text-secondary">Schemes Test</span>
-                                            </li>
-                                            <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                                                <h6 class="mb-0">Date of creation</h6>
-                                                <span class="text-secondary">Schemes Test</span>
-                                            </li>
-                                            <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                                                <h6 class="mb-0">Start date</h6>
-                                                <span class="text-secondary">Schemes Test</span>
-                                            </li>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+                                            <div class="d-flex align-items-center">
 
-                                            <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                                                <h6 class="mb-0">ActTo dateions</h6>
-                                                <span class="text-secondary">Schemes Test</span>
-                                            </li>
+                                                <div class="tab-title">SLABS</div>
+                                            </div>
+                                        </a>
+                                    </li>
 
-                                            <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
-                                                <h6 class="mb-0">Status</h6>
-                                                <span class="text-secondary">Schemes Test</span>
-                                            </li>
-                                        </ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">
+                                            <div class="d-flex align-items-center">
+
+                                                <div class="tab-title">REMARKS & ATTACHMENTS</div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <div class="d-flex flex-column align-items-center text-center">
+                                    <!-- <img src="../assets/images/avatars/avatar-2.png" alt="Admin" class="rounded-circle p-1 bg-primary" width="110"> -->
+                                    <div class="mt-3">
+                                        <h4>Schemes test</h4>
+                                        <p class="text-secondary mb-1">Schemes testr</p>
+                                        <p class="text-muted font-size-sm">Lorem ipsum dolor sit amet.</p>
+                                        <button class="btn btn-success">Approve</button>
                                     </div>
                                 </div>
-                            </div>
+                                <hr class="my-4">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                        <h6 class="mb-0">Scheme ID</h6>
+                                        <span class="text-secondary">Schemes Test</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                        <h6 class="mb-0">Scheme Type</h6>
+                                        <span class="text-secondary">Schemes Test</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                        <h6 class="mb-0">Scheme Owne</h6>
+                                        <span class="text-secondary">Schemes Test</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                        <h6 class="mb-0">Date of creation</h6>
+                                        <span class="text-secondary">Schemes Test</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                        <h6 class="mb-0">Start date</h6>
+                                        <span class="text-secondary">Schemes Test</span>
+                                    </li>
 
+                                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                        <h6 class="mb-0">ActTo dateions</h6>
+                                        <span class="text-secondary">Schemes Test</span>
+                                    </li>
+
+                                    <li class="list-group-item d-flex justify-content-between align-items-center flex-wrap">
+                                        <h6 class="mb-0">Status</h6>
+                                        <span class="text-secondary">Schemes Test</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-
-
-                <!--  -->
-
             </div>
         </div>
-        <!--end page wrapper -->
-        <!--start overlay-->
-        <div class="overlay toggle-icon"></div>
-        <!--end overlay-->
-        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-        <!--End Back To Top Button-->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright © 2023. All right reserved.</p>
-        </footer>
+
+
+        <!--  -->
+
     </div>
-    <!--end wrapper-->
-    <?php include('../footer.php'); ?>
+</div>
+<!--end page wrapper -->
+<?php include('../footer.php'); ?>
 
 
 
@@ -229,19 +203,19 @@
 
 
 
-    <script>
-        $(document).ready(function() {
+<script>
+    $(document).ready(function() {
 
-            var i = 1;
-
-
-            $("#add").click(function() {
+        var i = 1;
 
 
+        $("#add").click(function() {
 
 
-                i++;
-                $('#dynamic_field').append(`<tr>
+
+
+            i++;
+            $('#dynamic_field').append(`<tr>
                 <td>
 
 
@@ -294,117 +268,114 @@
                 </td>
             </tr>
         `);
-            });
-
-            $(document).on('click', '.btn_remove', function() {
-
-                $(this).closest('tr').remove();
-
-
-                var button_id = $(this).attr("id");
-                $('#row' + button_id + '').remove();
-            });
-
-
-
-
         });
-    </script>
+
+        $(document).on('click', '.btn_remove', function() {
+
+            $(this).closest('tr').remove();
 
 
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#Company').multiselect({
-                nonSelectedText: 'Select Company',
-                enableFiltering: true,
-                enableCaseInsensitiveFiltering: true,
-
-                enableClickableOptGroups: true,
-                enableCollapsibleOptGroups: true,
-                enableFiltering: true,
-                includeSelectAllOption: true
-            });
-            $('#Category').multiselect({
-                nonSelectedText: 'Select Category',
-                enableFiltering: true,
-                enableCaseInsensitiveFiltering: true,
-
-                enableClickableOptGroups: true,
-                enableCollapsibleOptGroups: true,
-                enableFiltering: true,
-                includeSelectAllOption: true
-            });
-            $('#Category1').multiselect({
-                nonSelectedText: 'Select Category1',
-                enableFiltering: true,
-                enableCaseInsensitiveFiltering: true,
-
-                enableClickableOptGroups: true,
-                enableCollapsibleOptGroups: true,
-                enableFiltering: true,
-                includeSelectAllOption: true
-            });
-            $('#Category2').multiselect({
-                nonSelectedText: 'Select Category2',
-                enableFiltering: true,
-                enableCaseInsensitiveFiltering: true,
-
-                enableClickableOptGroups: true,
-                enableCollapsibleOptGroups: true,
-                enableFiltering: true,
-                includeSelectAllOption: true
-            });
-
-            $('#Category3').multiselect({
-                nonSelectedText: 'Select Category3',
-                enableFiltering: true,
-                enableCaseInsensitiveFiltering: true,
-
-                enableClickableOptGroups: true,
-                enableCollapsibleOptGroups: true,
-                enableFiltering: true,
-                includeSelectAllOption: true
-            });
-
-
-
-
-
-            $('#Brand').multiselect({
-                nonSelectedText: 'Select Brand',
-                enableFiltering: true,
-                enableCaseInsensitiveFiltering: true,
-
-                enableClickableOptGroups: true,
-                enableCollapsibleOptGroups: true,
-                enableFiltering: true,
-                includeSelectAllOption: true
-            });
-
-            $('#Sub_brand').multiselect({
-                nonSelectedText: 'Select Sub brand',
-                enableFiltering: true,
-                enableCaseInsensitiveFiltering: true,
-
-                enableClickableOptGroups: true,
-                enableCollapsibleOptGroups: true,
-                enableFiltering: true,
-                includeSelectAllOption: true
-            });
-
-            $('#SKU').multiselect({
-                nonSelectedText: 'Select SKU',
-                enableFiltering: true,
-                enableCaseInsensitiveFiltering: true,
-
-                enableClickableOptGroups: true,
-                enableCollapsibleOptGroups: true,
-                enableFiltering: true,
-                includeSelectAllOption: true
-            });
+            var button_id = $(this).attr("id");
+            $('#row' + button_id + '').remove();
         });
-    </script>
-</body>
 
-</html>
+
+
+
+    });
+</script>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#Company').multiselect({
+            nonSelectedText: 'Select Company',
+            enableFiltering: true,
+            enableCaseInsensitiveFiltering: true,
+
+            enableClickableOptGroups: true,
+            enableCollapsibleOptGroups: true,
+            enableFiltering: true,
+            includeSelectAllOption: true
+        });
+        $('#Category').multiselect({
+            nonSelectedText: 'Select Category',
+            enableFiltering: true,
+            enableCaseInsensitiveFiltering: true,
+
+            enableClickableOptGroups: true,
+            enableCollapsibleOptGroups: true,
+            enableFiltering: true,
+            includeSelectAllOption: true
+        });
+        $('#Category1').multiselect({
+            nonSelectedText: 'Select Category1',
+            enableFiltering: true,
+            enableCaseInsensitiveFiltering: true,
+
+            enableClickableOptGroups: true,
+            enableCollapsibleOptGroups: true,
+            enableFiltering: true,
+            includeSelectAllOption: true
+        });
+        $('#Category2').multiselect({
+            nonSelectedText: 'Select Category2',
+            enableFiltering: true,
+            enableCaseInsensitiveFiltering: true,
+
+            enableClickableOptGroups: true,
+            enableCollapsibleOptGroups: true,
+            enableFiltering: true,
+            includeSelectAllOption: true
+        });
+
+        $('#Category3').multiselect({
+            nonSelectedText: 'Select Category3',
+            enableFiltering: true,
+            enableCaseInsensitiveFiltering: true,
+
+            enableClickableOptGroups: true,
+            enableCollapsibleOptGroups: true,
+            enableFiltering: true,
+            includeSelectAllOption: true
+        });
+
+
+
+
+
+        $('#Brand').multiselect({
+            nonSelectedText: 'Select Brand',
+            enableFiltering: true,
+            enableCaseInsensitiveFiltering: true,
+
+            enableClickableOptGroups: true,
+            enableCollapsibleOptGroups: true,
+            enableFiltering: true,
+            includeSelectAllOption: true
+        });
+
+        $('#Sub_brand').multiselect({
+            nonSelectedText: 'Select Sub brand',
+            enableFiltering: true,
+            enableCaseInsensitiveFiltering: true,
+
+            enableClickableOptGroups: true,
+            enableCollapsibleOptGroups: true,
+            enableFiltering: true,
+            includeSelectAllOption: true
+        });
+
+        $('#SKU').multiselect({
+            nonSelectedText: 'Select SKU',
+            enableFiltering: true,
+            enableCaseInsensitiveFiltering: true,
+
+            enableClickableOptGroups: true,
+            enableCollapsibleOptGroups: true,
+            enableFiltering: true,
+            includeSelectAllOption: true
+        });
+    });
+</script>
