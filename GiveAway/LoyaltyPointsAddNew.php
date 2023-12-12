@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('../header.php'); ?>
 
 
 <!--end header -->
@@ -217,19 +217,18 @@
                             <option value="Company3">Company 3</option>
                         </select>
                     </div>
-
-
-
-
-
-
-
-
-
                 </div>
 
 
+                <div class="row">
+                    <div class="d-flex justify-content-star t">
+                        <button type="submit" class="btn btn-success pb-2">Submit</button>
 
+
+
+                    </div>
+
+                </div>
 
 
             </div>
@@ -239,7 +238,6 @@
     </div>
 </div>
 <!--end page wrapper -->
-<?php include('footer.php'); ?>
+<?php include('../footer.php'); ?>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js'></script>
-

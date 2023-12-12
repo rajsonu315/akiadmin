@@ -1,6 +1,20 @@
-<?php include('../header.php'); ?>
+<!doctype html>
+<html lang="en" class="semi-dark">
 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--favicon-->
 
+    <title>Planogram</title>
+</head>
+
+<body>
+    <!--wrapper-->
+    <div class="wrapper">
+        <!--sidebar wrapper -->
+        <?php include('../header.php'); ?>
 
         <!--end header -->
         <!--start page wrapper -->
@@ -17,40 +31,57 @@
                             </ol>
                         </nav>
                     </div>
+                    <div class="ms-auto">
+                        <div class="">
 
+
+                            <a href="<?php echo $base_url; ?>StoreAudit/PlanogramCreate.php" class="href">
+                                <button type="button" class="btn btn-warning px-5"></i>Creation +</button>
+                            </a>
+
+
+
+
+
+                        </div>
+                    </div>
                 </div>
                 <!--end breadcrumb-->
 
                 <div class="card">
                     <div class="card-body">
                         <div class="table-responsive">
-                        <div aria-label="Page navigation example ">
+                            <div aria-label="Page navigation example ">
 
-<div class="bx-pull-left">
-    <select class="form-select" id="inputCategory" name="category">
-        <option value="5">5
-        </option>
-        <option value="10">10
-        </option>
-        <option value="20">20
-        </option>
-        <option value="50">50
-        </option>
-    </select>
-</div>
-<ul class="  bx-pull-right">
-    <input type="text" class="form-control" placeholder="search ...">
+                                <div class="bx-pull-left">
+                                    <select class="form-select" id="inputCategory" name="category">
+                                        <option value="5">5
+                                        </option>
+                                        <option value="10">10
+                                        </option>
+                                        <option value="20">20
+                                        </option>
+                                        <option value="50">50
+                                        </option>
+                                    </select>
+                                </div>
+                                <ul class="  bx-pull-right">
+                                    <input type="text" class="form-control" placeholder="search ...">
 
-</ul>
-</div>
+                                </ul>
+                            </div>
                             <table id="example" class="table table-striped table-bordered" style="width:100%">
                                 <thead>
                                     <tr>
                                         <th>S.no.</th>
-                                        <th>Planogram Name</th>
-                                        <th>Discription</th>
-                                        <th>Image Upload</th>
+                                        <th>UserId</th>
+                                        <th>RetailerId</th>
+                                        <th>Retailer Name</th>
+                                        <th>BrandId</th>
+                                        <th>BrandName</th>
+                                        <th>Image</th>
 
+                                        <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -58,8 +89,43 @@
                                         <td>1</td>
                                         <td>12345678</td>
                                         <td>Test</td>
+                                        <td>test</td>
                                         <td>DREEF</td>
 
+                                        <td>Test</td>
+                                        <td>
+                                            <img src="https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg" width="40px">
+                                        </td>
+                                        <td>
+                                            <div class="d-flex order-actions">
+                                                <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                    <a href="<?php echo $base_url; ?>StoreAudit/PlanogramEdit.php" class="href">
+                                                        <div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
+                                                        </div>
+                                                    </a>
+
+                                                </div>
+
+                                                <!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                    <a href="<?php echo $base_url; ?>BeatManagement/ViewBeat.php" class="href">
+                                                        <div class="font-22 "> <i class="lni lni-eye"></i>
+                                                        </div>
+                                                    </a>
+
+                                                </div> -->
+
+                                                <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                    <button class="delete-button">
+                                                        <a href="#" class="href">
+                                                            <div class="font-22 text-danger"> <i class="lni lni-trash"></i>
+                                                            </div>
+                                                        </a>
+
+                                                    </button>
+
+                                                </div>
+                                            </div>
+                                        </td>
                                     </tr>
 
 
@@ -88,4 +154,26 @@
             </div>
         </div>
         <!--end page wrapper -->
-        <?php include('../footer.php'); ?>
+        <!--start overlay-->
+        <div class="overlay toggle-icon"></div>
+        <!--end overlay-->
+        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
+        <!--End Back To Top Button-->
+        <footer class="page-footer">
+            <p class="mb-0">Copyright © 2023. All right reserved.</p>
+        </footer>
+    </div>
+    <!--end wrapper-->
+    <?php include('../footer.php'); ?>
+
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable();
+        });
+    </script>
+
+    <!--app JS-->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

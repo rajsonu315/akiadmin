@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
 
-    <title>MSL</title>
+    <title>Planogram</title>
 </head>
 
 <body>
@@ -27,24 +27,15 @@
                             <ol class="breadcrumb mb-0 p-0">
                                 <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page">MSL</li>
+                                <li class="breadcrumb-item active" aria-current="page">Customer Category & Brand Mapping Rules</li>
                             </ol>
                         </nav>
                     </div>
                     <div class="ms-auto">
                         <div class="">
-
-                            <a href="<?php echo $base_url; ?>StoreAudit/MSLImport.php" class="href">
-                                <button type="button" class="btn btn-warning px-5">
-                                    <i class="bx bx-cloud-download mr-1"></i>Import
-                                </button>
+                            <a href="<?php echo $base_url; ?>Mapping/CustomerCategoryBrandMappingCreate.php" class="href">
+                                <button type="button" class="btn btn-warning px-5"></i>Create New Rule +</button>
                             </a>
-
-
-
-
-
-
                         </div>
                     </div>
                 </div>
@@ -53,41 +44,18 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="table-responsive">
-
-                        <div aria-label="Page navigation example ">
-
-<div class="bx-pull-left">
-    <select class="form-select" id="inputCategory" name="category">
-        <option value="5">5
-        </option>
-        <option value="10">10
-        </option>
-        <option value="20">20
-        </option>
-        <option value="50">50
-        </option>
-    </select>
-</div>
-<ul class="  bx-pull-right">
-    <input type="text" class="form-control" placeholder="search ...">
-
-</ul>
-</div>
-
-                        
                             <table id="example" class="table table-striped table-bordered" style="width:100%">
                                 <thead>
                                     <tr>
-                                        <th>S.no.</th>
-                                        <th>Channel</th>
-                                        <th>Customer</th>
-                                        <th>Brand</th>
-                                        <th>Sub-brand</th>
-                                        <th>SKU</th>
-                                        <th>MSL</th>
-                                        <th>Brand</th>
+                                        <th>S. No.</th>
+                                        <th>Rule Id</th>
+                                        <th>Rule Name</th>
+                                        <th>Type of customers</th>
+                                        <th>Brand </th>
+                                        <th>Category</th>
+                                        <th>Create Date</th>
+                                       
                                         <th>Action</th>
-
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -96,19 +64,28 @@
                                         <td>12345678</td>
                                         <td>Test</td>
                                         <td>DREEF</td>
-                                        <td>wqdf</td>
                                         <td>Test</td>
-                                        <td>DREEF</td>
-                                        <td>rr</td>
+                                        <td>Test</td>
+                                        <td>08-12-23</td>
+                                       
                                         <td>
                                             <div class="d-flex order-actions">
                                                 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-                                                    <a href="<?php echo $base_url; ?>StoreAudit/MSLEdit.php" class="href">
+                                                    <a href="<?php echo $base_url; ?>Mapping/CustomerCategoryBrandMappingEdit.php" class="href">
                                                         <div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
                                                         </div>
                                                     </a>
 
                                                 </div>
+
+                                             <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                    <a href="" class="href">
+                                                        <div class="font-22 "> <i class="lni lni-eye"></i>
+                                                        </div>
+                                                    </a>
+
+                                                </div> 
+
                                                 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
                                                     <button class="delete-button">
                                                         <a href="#" class="href">
@@ -129,21 +106,6 @@
 
                             </table>
                         </div>
-
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination round-pagination  bx-pull-right">
-                                <li class="page-item"><a class="page-link" href="javascript:;">Previous</a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="javascript:;javascript:;">1</a>
-                                </li>
-                                <li class="page-item active"><a class="page-link" href="javascript:;">2</a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="javascript:;">3</a>
-                                </li>
-                                <li class="page-item"><a class="page-link" href="javascript:;">Next</a>
-                                </li>
-                            </ul>
-                        </nav>
                     </div>
                 </div>
 
@@ -160,7 +122,7 @@
         </footer>
     </div>
     <!--end wrapper-->
-    <?php include('../footer.php'); ?>
+	<?php include('../footer.php'); ?>
 
     <script>
         $(document).ready(function() {

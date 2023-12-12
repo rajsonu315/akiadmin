@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon-->
 
-    <title> Shelves</title>
+    <title> Customer Group</title>
 </head>
 
 <body>
@@ -27,11 +27,23 @@
                             <ol class="breadcrumb mb-0 p-0">
                                 <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page">Shelves</li>
+                                <li class="breadcrumb-item active" aria-current="page">Planogram View </li>
                             </ol>
                         </nav>
                     </div>
+                    <div class="ms-auto">
+                        <div class="">
 
+                        <a href="<?php echo $base_url; ?>BeatManagement/BulkImport.php" class="href">
+                            <button type="button" class="btn btn-warning px-5">
+                                <i class="bx bx-cloud-download mr-1"></i> Bulk Import
+                            </button>
+                        </a>
+                            <a href="<?php echo $base_url; ?>BeatManagement/CreateBeat.php" class="href">
+                                <button type="button" class="btn btn-warning px-5"></i>Beat Creation +</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <!--end breadcrumb-->
 
@@ -57,15 +69,15 @@
 
 </ul>
 </div>
+                            
                             <table id="example" class="table table-striped table-bordered" style="width:100%">
                                 <thead>
                                     <tr>
                                         <th>S.no.</th>
-                                        <th> ID</th>
-                                        <th> Name</th>
-
-                                        <th>Product Type</th>
-
+                                        <th>Beat ID</th>
+                                        <th>Beat Name</th>
+                                        <th>Beat Type</th>
+                                        
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -74,11 +86,7 @@
                                         <td>12345678</td>
                                         <td>Test</td>
                                         <td>DREEF</td>
-
                                     </tr>
-
-
-
                                 </tbody>
 
                             </table>
@@ -97,6 +105,7 @@
 						</li>
 					</ul>
 				</nav>
+                        
                     </div>
                 </div>
 
@@ -113,7 +122,7 @@
         </footer>
     </div>
     <!--end wrapper-->
-    <?php include('../footer.php'); ?>
+	<?php include('../footer.php'); ?>
 
     <script>
         $(document).ready(function() {

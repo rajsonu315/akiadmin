@@ -12,28 +12,11 @@
                     <ol class="breadcrumb mb-0 p-0">
                         <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                         </li>
-                        <li class="breadcrumb-item active" aria-current="page">BEAT Management</li>
+                        <li class="breadcrumb-item active" aria-current="page">Salesman Customer Item Mapping View</li>
                     </ol>
                 </nav>
             </div>
-            <div class="ms-auto">
-                <div class="">
-
-                    <a href="<?php echo $base_url; ?>BeatManagement/BulkImport.php" class="href">
-                        <button type="button" class="btn btn-warning px-5">
-                            <i class="bx bx-cloud-download mr-1"></i> Bulk Import
-                        </button>
-                    </a>
-                    <a href="<?php echo $base_url; ?>BeatManagement/NewBeat.php" class="href">
-                        <button type="button" class="btn btn-warning px-5"></i>New Beat +</button>
-                    </a>
-
-
-
-
-
-                </div>
-            </div>
+           
         </div>
         <!--end breadcrumb-->
 
@@ -62,12 +45,12 @@
                     <table id="example" class="table table-striped table-bordered" style="width:100%">
                         <thead>
                             <tr>
-                                <th>S.no.</th>
-                                <th>Beat ID</th>
-                                <th>Beat Name</th>
+                            <th>S.no.</th>
+                            <th>salesman name</th>
+                            <th>ID</th>
+                            <th>type </th>
+                            <th>against </th>
 
-                                <th>Beat Type</th>
-                                <th>Actions</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -76,47 +59,8 @@
                                 <td>12345678</td>
                                 <td>Test</td>
                                 <td>DREEF</td>
-                                <td>
-
-
-
-
-
-
-
-                                    <div class="d-flex order-actions">
-                                        <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-                                            <a href="<?php echo $base_url; ?>BeatManagement/EditBeat.php" class="href">
-                                                <div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
-                                                </div>
-                                            </a>
-
-                                        </div>
-
-                                        <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-                                            <a href="<?php echo $base_url; ?>BeatManagement/ViewBeat.php" class="href">
-                                                <div class="font-22 "> <i class="lni lni-eye"></i>
-                                                </div>
-                                            </a>
-
-                                        </div>
-
-                                        <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-                                            <button class="delete-button">
-                                                <a href="#" class="href">
-                                                    <div class="font-22 text-danger"> <i class="lni lni-trash"></i>
-                                                    </div>
-                                                </a>
-
-                                            </button>
-
-                                        </div>
-                                    </div>
-                                </td>
+                                <td>Test</td>
                             </tr>
-
-
-
                         </tbody>
 
                     </table>
@@ -134,7 +78,7 @@
                                 <li class="page-item"><a class="page-link" href="javascript:;">Next</a>
                                 </li>
                             </ul>
-                        </nav>
+                    </nav>
             </div>
         </div>
 

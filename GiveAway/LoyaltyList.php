@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('../header.php'); ?>
 
 
 
@@ -14,14 +14,14 @@
 					<ol class="breadcrumb mb-0 p-0">
 						<li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
 						</li>
-						<li class="breadcrumb-item active" aria-current="page">Loyalty Points</li>
+						<li class="breadcrumb-item active" aria-current="page"></li>
 					</ol>
 				</nav>
 			</div>
 			<div class="ms-auto">
 				<div class="btn-group">
 					<button type="button" class="btn btn-warning px-5"><i class="bx bx-cloud-download mr-1"></i>Export </button>
-					<a href="./LoyaltyPointsAddNew.php" class="href">
+					<a href="./Loyalty.php" class="href">
 						<button type="button" class="btn btn-warning px-5">Add New + </button>
 					</a>
 
@@ -175,4 +175,4 @@
 	</div>
 </div>
 <!--end page wrapper -->
-<?php include('footer.php'); ?>
+<?php include('../footer.php'); ?>

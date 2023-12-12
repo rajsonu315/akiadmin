@@ -102,7 +102,7 @@
                                             </select>
                                         </div>
                                         <div class="mb-3 col-md-6">
-                                            <label for="inputSelectFamily" class "form-label">Select Family:</label>
+                                            <label for="inputSelectFamily" class= "form-label">Select Family:</label>
                                             <select class="form-select" id="inputSelectFamily" name="select_family">
                                                 <option value="Option 1">Option 1</option>
                                                 <!-- Add more family options here -->

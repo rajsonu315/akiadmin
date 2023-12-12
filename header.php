@@ -10,7 +10,7 @@
     <title> Admin Dashboard</title>
     <?php
     // Define the base URL
-    $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
+    $base_url = 'http://localhost/akiadmin/'; // Replace with your actual base URL
 
     // Example link with the base URL
     ?>
@@ -67,9 +67,24 @@
                         <div class="menu-title">Dashboard</div>
                     </a>
                 </li>
-
-
                 <li>
+                    <a class="has-arrow" href="javascript:;">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-store-alt"></i>
+                        </div>
+                        <div class="menu-title">Mapping</div>
+                    </a>
+                    <ul>
+                        <li> <a href="<?php echo $base_url; ?>Mapping/SalesmanCustomerItemMapping.php"><i class="bx bx-right-arrow-alt"></i>Salesman to customer & item Mapping</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Mapping/CustomerCategoryBrandMapping.php"><i class="bx bx-right-arrow-alt"></i>Customer Category & Brand Mapping Rules:
+                        </a>
+                        </li>
+                       
+
+                    </ul>
+                </li>
+
+                <!-- <li>
                     <a class="has-arrow" href="javascript:;">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-store-alt"></i>
                         </div>
@@ -84,39 +99,51 @@
                         </li>
 
                     </ul>
-                </li>
+                </li> -->
 
-
+<!-- 
                 <li>
                     <a href="<?php echo $base_url; ?>CustomerGroup.php">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-group"></i>
                         </div>
                         <div class="menu-title">Customer Group</div>
                     </a>
-                </li>
+                </li> -->
 
-                <li>
+                <!-- <li>
                     <a href="<?php echo $base_url; ?>CategoriesListing.php">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-window-open"></i>
                         </div>
                         <div class="menu-title">Categories Listing</div>
                     </a>
-                </li>
+                </li> -->
 
-                <li>
+                <!-- <li>
                     <a href="<?php echo $base_url; ?>ProductManagement.php">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-message-square-edit"></i>
                         </div>
                         <div class="menu-title">Product Management</div>
                     </a>
-                </li>
+                </li> -->
+
+
+
 
                 <li>
-                    <a href="<?php echo $base_url; ?>LoyaltyPoints.php">
+                    <a class="has-arrow" href="javascript:;">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-gift"></i> 
                         </div>
-                        <div class="menu-title">Loyalty Points</div>
+                        <div class="menu-title">Loyalty</div>
                     </a>
+                    <ul>
+                        <li> <a href="<?php echo $base_url; ?>LoyaltyPoints/LoyaltyList.php"><i class="bx bx-right-arrow-alt"></i>Loyalty Point</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>GiveAway/LoyaltyList.php"><i class="bx bx-right-arrow-alt"></i>Give Away
+                        </a>
+                        </li>
+                       
+
+                    </ul>
                 </li>
 
                 <li>
@@ -195,17 +222,25 @@
                 </li>
 
                 <li>
+                    <a href="<?php echo $base_url; ?>Approvel/">
+                        <div class="parent-icon"> <i class="lni lni-checkmark-circle"></i>
+                        </div>
+                        <div class="menu-title">Approvel</div>
+                    </a>
+                </li>
+
+                <!-- <li>
                     <a href="<?php echo $base_url; ?>PermissionsAccessControl.php">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-lock"></i>
                         </div>
                         <div class="menu-title">Permissions and
                             Access Control</div>
                     </a>
-                </li>
+                </li> -->
 
 
                 <!-- sdfgnh -->
-                <li>
+                <!-- <li>
                     <a class="has-arrow" href="javascript:;">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-collection"></i>
                         </div>
@@ -222,10 +257,10 @@
                         </li>
 
                     </ul>
-                </li>
+                </li> -->
 
 
-                <li>
+                <!-- <li>
                     <a class="has-arrow" href="javascript:;">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-minus-back"></i>
                         </div>
@@ -241,25 +276,25 @@
 
 
                     </ul>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                     <a href="<?php echo $base_url; ?>UsersTrackerMasters.php">
                         <div class="parent-icon"> <i class="lni lni-travel"></i>
                         </div>
                         <div class="menu-title">Users Tracker Masters</div>
                     </a>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                     <a href="<?php echo $base_url; ?>Planograms.php">
                         <div class="parent-icon"> <i class="lni lni-agenda"></i>
                         </div>
                         <div class="menu-title">Planograms</div>
                     </a>
-                </li>
+                </li> -->
 
 
 
-                <li>
+                <!-- <li>
                     <a href="<?php echo $base_url; ?>CustomerSupport.php">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-support"></i>
                         </div>
@@ -273,7 +308,7 @@
                         </div>
                         <div class="menu-title">Reports</div>
                     </a>
-                </li>
+                </li> -->
             </ul>
             <!--end navigation-->
 
@@ -293,13 +328,23 @@
                         </div>
                     </div>
                     <div class="top-menu ms-auto">
-                        <ul class="navbar-nav align-items-center">
-                            <li class="nav-item mobile-search-icon">
-                                <a class="nav-link" href="#"> <i class='bx bx-search'></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+						<ul class="navbar-nav align-items-center">
+							<li class="nav-item mobile-search-icon">
+								<a class="nav-link" href="#">	<i class='bx bx-search'></i>
+								</a>
+							</li>
+
+	
+						
+						</ul>
+					</div>
+
+
+
+
+
+
+
                     <div class="user-box dropdown">
                         <a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img src="<?php echo $base_url; ?>assets/images/avatars/avatar-2.png" class="user-img" alt="user avatar">

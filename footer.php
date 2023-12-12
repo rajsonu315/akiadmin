@@ -1,6 +1,6 @@
 <?php
 // Define the base URL
-$base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
+$base_url = 'http://localhost/akiadmin/'; // Replace with your actual base URL
 
 // Example link with the base URL
 ?>
@@ -34,6 +34,7 @@ $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
 <script src="<?php echo $base_url; ?>assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script>
 <script src="<?php echo $base_url; ?>assets/js/sweetalert.min.js"></script>
 <script src="<?php echo $base_url; ?>assets/js/app.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js'></script>
 
 </body>
 
