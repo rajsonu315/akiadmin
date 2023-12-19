@@ -18,6 +18,10 @@
                     </div>
                     <div class="ms-auto">
                         <div class="">
+                            
+                        <button type="button" class="btn btn-warning px-5" data-toggle="modal" data-target="#uploadModal">
+                                <i class="bx bx-cloud-upload mr-1"></i> Upload Files
+                            </button>
 
 
                             <button type="button" class="btn btn-warning px-5" data-toggle="modal" data-target="#uploadModal">
@@ -64,9 +68,9 @@
                                     <tr>
                                         <th>S.no.</th>
                                         <th>Name</th>
-                                        <th>Retailer Type</th>
+                                        <th>Customer Group</th>
 
-                                        <th>Remarks</th>
+                                        <th>Customer Group count</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -86,20 +90,20 @@
 
                                             <div class="d-flex order-actions">
                                                 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-                                                    <a href="./CustomerGroupadd.php" class="href">
+                                                    <a href="./CustomerGroupedit.php" class="href">
                                                         <div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
                                                         </div>
                                                     </a>
 
                                                 </div>
 
-                                                <!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-                                                    <a href="#" class="href">
+                                                 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
+                                                    <a href="./CustomerGroupview.php" class="href">
                                                         <div class="font-22 "> <i class="lni lni-eye"></i>
                                                         </div>
                                                     </a>
 
-                                                </div> -->
+                                                </div> 
 
                                                 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
                                                     <button class="delete-button">

@@ -1,18 +1,4 @@
-<!doctype html>
-<html lang="en" class="semi-dark">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--favicon-->
-
-    <title>Planogram</title>
-</head>
-
-<body>
-    <!--wrapper-->
-    <div class="wrapper">
         <!--sidebar wrapper -->
         <?php include('../header.php'); ?>
 
@@ -27,29 +13,42 @@
                             <ol class="breadcrumb mb-0 p-0">
                                 <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page">Planogram</li>
+                                <li class="breadcrumb-item active" aria-current="page">Planogram Define</li>
                             </ol>
                         </nav>
                     </div>
-                    <div class="ms-auto">
-                        <div class="">
-
-
-                            <a href="<?php echo $base_url; ?>StoreAudit/PlanogramCreate.php" class="href">
-                                <button type="button" class="btn btn-warning px-5"></i>Creation +</button>
-                            </a>
-
-
-
-
-
-                        </div>
-                    </div>
+                   
                 </div>
                 <!--end breadcrumb-->
 
                 <div class="card">
                     <div class="card-body">
+                    <ul class="nav  nav-pills mb-3" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="<?php echo $base_url; ?>StoreAudit/Planogram.php">
+                                <div class="d-flex align-items-center">
+
+                                    <div class="tab-title">Define</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " href="<?php echo $base_url; ?>StoreAudit/report.php">
+                                <div class="d-flex align-items-center">
+                                        <div class="tab-title">Report</div>
+                                </div>
+                            </a>
+                        </li>
+                        </ul>
+                        <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+                        <div class="ms-auto">
+                        <div class="">
+                            <a href="<?php echo $base_url; ?>StoreAudit/PlanogramCreate.php" class="href">
+                                <button type="button" class="btn btn-warning px-5"></i>Creation +</button>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
                         <div class="table-responsive">
                             <div aria-label="Page navigation example ">
 
@@ -80,7 +79,6 @@
                                         <th>BrandId</th>
                                         <th>BrandName</th>
                                         <th>Image</th>
-
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -154,26 +152,7 @@
             </div>
         </div>
         <!--end page wrapper -->
-        <!--start overlay-->
-        <div class="overlay toggle-icon"></div>
-        <!--end overlay-->
-        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-        <!--End Back To Top Button-->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright © 2023. All right reserved.</p>
-        </footer>
-    </div>
+
     <!--end wrapper-->
     <?php include('../footer.php'); ?>
 
-    <script>
-        $(document).ready(function() {
-            $('#example').DataTable();
-        });
-    </script>
-
-    <!--app JS-->
-    <script src="assets/js/app.js"></script>
-</body>
-
-</html>

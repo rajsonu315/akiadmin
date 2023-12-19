@@ -76,7 +76,7 @@
 
 									<div class="d-flex order-actions">
 										<div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-											<a href="" class="href">
+											<a href="./edit/Loyalty.php" class="href">
 												<div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
 												</div>
 											</a>
@@ -84,7 +84,7 @@
 										</div>
 
 										<div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-											<a href="" class="href">
+											<a href="./view/Loyalty.php" class="href">
 												<div class="font-22 "> <i class="lni lni-eye"></i>
 												</div>
 											</a>
@@ -105,51 +105,7 @@
 									</div>
 								</td>
 							</tr>
-							<tr>
-								<td>2</td>
-								<td>Product B</td>
-								<td>$75.00</td>
-								<td>Category 2</td>
-								<td>30</td>
-								<td>Excellent</td>
-								<td>
-
-
-									<div class="d-flex order-actions">
-										<div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-											<a href="#" class="href">
-												<div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
-												</div>
-											</a>
-
-										</div>
-
-										<div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-											<a href="#" class="href">
-												<div class="font-22 "> <i class="lni lni-eye"></i>
-												</div>
-											</a>
-
-										</div>
-
-										<div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-
-
-											<button class="delete-button">
-												<a href="#" class="href">
-													<div class="font-22 text-danger"> <i class="lni lni-trash"></i>
-													</div>
-												</a>
-
-											</button>
-
-										</div>
-									</div>
-
-
-
-								</td>
-							</tr>
+					
 							<!-- Add more rows with data as needed -->
 						</tbody>
 					</table>

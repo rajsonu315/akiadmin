@@ -1,4 +1,5 @@
-<?php include('../header.php'); ?>
+<?php include('../../header.php'); ?>
+
 
 
 <!--end header -->
@@ -36,7 +37,7 @@
 								<a class="nav-link  " href="./Loyalty.php">
 									<div class="d-flex align-items-center">
 
-										<div class="tab-title">Loyalty</div>
+										<div class="tab-title">Give Away</div>
 									</div>
 								</a>
 							</li>
@@ -54,21 +55,14 @@
 								<a class="nav-link" href="./LoyaltyPoints.php">
 									<div class="d-flex align-items-center">
 
-										<div class="tab-title">Loyalty Points</div>
-									</div>
-								</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link active " href="./PointsRedemption.php">
-									<div class="d-flex align-items-center">
-
-										<div class="tab-title">Points Redemption</div>
+										<div class="tab-title">Give Away Points</div>
 									</div>
 								</a>
 							</li>
 
+
 							<li class="nav-item">
-								<a class="nav-link" href="./Document.php">
+								<a class="nav-link active" href="./Document.php">
 									<div class="d-flex align-items-center">
 
 										<div class="tab-title">Document</div>
@@ -82,53 +76,33 @@
 						</ul>
 
 
+						<div class="row">
+							<div class="col-xl-9 mx-auto">
 
-						<div class="form-body mt-4">
-							<div class="row">
-								<div class="col-lg-12">
-									<div class="border border-3 p-4 rounded">
-										<form action="#" method="post">
+								<div class="card">
+									<div class="card-body">
+										<form action="" method="post">
+											<label for="" class="form-label">upload banner image</label> <br>
+											<input id="fancy-file-upload" class="form-control" type="file" name="files" accept=".jpg, .png, image/jpeg, image/png">
 
-											<div class="row">
-
-												<div class="col-md-3 mb-3 ">
-
-
-													<label>Loyalty Points :</label>
-
-													<input type="number" class="form-control" placeholder="Points" name="points" require>
-
-												</div>
-												<div class="col-md-3 mb-3 ">
+											<div class="mb-3 col-md-12">
+												<label for="input11" class="form-label"></label>
+												<textarea class="form-control" id="input11" placeholder="Description " rows="3"></textarea>
+											</div>
+											<div class="col-md-12">
+												<div class="d-md-flex d-grid align-items-center gap-3 mt-5 ">
 
 
-													<label>Amount :</label>
-													<input type="number" class="form-control" placeholder="Amount" name="amount" require>
-
+													<button type="button" class="btn btn btn-warning px-5 bx-pull-right">Submit</button>
 
 												</div>
-
-
-												<!-- Add submit button -->
-												<a href="Document.php">
-													<button type="button" class="btn btn btn-warning px-5 bx-pull-right">Next</button>
-												</a>
-
-
-
-												<br><br>
+											</div>
 										</form>
 
-
 									</div>
-
 								</div>
-
-							</div><!--end row-->
+							</div>
 						</div>
-
-
-
 
 
 
@@ -152,7 +126,7 @@
 	</div>
 </div>
 <!--end page wrapper -->
-<?php include('../footer.php'); ?>
+<?php include('../../footer.php'); ?>
 
 
 

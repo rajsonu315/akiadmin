@@ -10,7 +10,7 @@
             <div class="ps-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0 p-0">
-                        <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+                        <li class="breadcrumb-item"><a href="#"><i class="bx bx-home-alt"></i></a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">Approvel List
                         </li>
@@ -27,7 +27,9 @@
                     <div aria-label="Page navigation example ">
 
                         <div class="bx-pull-left">
-                            <select class="form-select" id="inputCategory" name="category">
+
+                            <label for="category"></label>
+                            <select class="form-select" id="category" name="category">
                                 <option value="5">5
                                 </option>
                                 <option value="10">10
@@ -38,7 +40,7 @@
                                 </option>
                             </select>
                         </div>
-                        <ul class="  bx-pull-right">
+                        <ul class="bx-pull-right">
                             <input type="text" class="form-control" placeholder="search ...">
 
                         </ul>
@@ -73,9 +75,9 @@
 
 
 
-                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="Approvel" href="javascript:;" class="btn btn-success"><i class="lni lni-checkmark-circle"></i></a>
-                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="Rejected" href="javascript:;" class="btn btn-danger"><i class="lni lni-close"></i> </a>
-                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="clarification" href="javascript:;" class="btn btn-secondary "><i class="lni lni-construction"></i>
+                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="Approvel" href="Approvel.php" class="btn btn-success"><i class="lni lni-checkmark-circle"></i></a>
+                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="Rejected" href="Rejected.php" class="btn btn-danger"><i class="lni lni-close"></i> </a>
+                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="clarification" href="clarification.php" class="btn btn-secondary "><i class="lni lni-construction"></i>
                                         </a>
                                         <a data-bs-toggle="tooltip" data-bs-placement="top" title="View" href="./view.php" class="btn btn-dark "><i class="lni lni-eye"></i></a>
 
@@ -90,15 +92,15 @@
                 </div>
                 <nav aria-label="Page navigation example">
                     <ul class="pagination round-pagination  bx-pull-right">
-                        <li class="page-item"><a class="page-link" href="javascript:;">Previous</a>
+                        <li class="page-item"><a class="page-link" href="#">Previous</a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="javascript:;javascript:;">1</a>
+                        <li class="page-item"><a class="page-link" href="#">1</a>
                         </li>
-                        <li class="page-item active"><a class="page-link" href="javascript:;">2</a>
+                        <li class="page-item active"><a class="page-link" href="#">2</a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="javascript:;">3</a>
+                        <li class="page-item"><a class="page-link" href="#">3</a>
                         </li>
-                        <li class="page-item"><a class="page-link" href="javascript:;">Next</a>
+                        <li class="page-item"><a class="page-link" href="#">Next</a>
                         </li>
                     </ul>
                 </nav>

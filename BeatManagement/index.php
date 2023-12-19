@@ -67,6 +67,7 @@
                                 <th>Beat Name</th>
 
                                 <th>Beat Type</th>
+                                <th>Salesman Name</th>
                                 <th>Actions</th>
                             </tr>
                         </thead>
@@ -76,6 +77,7 @@
                                 <td>12345678</td>
                                 <td>Test</td>
                                 <td>DREEF</td>
+                                <td>Test</td>
                                 <td>
 
 

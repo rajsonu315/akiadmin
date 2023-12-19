@@ -36,7 +36,7 @@
                                 <a class="nav-link  " href="./Loyalty.php">
                                     <div class="d-flex align-items-center">
 
-                                        <div class="tab-title">Loyalty</div>
+                                        <div class="tab-title">Give Away</div>
                                     </div>
                                 </a>
                             </li>
@@ -54,18 +54,11 @@
                                 <a class="nav-link" href="./LoyaltyPoints.php">
                                     <div class="d-flex align-items-center">
 
-                                        <div class="tab-title">Loyalty Points</div>
+                                        <div class="tab-title">Give Away Points</div>
                                     </div>
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link  " href="./PointsRedemption.php">
-                                    <div class="d-flex align-items-center">
 
-                                        <div class="tab-title">Points Redemption</div>
-                                    </div>
-                                </a>
-                            </li>
 
                             <li class="nav-item">
                                 <a class="nav-link" href="./Document.php">
@@ -150,7 +143,7 @@
                                                 </div>
 
                                                 <!-- Add submit button -->
-                                                <a href="LoyaltyPoints.php">
+                                                <a href="#">
                                                     <button type="button" class="btn btn btn-warning px-5 bx-pull-right">Next</button>
                                                 </a>
 

@@ -1243,7 +1243,7 @@ a:hover {
 
 /* rgsudfivjckwugsidvjkxguhsdvjk sweet alert */
 
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+/* @import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300); */
 .sweet-overlay {
   background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
@@ -2051,4 +2051,12 @@ a:hover {
 
   .text-approvel{
 	color: #b69c6f !important;
+  }
+
+  .form-body img{
+	height: 150px;
+	width: 100%;
+	object-fit: contain;
+	background-size: contain;
+	background-position: center;
   }

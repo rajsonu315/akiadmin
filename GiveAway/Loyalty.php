@@ -37,7 +37,7 @@
 								<a class="nav-link active " href="./Loyalty.php">
 									<div class="d-flex align-items-center">
 
-										<div class="tab-title">Loyalty</div>
+										<div class="tab-title">Give Away</div>
 									</div>
 								</a>
 							</li>
@@ -55,18 +55,11 @@
 								<a class="nav-link" href="./LoyaltyPoints.php">
 									<div class="d-flex align-items-center">
 
-										<div class="tab-title">Loyalty Points</div>
+										<div class="tab-title">Give Away Points</div>
 									</div>
 								</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link  " href="./PointsRedemption.php">
-									<div class="d-flex align-items-center">
 
-										<div class="tab-title">Points Redemption</div>
-									</div>
-								</a>
-							</li>
 
 							<li class="nav-item">
 								<a class="nav-link" href="./Document.php">
@@ -109,13 +102,12 @@
 												<!-- Elements to show/hide based on dropdown value -->
 												<div class="single-order-elements" style="display: none;">
 													<!-- Elements related to Single Order -->
-													 <input id="fancy-file-upload" type="file" name="files" accept=".jpg, .png, image/jpeg, image/png">
+													<div class="mb-3 col-md-6 ">
+														<label for="Validity" class="form-label">*Validity:</label>
+														<input type="text" class="form-control" name="datetimes" />
 
-													<div class="mb-3 col-md-12">
-														<label for="input11" class="form-label"></label>
-														<textarea class="form-control" id="input11" placeholder="Remark ..." rows="3"></textarea>
 													</div>
-				
+
 												</div>
 
 												<div class="qps-elements" style="display: none;">
@@ -127,27 +119,12 @@
 													</div>
 												</div>
 
-
-
-
-
-
 											</div>
 
-
-
-
-
-
-
-
 											<!-- Add submit button -->
-											<a href="Customer.php">
+											<a href="#">
 												<button type="button" class="btn btn btn-warning px-5 bx-pull-right">Next</button>
 											</a>
-
-
-
 											<br><br>
 										</form>
 

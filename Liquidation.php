@@ -24,19 +24,9 @@
                         Liduadation
                         Schemes
                     </button>
-
-
-
                     <button type="button" class="btn btn-warning px-5" data-toggle="modal" data-target="#uploadModal">
                         <i class="bx bx-cloud-download mr-1"></i> Export
                     </button>
-
-
-
-
-
-
-
                 </div>
             </div>
         </div>
@@ -109,9 +99,6 @@
                                     </div>
                                 </td>
                                 <td>
-
-
-
 
                                     <div class="d-flex order-actions">
                                         <!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">

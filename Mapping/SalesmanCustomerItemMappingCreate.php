@@ -82,11 +82,11 @@
 </style>
 
 <script>
-    var demo1 = $('select[name="duallistbox_demo1[]"]').bootstrapDualListbox();
-    $("#demoform").submit(function() {
-        alert($('[name="duallistbox_demo1[]"]').val());
-        return false;
-    });
+    // var demo1 = $('select[name="duallistbox_demo1[]"]').bootstrapDualListbox();
+    // $("#demoform").submit(function() {
+    //     alert($('[name="duallistbox_demo1[]"]').val());
+    //     return false;
+    // });
 </script>
 <div class="page-wrapper">
     <div class="page-content">
@@ -94,7 +94,7 @@
             <div class="ps-3">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb mb-0 p-0">
-                        <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+                        <li class="breadcrumb-item"><a href="#"><i class="bx bx-home-alt"></i></a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">Create</li>
                     </ol>
@@ -107,8 +107,8 @@
                 <div class="row mb-3">
                     <div class="col-md-4">
                         <div class="form-group">
-                            <label class="mb-1"><b>Type of Salesman </b></label>
-                            <select class="form-select">
+                            <label for="Salesman_" class="mb-1"><b>Type of Salesman </b></label>
+                            <select class="form-select" name="Salesman_" id="Salesman_">
 
                                 <option value="">Test</option>
                             </select>
@@ -116,8 +116,8 @@
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
-                            <label class="mb-1"><b>Select salesman</b></label>
-                            <select class="form-select">
+                            <label for="Salesman_2" class="mb-1"><b>Select salesman</b></label>
+                            <select class="form-select" id="Salesman_2">
 
                                 <option value="">Test</option>
                             </select>
@@ -131,37 +131,21 @@
 
                 <div class="row mb-3">
                     <h5><b>Allocate Customer</b></h5>
-                    <!-- <div class="col-md-2">
-                        <div class="form-group mt-2">
-                            <label class="mb-1"><b>Customer Number</b></label>
-                             <select class="form-select">
 
-                                <option value="">Test</option>
-                            </select>
-                        </div>
-                    </div> -->
                     <div class="col-md-3">
                         <div class="form-group mt-2">
-                            <label class="mb-1"><b>Sales Channel</b></label>
-                            <select class="form-select">
+                            <label for="Channel" class="mb-1"><b>Sales Channel</b></label>
+                            <select class="form-select" id="Channel_" name="Channel_">
 
                                 <option value="">Test</option>
                             </select>
                         </div>
                     </div>
-                    <!-- <div class="col-md-2">
-                        <div class="form-group mt-2">
-                            <label class="mb-1"><b>Terriotory Name</b></label>
-                             <select class="form-select">
 
-                                <option value="">Test</option>
-                            </select>
-                        </div>
-                    </div> -->
                     <div class="col-md-3">
                         <div class="form-group mt-2">
-                            <label class="mb-1"><b>Terriotory Segment1</b></label>
-                            <select class="form-select">
+                            <label for="Segment1" class="mb-1"><b>Terriotory Segment1</b></label>
+                            <select class="form-select" id="Segment1" name="Segment1_">
 
                                 <option value="">Test</option>
                             </select>
@@ -169,8 +153,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="form-group mt-2">
-                            <label class="mb-1"><b>Terriotory Segment2</b></label>
-                            <select class="form-select">
+                            <label for="Segment2_" class="mb-1"><b>Terriotory Segment2</b></label>
+                            <select class="form-select" id="Segment2_">
 
                                 <option value="">Test</option>
                             </select>
@@ -178,8 +162,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="form-group mt-2">
-                            <label class="mb-1"><b>Terriotory Segment3</b></label>
-                            <select class="form-select">
+                            <label for="Segment3" class="mb-1"><b>Terriotory Segment3</b></label>
+                            <select class="form-select" id="Segment3">
 
                                 <option value="">Test</option>
                             </select>
@@ -196,8 +180,8 @@
 
 
                                         <div class='filter-group'>
-                                            <label class='form-label'>
-                                                <input type='text' placeholder="Search ...." class='form-control action' data-action='filter-all' /></label>
+                                            <label for="search_" class='form-label'>
+                                                <input type='text' id="search_" placeholder="Search ...." class='form-control action' data-action='filter-all' /></label>
                                         </div>
                                         <div class='filter-group'>
                                             <button class='action btn btn btn-warning px-5 btn-sm single-add' data-action='add'>Add</button>

@@ -51,34 +51,7 @@
                 <div class="card">
                     <div class="card-body">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                         <div class="row">
-
-
-
-
-
                             <div class="col-md-3 pb-2">
                                 <label>Scheme ID:</label>
                                 <select class="selectpicker " id="one" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
@@ -94,7 +67,6 @@
                                 </select>
 
                             </div>
-
 
                             <div class="col-md-3 pb-2">
                                 <label>Scheme ID:</label>

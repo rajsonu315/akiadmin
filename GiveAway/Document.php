@@ -36,7 +36,7 @@
 								<a class="nav-link  " href="./Loyalty.php">
 									<div class="d-flex align-items-center">
 
-										<div class="tab-title">Loyalty</div>
+										<div class="tab-title">Give Away</div>
 									</div>
 								</a>
 							</li>
@@ -54,18 +54,11 @@
 								<a class="nav-link" href="./LoyaltyPoints.php">
 									<div class="d-flex align-items-center">
 
-										<div class="tab-title">Loyalty Points</div>
+										<div class="tab-title">Give Away Points</div>
 									</div>
 								</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link  " href="./PointsRedemption.php">
-									<div class="d-flex align-items-center">
-
-										<div class="tab-title">Points Redemption</div>
-									</div>
-								</a>
-							</li>
+		
 
 							<li class="nav-item">
 								<a class="nav-link active" href="./Document.php">
@@ -89,7 +82,7 @@
 									<div class="card-body">
 										<form action="" method="post">
 											<label for="">upload banner image</label> <br>
-											<input id="fancy-file-upload" type="file" name="files" accept=".jpg, .png, image/jpeg, image/png">
+											<input id="fancy-file-upload" class="form-control" type="file" name="files" accept=".jpg, .png, image/jpeg, image/png">
 
 											<div class="mb-3 col-md-12">
 												<label for="input11" class="form-label"></label>

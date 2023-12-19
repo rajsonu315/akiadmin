@@ -10,7 +10,7 @@
     <title> Admin Dashboard</title>
     <?php
     // Define the base URL
-    $base_url = 'http://localhost/akiadmin/'; // Replace with your actual base URL
+    $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
 
     // Example link with the base URL
     ?>
@@ -20,7 +20,7 @@
     <!-- <link href="<?php echo $base_url; ?>assets/extraJS/datatable/css/dataTables.bootstrap5.min.css" rel="stylesheet" /> -->
     <!-- loader-->
     <link href="<?php echo $base_url; ?>assets/extraJS/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="<?php echo $base_url; ?>assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+    <!-- <link href="<?php echo $base_url; ?>assets/extraJS/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" /> -->
     <!-- Bootstrap CSS -->
     <link href="<?php echo $base_url; ?>assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $base_url; ?>assets/css/bootstrap-extended.css" rel="stylesheet">
@@ -31,10 +31,6 @@
     <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/semi-dark.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>assets/css/sweetalert.min.css">
     <link rel='stylesheet' href='<?php echo $base_url; ?>assets/css/bootstrap-select.min.css'>
-
-
-
-
 
 </head>
 
@@ -77,16 +73,23 @@
                         <li> <a href="<?php echo $base_url; ?>Mapping/SalesmanCustomerItemMapping.php"><i class="bx bx-right-arrow-alt"></i>Salesman to customer & item Mapping</a>
                         </li>
                         <li> <a href="<?php echo $base_url; ?>Mapping/CustomerCategoryBrandMapping.php"><i class="bx bx-right-arrow-alt"></i>Customer Category & Brand Mapping Rules:
-                        </a>
+                            </a>
                         </li>
-                       
+
 
                     </ul>
                 </li>
+                <li>
+                    <a href="<?php echo $base_url; ?>NewUserRegister.php">
+                        <div class="parent-icon"> <i class="fadeIn animated bx bx-group"></i>
+                        </div>
+                        <div class="menu-title">New User Register</div>
+                    </a>
+                </li>
 
-                <!-- <li>
+                 <!-- <li>
                     <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><i class="fadeIn animated bx bx-store-alt"></i>
+                        <div class="parent-icon">
                         </div>
                         <div class="menu-title">Orders Details</div>
                     </a>
@@ -99,16 +102,37 @@
                         </li>
 
                     </ul>
-                </li> -->
+                </li>  -->
 
-<!-- 
+           
+
+
+
+                                
+                <li>
+                    <a href="<?php echo $base_url; ?>AllOrder.php">
+                        <div class="parent-icon"> <i class="fadeIn animated bx bx-store-alt"></i>
+                        </div>
+                        <div class="menu-title">Orders Details</div>
+                    </a>
+                </li> 
+
+                 
                 <li>
                     <a href="<?php echo $base_url; ?>CustomerGroup.php">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-group"></i>
                         </div>
                         <div class="menu-title">Customer Group</div>
                     </a>
-                </li> -->
+                </li> 
+
+                <li>
+                    <a href="<?php echo $base_url; ?>bulletin.php">
+                        <div class="parent-icon"> <i class="fadeIn animated bx bx-group"></i>
+                        </div>
+                        <div class="menu-title">bulletin</div>
+                    </a>
+                </li> 
 
                 <!-- <li>
                     <a href="<?php echo $base_url; ?>CategoriesListing.php">
@@ -131,28 +155,53 @@
 
                 <li>
                     <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><i class="fadeIn animated bx bx-gift"></i> 
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-gift"></i>
                         </div>
-                        <div class="menu-title">Loyalty</div>
+                        <div class="menu-title">Loyalty Point & Give Away</div>
                     </a>
                     <ul>
                         <li> <a href="<?php echo $base_url; ?>LoyaltyPoints/LoyaltyList.php"><i class="bx bx-right-arrow-alt"></i>Loyalty Point</a>
                         </li>
-                        <li> <a href="<?php echo $base_url; ?>GiveAway/LoyaltyList.php"><i class="bx bx-right-arrow-alt"></i>Give Away
-                        </a>
+                        <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Loyalty Point Report
+                            </a>
                         </li>
-                       
+                        <li> <a href="<?php echo $base_url; ?>GiveAway/LoyaltyList.php"><i class="bx bx-right-arrow-alt"></i>Give Away
+                            </a>
+                        </li>
+                        <li> <a href="#"><i class="bx bx-right-arrow-alt"></i>Give Away Report
+                            </a>
+                        </li>
+
 
                     </ul>
                 </li>
 
+
+
+
+
+
                 <li>
-                    <a href="<?php echo $base_url; ?>PropsModule/PropsModule.php">
-                        <div class="parent-icon"> <i class="fadeIn animated bx bx-fingerprint"></i>
+                    <a class="has-arrow" href="javascript:;">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-fingerprint"></i>
                         </div>
                         <div class="menu-title">Props Module</div>
                     </a>
+                    <ul>
+                        <li> <a href="<?php echo $base_url; ?>PropsModule/PropsModule.php"><i class="bx bx-right-arrow-alt"></i>Asset List</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>PropsModule/Auditdata.php"><i class="bx bx-right-arrow-alt"></i>Asset Audit
+                            </a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>PropsModule/NewRequest.php"><i class="bx bx-right-arrow-alt"></i>New Request
+                            </a>
+                        </li>
+
+
+                    </ul>
                 </li>
+
+
                 <li>
                     <a href="<?php echo $base_url; ?>BeatManagement/index.php">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-certification"></i>
@@ -162,11 +211,22 @@
                 </li>
 
                 <li>
-                    <a href="<?php echo $base_url; ?>MasterModule/schememaster.php">
-                        <div class="parent-icon"><i class="fadeIn animated bx bx-border-none"></i>
+                    <a class="has-arrow" href="javascript:;">
+                        <div class="parent-icon"><i class="fadeIn animated bx bx-store-alt"></i>
                         </div>
                         <div class="menu-title">Master Module</div>
                     </a>
+                    <ul>
+                        <li> <a href="<?php echo $base_url; ?>MasterModule/custommaster.php"><i class="bx bx-right-arrow-alt"></i>Custom Master</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>MasterModule/salesman-master.php"><i class="bx bx-right-arrow-alt"></i>Salesman Master</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>MasterModule/item-master.php"><i class="bx bx-right-arrow-alt"></i>Item Master</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>MasterModule/sales-hurecky.php"><i class="bx bx-right-arrow-alt"></i>Sales Hurecky</a>
+                        </li>
+
+                    </ul>
                 </li>
 
 
@@ -214,7 +274,7 @@
 
 
                 <li>
-                    <a href="<?php echo $base_url; ?>Liquidation.php">
+                    <a href="<?php echo $base_url; ?>Liquidation/Liquidation.php">
                         <div class="parent-icon"> <i class="lni lni-paint-roller"></i>
                         </div>
                         <div class="menu-title">Liquidation</div>
@@ -260,23 +320,25 @@
                 </li> -->
 
 
-                <!-- <li>
+                <li>
                     <a class="has-arrow" href="javascript:;">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-minus-back"></i>
                         </div>
                         <div class="menu-title">Return Management</div>
                     </a>
                     <ul>
-                        <li> <a href="<?php echo $base_url; ?>ReturnManagementRetailer.php"><i class="bx bx-right-arrow-alt"></i>Retailer</a>
+                        <li> <a href="<?php echo $base_url; ?>Returnlist.php"><i class="bx bx-right-arrow-alt"></i>Return List</a>
                         </li>
-                        <li> <a href="<?php echo $base_url; ?>ReturnManagemenSalesman.php"><i class="bx bx-right-arrow-alt"></i> Salesman</a>
-                        </li>
-                        <li> <a href="<?php echo $base_url; ?>ReturnManagemenMerchandiser.php"><i class="bx bx-right-arrow-alt"></i>Merchandiser</a>
-                        </li>
+
 
 
                     </ul>
-                </li> -->
+                </li>
+
+
+
+
+
                 <!-- <li>
                     <a href="<?php echo $base_url; ?>UsersTrackerMasters.php">
                         <div class="parent-icon"> <i class="lni lni-travel"></i>
@@ -328,21 +390,16 @@
                         </div>
                     </div>
                     <div class="top-menu ms-auto">
-						<ul class="navbar-nav align-items-center">
-							<li class="nav-item mobile-search-icon">
-								<a class="nav-link" href="#">	<i class='bx bx-search'></i>
-								</a>
-							</li>
-
-	
-						
-						</ul>
-					</div>
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item mobile-search-icon">
+                                <a class="nav-link" href="#"> <i class='bx bx-search'></i>
+                                </a>
+                            </li>
 
 
 
-
-
+                        </ul>
+                    </div>
 
 
                     <div class="user-box dropdown">
@@ -365,3 +422,6 @@
                 </nav>
             </div>
         </header>
+
+
+    

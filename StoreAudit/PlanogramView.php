@@ -1,18 +1,4 @@
-<!doctype html>
-<html lang="en" class="semi-dark">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--favicon-->
-
-    <title> Customer Group</title>
-</head>
-
-<body>
-    <!--wrapper-->
-    <div class="wrapper">
         <!--sidebar wrapper -->
         <?php include('../header.php'); ?>
 
@@ -34,11 +20,11 @@
                     <div class="ms-auto">
                         <div class="">
 
-                        <a href="<?php echo $base_url; ?>BeatManagement/BulkImport.php" class="href">
-                            <button type="button" class="btn btn-warning px-5">
-                                <i class="bx bx-cloud-download mr-1"></i> Bulk Import
-                            </button>
-                        </a>
+                            <a href="<?php echo $base_url; ?>BeatManagement/BulkImport.php" class="href">
+                                <button type="button" class="btn btn-warning px-5">
+                                    <i class="bx bx-cloud-download mr-1"></i> Bulk Import
+                                </button>
+                            </a>
                             <a href="<?php echo $base_url; ?>BeatManagement/CreateBeat.php" class="href">
                                 <button type="button" class="btn btn-warning px-5"></i>Beat Creation +</button>
                             </a>
@@ -50,26 +36,26 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="table-responsive">
-                        <div aria-label="Page navigation example ">
+                            <div aria-label="Page navigation example ">
 
-<div class="bx-pull-left">
-    <select class="form-select" id="inputCategory" name="category">
-        <option value="5">5
-        </option>
-        <option value="10">10
-        </option>
-        <option value="20">20
-        </option>
-        <option value="50">50
-        </option>
-    </select>
-</div>
-<ul class="  bx-pull-right">
-    <input type="text" class="form-control" placeholder="search ...">
+                                <div class="bx-pull-left">
+                                    <select class="form-select" id="inputCategory" name="category">
+                                        <option value="5">5
+                                        </option>
+                                        <option value="10">10
+                                        </option>
+                                        <option value="20">20
+                                        </option>
+                                        <option value="50">50
+                                        </option>
+                                    </select>
+                                </div>
+                                <ul class="  bx-pull-right">
+                                    <input type="text" class="form-control" placeholder="search ...">
 
-</ul>
-</div>
-                            
+                                </ul>
+                            </div>
+
                             <table id="example" class="table table-striped table-bordered" style="width:100%">
                                 <thead>
                                     <tr>
@@ -77,7 +63,7 @@
                                         <th>Beat ID</th>
                                         <th>Beat Name</th>
                                         <th>Beat Type</th>
-                                        
+
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -92,46 +78,27 @@
                             </table>
                         </div>
                         <nav aria-label="Page navigation example">
-					<ul class="pagination round-pagination  bx-pull-right">
-						<li class="page-item"><a class="page-link" href="javascript:;">Previous</a>
-						</li>
-						<li class="page-item"><a class="page-link" href="javascript:;javascript:;">1</a>
-						</li>
-						<li class="page-item active"><a class="page-link" href="javascript:;">2</a>
-						</li>
-						<li class="page-item"><a class="page-link" href="javascript:;">3</a>
-						</li>
-						<li class="page-item"><a class="page-link" href="javascript:;">Next</a>
-						</li>
-					</ul>
-				</nav>
-                        
+                            <ul class="pagination round-pagination  bx-pull-right">
+                                <li class="page-item"><a class="page-link" href="javascript:;">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;javascript:;">1</a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="javascript:;">2</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">3</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="javascript:;">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+
                     </div>
                 </div>
 
             </div>
         </div>
         <!--end page wrapper -->
-        <!--start overlay-->
-        <div class="overlay toggle-icon"></div>
-        <!--end overlay-->
-        <!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
-        <!--End Back To Top Button-->
-        <footer class="page-footer">
-            <p class="mb-0">Copyright © 2023. All right reserved.</p>
-        </footer>
-    </div>
+
     <!--end wrapper-->
-	<?php include('../footer.php'); ?>
+    <?php include('../footer.php'); ?>
 
-    <script>
-        $(document).ready(function() {
-            $('#example').DataTable();
-        });
-    </script>
-
-    <!--app JS-->
-    <script src="assets/js/app.js"></script>
-</body>
-
-</html>

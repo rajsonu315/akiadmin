@@ -104,13 +104,22 @@
 													<input type="text" class="form-control" name="datetimes" />
 
 												</div>
-												<div class="mb-3 col-md-6">
-													<label for="SchemeOwner" class="form-label">Loyalty Points Expiry months.</label>
-													<input type="date" class="form-control" id="SchemeOwner" name="SchemeOwner" placeholder="Enter Scheme Type">
+
+
+												<div class="col-md-6 mb-6">
+													<label>Loyalty Points Expiry :(month)</label>
+													<select class="selectpicker" name="Territory" data-actions-box="true" aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" name="Category" id="Company">
+
+														<option value="1">1 </option>
+														<option value="2">2</option>
+														<option value="3">3</option>
+														<option value="4">4</option>
+														<option value="5">5</option>
+													</select>
 												</div>
 
 											</div>
-			
+
 
 
 
@@ -119,7 +128,7 @@
 
 
 											<!-- Add submit button -->
-											<a href="Customer.php">
+											<a href="#">
 												<button type="button" class="btn btn btn-warning px-5 bx-pull-right">Next</button>
 											</a>
 
@@ -156,22 +165,22 @@
 <?php include('../footer.php'); ?>
 
 <script>
-		$(document).ready(function() {
-			$("input[name='datetimes']").daterangepicker({},
-				function(start, end, label) {
-					let startDate = start.format("YYYY-MM-DD").toString();
-					let endDate = end.format("YYYY-MM-DD").toString();
+	$(document).ready(function() {
+		$("input[name='datetimes']").daterangepicker({},
+			function(start, end, label) {
+				let startDate = start.format("YYYY-MM-DD").toString();
+				let endDate = end.format("YYYY-MM-DD").toString();
 
-					// document.getElementById("startDate").innerHTML =
-					// 	"Start date: " + startDate;
-					// document.getElementById("endDate").innerHTML = "End date: " + endDate;
+				// document.getElementById("startDate").innerHTML =
+				// 	"Start date: " + startDate;
+				// document.getElementById("endDate").innerHTML = "End date: " + endDate;
 
-				}
-			);
-		});
-	</script>
+			}
+		);
+	});
+</script>
 
 
 
 <script src='https://cdn.jsdelivr.net/momentjs/latest/moment.min.js'></script>
-	<script src='https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js'></script>

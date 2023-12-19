@@ -89,7 +89,7 @@
 									<div class="card-body">
 										<form action="" method="post">
 											<label for="">upload banner image</label> <br>
-											<input id="fancy-file-upload" type="file" name="files" accept=".jpg, .png, image/jpeg, image/png">
+											<input id="fancy-file-upload" class="form-control" type="file" name="files" accept=".jpg, .png, image/jpeg, image/png">
 
 											<div class="mb-3 col-md-12">
 												<label for="input11" class="form-label"></label>
@@ -112,14 +112,6 @@
 
 
 
-						<!-- <a href="SALESCRITERIA.php" class="href">
-									<button type="submit" class="btn btn-primary bx-pull-right">Next</button>
-								</a>
-								<button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
- -->
-
-
-
 					</div>
 				</div>
 			</div>
@@ -136,97 +128,3 @@
 
 
 
-<!--app JS-->
-
-<script>
-	$(document).ready(function() {
-		var i = 1;
-
-		// Initial Multiselect initialization
-		$('#channel, #sub-channel, #type-channel , #outletChannel').multiselect({
-			nonSelectedText: 'Select ',
-			enableFiltering: true,
-			enableCaseInsensitiveFiltering: true,
-			enableClickableOptGroups: true,
-			enableCollapsibleOptGroups: true,
-			enableFiltering: true,
-			includeSelectAllOption: true
-		});
-
-		$("#add").click(function() {
-			i++;
-
-			// Dynamic IDs for the new row
-			var dynamicIds = {
-				channel: 'channel' + i,
-				subChannel: 'sub-channel' + i,
-				typeChannel: 'type-channel' + i,
-				outletChannel: 'outletChannel' + i
-			};
-
-			// Append the new row with dynamic IDs
-			$('#dynamic_field').append(`
-            <tr>
-                <td>
-                    <div class="row">
-                        <div class="col-md-3 mb-3">
-                            <label>Channel</label>
-                            <select class="form-select" name="Channel" id="${dynamicIds.channel}" multiple="multiple">
-                                <option value="Channel">GT</option>
-                                <option value="Channel2">MT</option>
-                                <option value="Channel3">Self Service</option>
-                            </select>
-                        </div>
-                        <div class="col-md-3 mb-3">
-                            <label>Sub Channel</label>
-                            <select class="form-select" name="subChannel" id="${dynamicIds.subChannel}" multiple="multiple">
-                                <option value="status">Channel 1</option>
-                                <option value="status2">Channel 2</option>
-                                <option value="status3">Channel 3</option>
-                            </select>
-                        </div>
-                        <div class="col-md-3 mb-3">
-                            <label>Type:</label>
-                            <select class="form-select" id="${dynamicIds.typeChannel}" name="TypeChannel" multiple="multiple">
-                                <option value="TypeChannel">Merge Geographical</option>
-                                <option value="TypeChannel2">Retailer into One</option>
-                                <option value="TypeChannel3">Retailer Category</option>
-                            </select>
-                        </div>
-						<div class="col-md-2 mb-3">
-                            <label>Type:</label>
-                            <select class="form-select" id="${dynamicIds.outletChannel}" name="outletChannel" multiple="multiple">
-							                                    <option value="outletChannel">outletChannel </option>
-																<option value="outletChannel2">outletChannel2</option>
-																<option value="outletChannel3">outletChannel3</option>
-                            </select>
-                        </div>
-
-
-                        <div class="col-md-1">
-                            <div class="form-group">
-                                <button type="button" name="remove" class="btn btn-danger btn_remove" style="margin-top: 20px;">X</button>
-                            </div>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-        `);
-
-			// Reinitialize Multiselect for the new row
-			$(`#${dynamicIds.channel}, #${dynamicIds.subChannel}, #${dynamicIds.typeChannel}, #${dynamicIds.outletChannel}`).multiselect({
-				nonSelectedText: 'Select ',
-				enableFiltering: true,
-				enableCaseInsensitiveFiltering: true,
-				enableClickableOptGroups: true,
-				enableCollapsibleOptGroups: true,
-				enableFiltering: true,
-				includeSelectAllOption: true
-			});
-		});
-
-		$(document).on('click', '.btn_remove', function() {
-			$(this).closest('tr').remove();
-		});
-	});
-</script>

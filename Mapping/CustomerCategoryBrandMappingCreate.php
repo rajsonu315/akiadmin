@@ -10,7 +10,7 @@
                     <div class="ps-3">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb mb-0 p-0">
-                                <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+                                <li class="breadcrumb-item"><a href="javascript:"><i class="bx bx-home-alt"></i></a>
                                 </li>
                                 <li class="breadcrumb-item active" aria-current="page">Create New Rule </li>
                             </ol>
@@ -35,8 +35,8 @@
                                     <form action="<?php echo $base_url; ?>Mapping/CustomerMappingCrateing.php">
 
                                         <div class="mb-3">
-                                            <label  class="form-label">Entre rule name </label>
-                                            <input type="text" class="form-control"    name="EntreRuleName ">
+                                            <label for="name"  class="form-label">Entre rule name </label>
+                                            <input type="text" class="form-control"  id="name"   name="EntreRuleName ">
                                         </div>
 
                                       
