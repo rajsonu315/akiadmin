@@ -18,7 +18,7 @@
             </div>
             <div class="ms-auto">
                 <div class="btn-group">
-                    <!-- <button type="button" class="btn btn-primary">Back</button> -->
+                    <!-- <button type="button" class="btn btn-warning ">Back</button> -->
 
                 </div>
             </div>
@@ -35,7 +35,7 @@
                                 <form action="<?php echo $base_url; ?>StoreAudit/Planogram.php">
                                     <div class="mb-3">
                                         <label class="form-label">Brands</label>
-                                        <select class="selectpicker" nam="Brands" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Validity:">
+                                        <select class="selectpicker form-control" nam="Brands" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Validity:">
 
                                             <option value="Validity:">Validity: 1</option>
                                             <option value="Validity:2">Validity: 2</option>
@@ -44,7 +44,7 @@
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">BrandName </label>
-                                        <select class="selectpicker" name="BrandName" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Validity:">
+                                        <select class="selectpicker form-control" name="BrandName" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Validity:">
 
                                             <option value="Validity:">Validity: 1</option>
                                             <option value="Validity:2">Validity: 2</option>
@@ -53,7 +53,7 @@
                                     </div>
                                     <!-- <div class="mb-3">
                                                 <label class="form-label">Subbrand</label>
-                                                <select class="selectpicker" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Validity:">
+                                                <select class="selectpicker form-control" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Validity:">
 
                                                     <option value="Validity:">Validity: 1</option>
                                                     <option value="Validity:2">Validity: 2</option>
@@ -62,7 +62,7 @@
                                             </div>
                                             <div class="mb-3">
                                                 <label class="form-label">Planogram name</label>
-                                                <select class="selectpicker" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Validity:">
+                                                <select class="selectpicker form-control" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Validity:">
 
                                                     <option value="Validity:">Validity: 1</option>
                                                     <option value="Validity:2">Validity: 2</option>
@@ -81,7 +81,7 @@
 
                                     <div class="row">
                                         <div class="d-flex justify-content-star t">
-                                            <button type="submit" class="btn btn-success pb-2">Submit</button>
+                                            <button type="submit" class="btn btn-warning  pb-2">Submit</button>
 
 
 

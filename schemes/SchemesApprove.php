@@ -69,7 +69,7 @@
 										</td>
 										<td>
 											<button class="btn  btn-secondary">view</button>
-                                            <button class="btn btn-success">Approve</button>
+                                            <button class="btn btn-warning ">Approve</button>
                                             <button class="btn btn-danger">Reject</button>
 
 										</td>

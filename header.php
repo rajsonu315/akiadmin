@@ -65,7 +65,7 @@
                 </li>
                 <li>
                     <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><i class="fadeIn animated bx bx-store-alt"></i>
+                        <div class="parent-icon"><i class="lni lni-paint-roller"></i>
                         </div>
                         <div class="menu-title">Mapping</div>
                     </a>
@@ -81,13 +81,13 @@
                 </li>
                 <li>
                     <a href="<?php echo $base_url; ?>NewUserRegister.php">
-                        <div class="parent-icon"> <i class="fadeIn animated bx bx-group"></i>
+                        <div class="parent-icon"> <i class="lni lni-user"></i>
                         </div>
                         <div class="menu-title">New User Register</div>
                     </a>
                 </li>
 
-                 <!-- <li>
+                <!-- <li>
                     <a class="has-arrow" href="javascript:;">
                         <div class="parent-icon">
                         </div>
@@ -104,35 +104,35 @@
                     </ul>
                 </li>  -->
 
-           
 
 
 
-                                
+
+
                 <li>
                     <a href="<?php echo $base_url; ?>AllOrder.php">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-store-alt"></i>
                         </div>
                         <div class="menu-title">Orders Details</div>
                     </a>
-                </li> 
+                </li>
 
-                 
+
                 <li>
                     <a href="<?php echo $base_url; ?>CustomerGroup.php">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-group"></i>
                         </div>
                         <div class="menu-title">Customer Group</div>
                     </a>
-                </li> 
+                </li>
 
                 <li>
                     <a href="<?php echo $base_url; ?>bulletin.php">
-                        <div class="parent-icon"> <i class="fadeIn animated bx bx-group"></i>
+                        <div class="parent-icon"> <i class="lni lni-atlassian"></i>
                         </div>
                         <div class="menu-title">bulletin</div>
                     </a>
-                </li> 
+                </li>
 
                 <!-- <li>
                     <a href="<?php echo $base_url; ?>CategoriesListing.php">
@@ -176,11 +176,6 @@
                     </ul>
                 </li>
 
-
-
-
-
-
                 <li>
                     <a class="has-arrow" href="javascript:;">
                         <div class="parent-icon"><i class="fadeIn animated bx bx-fingerprint"></i>
@@ -212,7 +207,7 @@
 
                 <li>
                     <a class="has-arrow" href="javascript:;">
-                        <div class="parent-icon"><i class="fadeIn animated bx bx-store-alt"></i>
+                        <div class="parent-icon"><i class="lni lni-page-break"></i>
                         </div>
                         <div class="menu-title">Master Module</div>
                     </a>
@@ -253,6 +248,47 @@
 
 
 
+                <li>
+                    <a class="has-arrow" href="javascript:;">
+                        <div class="parent-icon"> <i class="fadeIn animated bx bx-minus-back"></i>
+                        </div>
+                        <div class="menu-title">Report</div>
+                    </a>
+                    <ul>
+                        <li> <a href="<?php echo $base_url; ?>Report/sales/"><i class="bx bx-right-arrow-alt"></i>Sales</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/AssetAuditReport/"><i class="bx bx-right-arrow-alt"></i>Asset Audit Report</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/BeatComplianceReport/"><i class="bx bx-right-arrow-alt"></i>Beat Compliance Report</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/ConsumerSalesTarget/"><i class="bx bx-right-arrow-alt"></i>Consumer Sales Target</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/GiveawayReport/"><i class="bx bx-right-arrow-alt"></i>Giveaway Report</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/Liquidation/"><i class="bx bx-right-arrow-alt"></i>Liquidation</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/Loyalty/"><i class="bx bx-right-arrow-alt"></i>Loyalty</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/PropsAssetAudit/"><i class="bx bx-right-arrow-alt"></i>Props Asset Audit</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/ReceivablesAgeingReport/"><i class="bx bx-right-arrow-alt"></i>Receivables Ageing Report</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/ReturnReport/"><i class="bx bx-right-arrow-alt"></i>Return Report</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/TelecallingReport/"><i class="bx bx-right-arrow-alt"></i>Telecalling Report</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/TradeDealsFormat/"><i class="bx bx-right-arrow-alt"></i>Trade Deals Format</a>
+                        </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/TradeStock/"><i class="bx bx-right-arrow-alt"></i>TradeStock</a>
+                        </li>
+
+
+
+                    </ul>
+                </li>
+
+
+
 
                 <li>
                     <a class="has-arrow" href="javascript:;">
@@ -288,6 +324,14 @@
                         <div class="menu-title">Approvel</div>
                     </a>
                 </li>
+
+                <li>
+                    <a href="<?php echo $base_url; ?>DocumentsUpload">
+                        <div class="parent-icon"> <i class="bx bx-dock-left"></i>
+                        </div>
+                        <div class="menu-title">Documents Upload</div>
+                    </a>
+                </li>   
 
                 <!-- <li>
                     <a href="<?php echo $base_url; ?>PermissionsAccessControl.php">
@@ -422,6 +466,3 @@
                 </nav>
             </div>
         </header>
-
-
-    

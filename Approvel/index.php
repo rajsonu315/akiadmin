@@ -75,7 +75,7 @@
 
 
 
-                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="Approvel" href="Approvel.php" class="btn btn-success"><i class="lni lni-checkmark-circle"></i></a>
+                                        <a data-bs-toggle="tooltip" data-bs-placement="top" title="Approvel" href="Approvel.php" class="btn btn-warning "><i class="lni lni-checkmark-circle"></i></a>
                                         <a data-bs-toggle="tooltip" data-bs-placement="top" title="Rejected" href="Rejected.php" class="btn btn-danger"><i class="lni lni-close"></i> </a>
                                         <a data-bs-toggle="tooltip" data-bs-placement="top" title="clarification" href="clarification.php" class="btn btn-secondary "><i class="lni lni-construction"></i>
                                         </a>

@@ -18,7 +18,7 @@
             </div>
             <div class="ms-auto">
                 <div class="btn-group">
-                    <!-- <button type="button" class="btn btn-primary">Back</button> -->
+                    <!-- <button type="button" class="btn btn-warning ">Back</button> -->
 
                 </div>
             </div>
@@ -46,7 +46,7 @@
                                             <label for=""> c1</label>
 
 
-                                            <select class="selectpicker" id="Country" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                            <select class="selectpicker form-control" id="Country" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
                                                 <option value="1-2">Option 1.2</option>
                                                 <option value="2-3">Option 1.3</option>
                                                 <option value="3-2">Option 1.2</option>
@@ -64,7 +64,7 @@
                                         </div>
                                         <div class="col-md-3 mb-3">
                                             <label for=""> c2</label>
-                                            <select class="selectpicker" id="State" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                            <select class="selectpicker form-control" id="State" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
                                                 <option value="status">status 1</option>
                                                 <option value="status2">status 2</option>
                                                 <option value="status3">status 3</option>
@@ -74,7 +74,7 @@
                                         </div>
                                         <div class="col-md-3 mb-3">
                                             <label for=""> c3</label>
-                                            <select class="selectpicker" id="Region" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                            <select class="selectpicker form-control" id="Region" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
                                                 <option value="status">status 1</option>
                                                 <option value="status2">status 2</option>
                                                 <option value="status3">status 3</option>
@@ -83,7 +83,7 @@
 
                                         <div class="col-md-3 mb-3">
                                             <label for=""> c4</label>
-                                            <select class="selectpicker" id="Area" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                            <select class="selectpicker form-control" id="Area" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
                                                 <option value="status">status 1</option>
                                                 <option value="status2">status 2</option>
                                                 <option value="status3">status 3</option>
@@ -92,7 +92,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="d-flex justify-content-star t">
-                                            <button type="submit" class="btn btn-success pb-2">Create Group</button>
+                                            <button type="submit" class="btn btn-warning  pb-2">Create Group</button>
 
                                             </a>
 

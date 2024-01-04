@@ -133,10 +133,14 @@
 
                             <div class="container my-4">
 
+                   
+
 
                                 <div class="card my-4 shadow">
                                     <div class="card-body">
                                         <div class="row">
+
+
 
                                             <div class="col-md-3">
                                                 <label for="Scheme_Type" class="form-label">Calculation Type</label>
@@ -145,6 +149,9 @@
                                                     <option value="Running">Running</option>
                                                     <option value="Slab_Based">Slab Based</option>
                                                 </select>
+                                                <div class="invalid-feedback">
+                                                    this field is required
+                                                </div>
                                             </div>
 
                                             <div class="col-md-2">
@@ -155,6 +162,9 @@
                                                     <option value="Discount">Discount %</option>
                                                     <option value="Discount_Amount">Discount Amount</option>
                                                 </select>
+                                                <div class="invalid-feedback">
+                                                    this field is required
+                                                </div>
                                             </div>
                                             <div class="col-md-2">
                                                 <label for="FOCtype" class="form-label">FOC Type</label>
@@ -163,6 +173,9 @@
                                                     <option value="inclusive">inclusive</option>
                                                     <option value="exclusive">exclusive</option>
                                                 </select>
+                                                <div class="invalid-feedback">
+                                                    this field is required
+                                                </div>
                                             </div>
 
                                             <div class="col-md-2">
@@ -172,6 +185,9 @@
                                                     <option value="Quantity">Quantity</option>
                                                     <option value="value">value</option>
                                                 </select>
+                                                <div class="invalid-feedback">
+                                                    this field is required
+                                                </div>
                                             </div>
 
 
@@ -183,6 +199,9 @@
                                                     <option value="Pack">Pack</option>
                                                     <option value="CFC">CFC</option>
                                                 </select>
+                                                <div class="invalid-feedback">
+                                                    this field is required
+                                                </div>
                                             </div>
 
 
@@ -197,8 +216,8 @@
 
 
 
-                                        <form class="mt-5" id="Running">
-                                            <button type="button" name="add" id="addOne" class="btn btn-primary bx-pull-right">Add More</button>
+                                        <form class="mt-5 needs-validation" novalidate id="Running">
+                                            <button type="button" name="add" id="addOne" class="btn btn-warning  bx-pull-right">Add More</button>
 
 
                                             <p>Calculation Type: Running, Slab Based
@@ -215,31 +234,55 @@
                                                                 <div class="col-md-3">
                                                                     <div class="form-group">
                                                                         <label for="field" class="hidden-md">On purchase of Qty</label>
-                                                                        <input type="text" id="field" class="form-control" name="field[]" />
+                                                                        <input type="text" id="field" class="form-control" required name="field[]" />
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>FOC Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label for="field" class="hidden-md">FOC SKU</label>
-                                                                        <input type="text" id="field" class="form-control" name="field[]" />
+                                                                        <input type="text" id="field" class="form-control" required name="field[]" />
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>Minimum Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>Maximum Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-1">
@@ -257,8 +300,8 @@
                                         </form>
 
 
-                                        <form class="mt-5" id="Running_Scheme_with_is_Discount_Amount">
-                                            <button type="button" name="add" id="addtwo" class="btn btn-primary bx-pull-right">Add More</button>
+                                        <form class="mt-5 needs-validation" novalidate id="Running_Scheme_with_is_Discount_Amount">
+                                            <button type="button" name="add" id="addtwo" class="btn btn-warning  bx-pull-right">Add More</button>
 
 
 
@@ -272,26 +315,41 @@
                                                                 <div class="col-md-3">
                                                                     <div class="form-group">
                                                                         <label for="field" class="hidden-md">On purchase of Qty</label>
-                                                                        <input type="text" id="field" class="form-control" name="field[]" />
+                                                                        <input type="text" id="field" class="form-control" required name="field[]" />
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>Discount Amount</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>Minimum Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>Maximum Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-1">
@@ -309,8 +367,8 @@
                                         </form>
 
 
-                                        <form class="mt-5" id="Running_Scheme_with_is_Discount_pr">
-                                            <button type="button" name="add" id="addthree" class="btn btn-primary bx-pull-right">Add More</button>
+                                        <form class="mt-5 needs-validation" novalidate id="Running_Scheme_with_is_Discount_pr">
+                                            <button type="button" name="add" id="addthree" class="btn btn-warning  bx-pull-right">Add More</button>
 
                                             <p>If Running Scheme with is Discount %</p>
                                             <table class="table table-bordered table-hover" id="dynamic_fieldthree">
@@ -322,26 +380,38 @@
                                                                 <div class="col-md-3">
                                                                     <div class="form-group">
                                                                         <label for="field" class="hidden-md">On purchase of Qty</label>
-                                                                        <input type="text" id="field" class="form-control" name="field[]" />
+                                                                        <input type="text" id="field" class="form-control" required name="field[]" />
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>Discount %</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>Minimum Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>Maximum Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-1">
@@ -359,8 +429,8 @@
                                         </form>
 
 
-                                        <form class="mt-5" id="Slab_based_scheme_with_FOC">
-                                            <button type="button" name="add" id="addfour" class="btn btn-primary bx-pull-right">Add More</button>
+                                        <form class="mt-5 needs-validation" novalidate id="Slab_based_scheme_with_FOC">
+                                            <button type="button" name="add" id="addfour" class="btn btn-warning  bx-pull-right">Add More</button>
 
 
                                             <p>If Slab based scheme with FOC:</p>
@@ -373,33 +443,48 @@
                                                                 <div class="col-md-3">
                                                                     <div class="form-group">
                                                                         <label for="field" class="hidden-md">Slab id</label>
-                                                                        <input type="text" id="field" class="form-control" name="field[]" />
+                                                                        <input type="text" id="field" class="form-control" required name="field[]" />
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>From Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>To Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>FOC Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>FOC SKU</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-1">
@@ -416,8 +501,8 @@
                                             </table>
                                         </form>
 
-                                        <form class="mt-5" id="Slab_based_scheme_with_Discount_Amount">
-                                            <button type="button" name="add" id="addfive" class="btn btn-primary bx-pull-right">Add More</button>
+                                        <form class="mt-5 needs-validation" novalidate id="Slab_based_scheme_with_Discount_Amount">
+                                            <button type="button" name="add" id="addfive" class="btn btn-warning  bx-pull-right">Add More</button>
 
                                             <p>If Slab based scheme with Discount Amount:</p>
                                             <table class="table table-bordered table-hover" id="dynamic_fieldfive">
@@ -429,26 +514,38 @@
                                                                 <div class="col-md-3">
                                                                     <div class="form-group">
                                                                         <label for="field" class="hidden-md">Slab id</label>
-                                                                        <input type="text" id="field" class="form-control" name="field[]" />
+                                                                        <input type="text" id="field" class="form-control" required name="field[]" />
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>From Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>To Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>Discount Amount</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
 
@@ -468,8 +565,8 @@
                                         </form>
 
 
-                                        <form class="mt-5" id="Slab_based_scheme_with_Discount">
-                                            <button type="button" name="add" id="addsix" class="btn btn-primary bx-pull-right">Add More</button>
+                                        <form class="mt-5 needs-validation" novalidate id="Slab_based_scheme_with_Discount">
+                                            <button type="button" name="add" id="addsix" class="btn btn-warning  bx-pull-right">Add More</button>
 
                                             <p>If Slab based scheme with Discount %:</p>
                                             <table class="table table-bordered table-hover" id="dynamic_fieldsix">
@@ -481,26 +578,38 @@
                                                                 <div class="col-md-3">
                                                                     <div class="form-group">
                                                                         <label for="field" class="hidden-md">Slab id</label>
-                                                                        <input type="text" id="field" class="form-control" name="field[]" />
+                                                                        <input type="text" id="field" class="form-control" required name="field[]" />
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>From Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>To Qty</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-md-2">
                                                                     <div class="form-group">
                                                                         <label>Discount %</label>
-                                                                        <input type="text" class="form-control" name="">
+                                                                        <input type="text" class="form-control" required name="">
+                                                                        <div class="invalid-feedback">
+                                                                            this field is required
+                                                                        </div>
                                                                     </div>
                                                                 </div>
 
@@ -519,7 +628,7 @@
                                             </table>
                                         </form>
                                         <a href="REMARKSATTACHMENTS.php" class="href">
-                                            <button type="submit" class="btn btn-primary bx-pull-right">Next</button>
+                                            <button type="submit" class="btn btn-warning  bx-pull-right">Next</button>
                                         </a>
                                         <button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
 
@@ -1076,6 +1185,3 @@
 
     });
 </script>
-
-
-

@@ -11,7 +11,7 @@
                     <ol class="breadcrumb mb-0 p-0">
                         <li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
                         </li>
-                        <li class="breadcrumb-item active" aria-current="page">Sales Hurecky</li>
+                        <li class="breadcrumb-item active" aria-current="page">Sales Hierarchy</li>
                     </ol>
                 </nav>
             </div>
@@ -98,7 +98,7 @@
                                             <div class="d-flex order-actions">
                                                 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
                                                     <a href="./edititemMaster.php" class="href">
-                                                        <div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
+                                                        <div class="font-22 "> <i class="lni lni-pencil-alt"></i>
                                                         </div>
                                                     </a>
 

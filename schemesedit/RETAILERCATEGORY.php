@@ -143,7 +143,7 @@
 
 														<div class="col-md-3 mb-3">
 															<label>Channel</label>
-															<select name="basic[]" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" class="selectpicker">
+															<select name="basic[]" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" class="selectpicker form-control">
 																<option value="AL">Alabama</option>
 																<option value="AK">Alaska</option>
 																<!-- ... other options ... -->
@@ -152,13 +152,13 @@
 														</div>
 														<div class="col-md-3 mb-3">
 															<label>Sub Channel</label>
-															<select name="basic[]" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" class="selectpicker">
+															<select name="basic[]" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" class="selectpicker form-control">
 															</select>
 														</div>
 
 														<div class="col-md-3 mb-3">
 															<label>Type:</label>
-															<select class="selectpicker" name="TypeChannel" id="TypeChannel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+															<select class="selectpicker form-control" name="TypeChannel" id="TypeChannel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
 
 																<option value="TypeChannel">Merge Geographical </option>
 																<option value="TypeChannel2">Retailer into One</option>
@@ -167,7 +167,7 @@
 														</div>
 														<div class="col-md-3 mb-3">
 															<label>Outlet:</label>
-															<select class="selectpicker" name="outletChannel" id="outletChannel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+															<select class="selectpicker form-control" name="outletChannel" id="outletChannel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
 
 																<option value="outletChannel">outletChannel </option>
 																<option value="outletChannel2">outletChannel2</option>
@@ -190,7 +190,7 @@
 								</form>
 
 								<a href="SALESCRITERIA.php" class="href">
-									<button type="submit" class="btn btn-primary bx-pull-right">Next</button>
+									<button type="submit" class="btn btn-warning  bx-pull-right">Next</button>
 								</a>
 								<button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
 

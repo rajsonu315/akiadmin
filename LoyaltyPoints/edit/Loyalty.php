@@ -108,7 +108,7 @@
 
 												<div class="col-md-6 mb-6">
 													<label>Loyalty Points Expiry :(month)</label>
-													<select class="selectpicker" name="Territory" data-actions-box="true" aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" name="Category" id="Company">
+													<select class="selectpicker form-control" name="Territory" data-actions-box="true" aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" name="Category" id="Company">
 
 														<option value="1">1 </option>
 														<option value="2">2</option>

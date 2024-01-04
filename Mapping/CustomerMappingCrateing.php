@@ -1,11 +1,115 @@
 <?php include('../header.php'); ?>
 
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css">
-<link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>assets/src/bootstrap-duallistbox.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prettify/r298/run_prettify.min.js"></script>
-<script src="<?php echo $base_url; ?>assets/src/jquery.bootstrap-duallistbox.js"></script>
+
+<style>
+    /* .dual-list .list-group {
+        margin-top: 8px;
+    } */
+
+    .list-left li,
+    .list-right li {
+        cursor: pointer;
+    }
+
+    /* .list-arrows {
+        padding-top: 100px;
+    } */
+
+    /* .list-arrows button {
+        margin-bottom: 20px;
+    }  */
+</style>
+
+<style>
+    .form-search {
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.375rem;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+    }
+
+    .selectbox li button:focus {
+        background: rgba(255, 255, 150, .75)
+    }
+
+    .selectbox ul {
+        padding: 0;
+        margin-top: -10px;
+        height: 200px;
+        overflow: scroll;
+        border: 1px solid #ccc;
+        background: #f4f4f4;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        box-shadow: inset 0 3px 6px rgba(0, 0, 0, .1)
+    }
+
+    .selectbox li,
+    .selectbox li button {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        background: #fff;
+    }
+
+    .selectbox li {
+        border-top: 1px solid #eee;
+        padding: 8px 4px;
+        box-shadow: 0 3px 4px rgba(0, 0, 0, .1)
+    }
+
+    .selectbox li.active {
+        padding-left: 10px;
+        position: relative;
+        background: rgb(182 156 111);
+    }
+
+    /* .selectbox .all li.active:before{
+	content: '\2713';
+	position: absolute;
+	left: 5px;
+	color: #888
+}
+.selectbox .selected li.active:before{
+	content: '\2713';
+	position: absolute;
+	left: 5px;
+	color: #888	
+} */
+
+
+
+    select[multiple] {
+        width: 50%;
+        height: 20rem;
+    }
+
+    .selectbox li button {
+        border: none;
+        background: none;
+    }
+
+    .selectbox .filter-bar {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, .2);
+        padding: 0 6px;
+    }
+</style>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
     .btn {
@@ -14,11 +118,11 @@
 </style>
 
 <script>
-    var demo1 = $('select[name="duallistbox_demo1[]"]').bootstrapDualListbox();
-    $("#demoform").submit(function() {
-        alert($('[name="duallistbox_demo1[]"]').val());
-        return false;
-    });
+    // var demo1 = $('select[name="duallistbox_demo1[]"]').bootstrapDualListbox();
+    // $("#demoform").submit(function() {
+    //     alert($('[name="duallistbox_demo1[]"]').val());
+    //     return false;
+    // });
 </script>
 <div class="page-wrapper">
     <div class="page-content">
@@ -51,64 +155,6 @@
                 </div> -->
 
                 <div class="row mb-3">
-                    <h5><b>Sales Channel</b></h5>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label class="mb-1"><b>Select salesman</b></label>
-                            <select class="form-select">
-
-                                <option value="">Test</option>
-                            </select>
-                        </div>
-                    </div>
-                    <!-- <div class="col-md-3">
-                        <div class="form-group mt-2">
-                            <label class="mb-1"><b>Sales Channel</b></label>
-                            <input type="text" class="form-control">
-                        </div>
-                    </div> -->
-                    
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <select multiple="multiple" size="10" name="duallistbox_demo2" class="demo2">
-
-                            <option value="option1">Option 1</option>
-                            <option value="option2">Option 2</option>
-                            <option value="option3">Option 3</option>
-                            <option value="option4">Option 4</option>
-                            <option value="option5">Option 5</option>
-                            <option value="option6">Option 6</option>
-                            <option value="option7">Option 7</option>
-                            <option value="option8">Option 8</option>
-                            <option value="option9">Option 9</option>
-                            <option value="option0">Option 10</option>
-                            <option value="option0">Option 11</option>
-                            <option value="option0">Option 12</option>
-                            <option value="option0">Option 13</option>
-                            <option value="option0">Option 14</option>
-                            <option value="option0">Option 15</option>
-                            <option value="option0">Option 16</option>
-                            <option value="option0">Option 17</option>
-                            <option value="option0">Option 18</option>
-                            <option value="option0">Option 19</option>
-                            <option value="option0">Option 20</option>
-                        </select>
-                        <script>
-                            var demo2 = $('.demo2').bootstrapDualListbox({
-                                nonSelectedListLabel: 'Non-selected',
-                                selectedListLabel: 'Selected',
-                                preserveSelectionOnMove: 'moved',
-                                moveOnSelect: false,
-                                nonSelectedFilter: ''
-                            });
-                        </script>
-                    </div>
-                </div>
-
-                <hr />
-                <div class="row mb-3">
                     <h5><b>Terriority</b></h5>
                     <!-- <div class="col-md-3">
                         <div class="form-group mt-2">
@@ -119,7 +165,7 @@
                     <div class="col-md-3">
                         <div class="form-group mt-2">
                             <label class="mb-1"><b>Terriority1</b></label>
-                             <select class="form-select">
+                            <select class="form-select">
 
                                 <option value="">Test</option>
                             </select>
@@ -128,7 +174,7 @@
                     <div class="col-md-3">
                         <div class="form-group mt-2">
                             <label class="mb-1"><b>Terriority2</b></label>
-                             <select class="form-select">
+                            <select class="form-select">
 
                                 <option value="">Test</option>
                             </select>
@@ -137,33 +183,147 @@
                     <div class="col-md-3">
                         <div class="form-group mt-2">
                             <label class="mb-1"><b>Terriority3</b></label>
-                             <select class="form-select">
+                            <select class="form-select">
 
                                 <option value="">Test</option>
                             </select>
                         </div>
                     </div>
-                   
-                    
+
+
                 </div>
 
-                
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class='selectbox'>
+
+
+                        <div class='row'>
+                                        <div class='col-sm-6'>
+
+                                            <div class="dual-list list-left col-md-12">
+                                                <div class="well text-right">
+                                                    <div class="row">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="btn-group">
+                                                                    <a class="btn btn-warning px-4 flex-shrink-0 btn-sm btn-default selector" title="select all"></i>select all</a>
+                                                                    <div class='filter-group d-flex align-items-center'>
+
+                                                                        <div class="list-arrows col-md-1 text-center">
+                                                                            <button type="button" class=" action btn btn btn-warning px-4 flex-shrink-0 btn-sm btn btn-default btn-sm move-right">
+                                                                                Add
+                                                                            </button>
+
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="col-md-6">
+                                                                <div class='d-flex'>
+                                                                    <div class='filter-group'>
+                                                                        <label for="search_" class='form-label'>
+                                                                            <input type="text" id="search_" name="SearchDualList" class="form-search" data-action='filter-selected' placeholder="search" />
+                                                                    </div>
+
+
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+
+
+                                                    </div>
+                                                    <div class="d-flex justify-content-between pb-2">
+                                                        <!-- <input type="checkbox" name="" class="form-check" value="SelectAll" id="selectAllCheckbox"> -->
+                                                        <li>Item Code</li>
+                                                        <li>Item Name</li>
+                                                    </div>
+
+
+                                                    <ul class="list-group" id="AllocateItem">
+
+
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class='col-sm-6'>
+
+                                            <div class="dual-list list-right col-md-12">
+                                                <div class="well">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="btn-group">
+                                                                <a class="btn btn-warning px-4 flex-shrink-0 btn-sm btn-default selector" title="select all"></i>select all</a>
+                                                                <div class='filter-group d-flex align-items-center'>
+
+                                                                    <div class="list-arrows col-md-1 text-center">
+                                                                        <button class="action btn btn btn-warning px-4 flex-shrink-0 btn-sm btn btn-default btn-sm move-left">
+                                                                            Remove
+                                                                        </button>
+
+
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                        <div class="col-md-6">
+                                                            <div class='d-flex'>
+                                                                <div class='filter-group'>
+                                                                    <input type="text" name="SearchDualList" class="form-search" placeholder="search" />
+
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="d-flex justify-content-between pb-2">
+                                                        <!-- <input type="checkbox" name="" class="form-check" value="SelectAll" id="selectAllCheckbox"> -->
+                                                        <li>Item Code</li>
+                                                        <li>Item Name</li>
+                                                    </div>
+                                                    <ul class="list-group" id="list-left">
+                                                        <!-- Add more list items with unique names as needed -->
+
+                                                    </ul>
+
+
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                    
+
+     
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+
+
 
                 <hr />
                 <div class="row mb-3">
                     <h5><b>Product Line</b></h5>
-                    <!-- <div class="col-md-3">
-                        <div class="form-group mt-2">
-                            <label class="mb-1"><b>Brand</b></label>
-                            <input type="text" class="form-control">
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="form-group mt-2">
-                            <label class="mb-1"><b>Item Code</b></label>
-                            <input type="text" class="form-control">
-                        </div>
-                    </div> -->
+
                     <div class="col-md-4">
                         <div class="form-group mt-2">
                             <label class="mb-1"><b>Category 1</b></label>
@@ -192,66 +352,289 @@
                             </select>
                         </div>
                     </div>
-                   
-                    
+                    <div class="col-md-6">
+                        <div class="form-group mt-2">
+                            <label class="mb-1"><b>Brand</b></label>
+                            <select class="form-select">
+
+                                <option value="">Test</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group mt-2">
+                            <label class="mb-1"><b>sub-Brand</b></label>
+                            <select class="form-select">
+
+                                <option value="">Test</option>
+                            </select>
+                        </div>
+                    </div>
+
+
                 </div>
 
                 <div class="row">
                     <div class="col-md-12">
-                        <select multiple="multiple" size="10" name="duallistbox_demo2" class="demo2">
+                        <div class='selectbox'>
 
-                            <option value="option1">Brand 1</option>
-                            <option value="option2">Brand 2</option>
-                            <option value="option3">Brand 3</option>
-                            <option value="option4">Brand 4</option>
-                            <option value="option5">Brand 5</option>
-                            <option value="option6">Brand 6</option>
-                            <option value="option7">Brand 7</option>
-                            <option value="option8">Brand 8</option>
-                            <option value="option9">Brand 9</option>
-                            <option value="option0">Brand 10</option>
-                           
-                        </select>
-                        <script>
-                            var demo2 = $('.demo2').bootstrapDualListbox({
-                                nonSelectedListLabel: 'Non-selected',
-                                selectedListLabel: 'Selected',
-                                preserveSelectionOnMove: 'moved',
-                                moveOnSelect: false,
-                                nonSelectedFilter: ''
-                            });
-                        </script>
+                            <div class='row'>
+                                <div class='col-sm-6'>
+
+                                    <div class="dual-list Customerlist-left col-md-12">
+                                        <div class="well text-right">
+                                            <div class="row">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="btn-group">
+                                                            <a class="btn btn-warning px-4 flex-shrink-0 btn-sm btn-default selectorCustomer" title="select all"></i>select all</a>
+                                                            <div class='filter-group d-flex align-items-center'>
+
+                                                                <div class="list-arrowsone col-md-1 text-center">
+                                                                    <button type="button" class=" action btn btn btn-warning px-4 flex-shrink-0 btn-sm btn btn-default btn-sm move-right_click">
+                                                                        Add
+                                                                    </button>
+
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="col-md-6">
+                                                        <div class='d-flex'>
+                                                            <div class='filter-group'>
+                                                                <label for="search_" class='form-label'>
+                                                                    <input type="text" id="search_" name="SearchDualList" class="form-search" data-action='filter-selected' placeholder="search" />
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+
+
+                                            </div>
+                                            <div class="d-flex justify-content-between pb-2">
+                                                <!-- <input type="checkbox" name="" class="form-check" value="SelectAll" id="selectAllCheckbox"> -->
+                                                <li>Customer Code</li>
+                                                <li>Customer Name</li>
+                                            </div>
+
+
+                                            <ul class="Customer_Code" id="AllocateItem">
+
+
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class='col-sm-6'>
+
+                                    <div class="dual-list Customerlist-right col-md-12">
+                                        <div class="well">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="btn-group">
+                                                        <a class="btn btn-warning px-4 flex-shrink-0 btn-sm btn-default selectorCustomer" title="select all"></i>select all</a>
+                                                        <div class='filter-group d-flex align-items-center'>
+
+                                                            <div class="list-arrowsone col-md-1 text-center">
+                                                                <button class="action btn btn btn-warning px-4 flex-shrink-0 btn-sm btn btn-default btn-sm move-left_click">
+                                                                    Remove
+                                                                </button>
+
+
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col-md-6">
+                                                    <div class='d-flex'>
+                                                        <div class='filter-group'>
+                                                            <input type="text" name="SearchDualList" class="form-search" placeholder="search" />
+
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="d-flex justify-content-between pb-2">
+                                                <!-- <input type="checkbox" name="" class="form-check" value="SelectAll" id="selectAllCheckbox"> -->
+                                                <li>Customer Code</li>
+                                                <li>Customer Name</li>
+                                            </div>
+                                            <ul class="Customer_Code" id="list-left">
+                                                <!-- Add more list items with unique names as needed -->
+
+                                                <li class="Customer_Code-item active" data-item-id="77">
+                                                    DPH
+                                                    <span class="badge btn-warning  rounded-pill bx-pull-right">77</span>
+                                                </li>
+
+                                                <li class="Customer_Code-item active" data-item-id="77">
+                                                    DPH
+                                                    <span class="badge btn-warning  rounded-pill bx-pull-right">77</span>
+                                                </li>
+
+                                            </ul>
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="ms-auto d-flex gap-2 mt-2">
-                        <div class="">
-                            <a href="" class="href">
-                                <button type="button" class="btn btn-warning px-5"></i>Download Current Mapping</button>
-                            </a>
-                        </div>
-                        <div class="">
-                            <a href="" class="href">
-                                <button type="button" class="btn btn-warning px-5"></i>Upload New Mapping</button>
-                            </a>
-                        </div>
+                    <div class="">
+                        <a href="" class="href">
+                            <button type="button" class="btn btn-warning px-5"></i>Download Current Mapping</button>
+                        </a>
                     </div>
+                    <div class="">
+                        <a href="" class="href">
+                            <button type="button" class="btn btn-warning px-5"></i>Upload New Mapping</button>
+                        </a>
+                    </div>
+                </div>
 
-                    <div class="ms-auto d-flex justify-content-end gap-2 mt-3">
-                        <div class="">
-                            <a href="" class="href">
-                                <button type="button" class="btn btn-warning px-5"></i>Cancel</button>
-                            </a>
-                        </div>
-                        <div class="">
-                            <a href="" class="href">
-                                <button type="button" class="btn btn-warning px-5"></i>Submit</button>
-                            </a>
-                        </div>
+                <div class="ms-auto d-flex justify-content-end gap-2 mt-3">
+                    <div class="">
+                        <a href="" class="href">
+                            <button type="button" class="btn btn-warning px-5"></i>Cancel</button>
+                        </a>
                     </div>
+                    <div class="">
+                        <a href="" class="href">
+                            <button type="button" class="btn btn-warning px-5"></i>Submit</button>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 <?php include('../footer.php'); ?>
+
+<script>
+    const jsonData = {
+        "status": true,
+        "message": "Category Detail",
+        "result": [{
+                "id": 77,
+                "parent_id": 1,
+                "channel_id": 1,
+                "name": "DPH",
+                "description": "DPH",
+                "slug": "dph"
+            },
+            {
+                "id": 173,
+                "parent_id": 16,
+                "channel_id": 1,
+                "name": "FACE CARE",
+                "description": "FACE CARE",
+                "slug": "face-care"
+            },
+            {
+                "id": 184,
+                "parent_id": 15,
+                "channel_id": 1,
+                "name": "PROTEIN SNACK",
+                "description": "PROTEIN SNACK",
+                "slug": "protein-snack"
+            },
+            {
+                "id": 176,
+                "parent_id": 19,
+                "channel_id": 1,
+                "name": "BABY CARE",
+                "description": "BABY CARE",
+                "slug": "baby-care"
+            },
+            {
+                "id": 218,
+                "parent_id": 28,
+                "channel_id": 1,
+                "name": "PERSONAL CARE",
+                "description": "PERSONAL CARE",
+                "slug": "personal-care"
+            },
+        ]
+    };
+
+    // Create HTML for each item
+    const html = jsonData.result.map(item => `
+            <li class="Customer_Code-item" data-item-id="${item.id}">
+                ${item.name}
+                <span class="badge btn-warning  rounded-pill bx-pull-right">${item.id}</span>
+            </li>
+        `).join('');
+
+    // Append HTML to the list
+    document.querySelector('.Customer_Code').innerHTML = html;
+</script>
+
+
+
+<script>
+    function getListValues(itemSelector) {
+        return $(itemSelector).map(function() {
+            return $(this).data('item-id');
+        }).get();
+    }
+
+    // Wait for the document to be ready
+    $('#formid').on('submit', function(e) {
+        e.preventDefault(); // Prevent the default form submission
+
+        // Get values from left and right lists
+        var leftDataItemIds = getListValues(".list-left ul li");
+        var rightDataItemIds = getListValues(".list-right ul li");
+
+        var leftDataItemIdsCustomer = getListValues(".Customerlist-left ul li", 'item-id');
+        var rightDataItemIdsCustomer = getListValues(".Customerlist-right ul li", 'item-id');
+
+
+        var formData = {};
+
+        // // Collect input values
+        // $('input').each(function() {
+        //     formData[$(this).attr('name')] = $(this).val();
+        // });
+
+        // Collect select values
+        $('select').each(function() {
+            formData[$(this).attr('name')] = $(this).val();
+        });
+
+        var allData = {
+            AllocateItem: rightDataItemIds,
+            AllocateCustomer: rightDataItemIdsCustomer,
+            formData: formData
+        };
+
+        // Log the combined JSON object
+        console.log('All Data:', JSON.stringify(allData));
+
+        // Additional processing or AJAX request can be added here
+    });
+</script>

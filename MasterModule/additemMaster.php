@@ -47,7 +47,7 @@
                                             </div>
                                             <!-- Add submit button -->
                                             <a href="#">
-                                                <button type="button" class="btn btn-primary bx-pull-right">Submit</button>
+                                                <button type="button" class="btn btn-warning  bx-pull-right">Submit</button>
                                             </a>
                                             <br><br>
                                         </form>

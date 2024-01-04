@@ -128,7 +128,7 @@
                                                 <h6 class="mb-0">Retailers (6) | Legend : <span class="text-success"><i class="lni lni-checkmark"></i> Inclusive</span> <span class="text-danger"><i class="lni lni-close"></i> Exclusive</span></h6>
                                             </div>
                                             <div class="dropdown ms-auto">
-                                                <button type="button" id="addButton" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary">Add</button>
+                                                <button type="button" id="addButton" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-warning ">Add</button>
                                             </div>
                                         </div>
                                     </div>
@@ -174,7 +174,7 @@
 
 
                                 <a href="" class="href">
-                                    <button type="submit" class="btn btn-primary bx-pull-right">Next</button>
+                                    <button type="submit" class="btn btn-warning  bx-pull-right">Next</button>
                                 </a>
                                 <button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
 

@@ -20,7 +20,8 @@ $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
 </div>
 <!--end wrapper-->
 
-
+<!-- <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/3722a220-aacb-46ea-97ba-43f562315439/webchat/config.js" defer></script> -->
 
 <script src="<?php echo $base_url; ?>assets/js/jquery.min.js"></script>
 
@@ -34,8 +35,31 @@ $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
 <!-- <script src="<?php echo $base_url; ?>assets/extraJS/perfect-scrollbar/js/perfect-scrollbar.js"></script> -->
 <script src="<?php echo $base_url; ?>assets/js/sweetalert.min.js"></script>
 <script src="<?php echo $base_url; ?>assets/js/app.js"></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js'></script>
 
+<script src="<?php echo $base_url; ?>assets/js/editor.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js'></script>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+    })()
+</script>
 
 </body>
 

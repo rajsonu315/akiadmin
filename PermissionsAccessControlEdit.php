@@ -18,7 +18,7 @@
                     </div>
                     <div class="ms-auto">
                         <div class="btn-group">
-                            <!-- <button type="button" class="btn btn-primary">Back</button> -->
+                            <!-- <button type="button" class="btn btn-warning ">Back</button> -->
 
                         </div>
                     </div>
@@ -65,7 +65,7 @@
 
                                         <div class="col-12">
                                             <div class="d-grid">
-                                                <button type="button" class="btn btn-primary">Save Changes</button>
+                                                <button type="button" class="btn btn-warning ">Save Changes</button>
                                             </div>
                                         </div>
                                     </div>

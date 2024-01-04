@@ -95,7 +95,7 @@
 
 
                                                     <label>Territory Level 1:</label>
-                                                    <select class="selectpicker" name="Territory" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                                                    <select class="selectpicker form-control" name="Territory" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                                                         <option value="Company">Company 1</option>
                                                         <option value="Company2">Company 2</option>
@@ -107,7 +107,7 @@
 
 
                                                     <label>Territory Level 2:</label>
-                                                    <select class="selectpicker" name="Territory" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                                                    <select class="selectpicker form-control" name="Territory" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                                                         <option value="Company">Company 1</option>
                                                         <option value="Company2">Company 2</option>
@@ -119,7 +119,7 @@
 
 
                                                     <label>Territory Level 3:</label>
-                                                    <select class="selectpicker" name="Territory" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                                                    <select class="selectpicker form-control" name="Territory" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                                                         <option value="Company">Company 1</option>
                                                         <option value="Company2">Company 2</option>
@@ -130,7 +130,7 @@
 
 
                                                     <label>Channel:</label>
-                                                    <select class="selectpicker" name="Channel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                                                    <select class="selectpicker form-control" name="Channel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                                                         <option value="Company">Company 1</option>
                                                         <option value="Company2">Company 2</option>
@@ -141,7 +141,7 @@
 
 
                                                     <label>Select Customer:</label>
-                                                    <select class="selectpicker" name="Select Customer" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                                                    <select class="selectpicker form-control" name="Select Customer" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                                                         <option value="Company">Company 1</option>
                                                         <option value="Company2">Company 2</option>
@@ -171,7 +171,7 @@
 
 
                         <!-- <a href="SALESCRITERIA.php" class="href">
-									<button type="submit" class="btn btn-primary bx-pull-right">Next</button>
+									<button type="submit" class="btn btn-warning  bx-pull-right">Next</button>
 								</a>
 								<button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
  -->

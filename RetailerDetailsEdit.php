@@ -18,7 +18,7 @@
             </div>
             <div class="ms-auto">
                 <div class="btn-group">
-                    <!-- <button type="button" class="btn btn-primary">Back</button> -->
+                    <!-- <button type="button" class="btn btn-warning ">Back</button> -->
 
                 </div>
             </div>
@@ -107,7 +107,7 @@
                                     </div>
                                 </div>
 
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-warning ">Submit</button>
                             </form>
                         </div>
                     </div><!--end row-->

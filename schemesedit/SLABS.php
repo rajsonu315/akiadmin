@@ -199,7 +199,7 @@
 
 
                                                 <form class="mt-5" id="Running">
-                                                    <button type="button" name="add" id="addOne" class="btn btn-primary bx-pull-right">Add More</button>
+                                                    <button type="button" name="add" id="addOne" class="btn btn-warning  bx-pull-right">Add More</button>
 
 
                                                     <p>Calculation Type: Running, Slab Based
@@ -259,7 +259,7 @@
 
 
                                                 <form class="mt-5" id="Running_Scheme_with_is_Discount_Amount">
-                                                    <button type="button" name="add" id="addtwo" class="btn btn-primary bx-pull-right">Add More</button>
+                                                    <button type="button" name="add" id="addtwo" class="btn btn-warning  bx-pull-right">Add More</button>
 
 
 
@@ -311,7 +311,7 @@
 
 
                                                 <form class="mt-5" id="Running_Scheme_with_is_Discount_pr">
-                                                    <button type="button" name="add" id="addthree" class="btn btn-primary bx-pull-right">Add More</button>
+                                                    <button type="button" name="add" id="addthree" class="btn btn-warning  bx-pull-right">Add More</button>
 
                                                     <p>If Running Scheme with is Discount %</p>
                                                     <table class="table table-bordered table-hover" id="dynamic_fieldthree">
@@ -361,7 +361,7 @@
 
 
                                                 <form class="mt-5" id="Slab_based_scheme_with_FOC">
-                                                    <button type="button" name="add" id="addfour" class="btn btn-primary bx-pull-right">Add More</button>
+                                                    <button type="button" name="add" id="addfour" class="btn btn-warning  bx-pull-right">Add More</button>
 
 
                                                     <p>If Slab based scheme with FOC:</p>
@@ -418,7 +418,7 @@
                                                 </form>
 
                                                 <form class="mt-5" id="Slab_based_scheme_with_Discount_Amount">
-                                                    <button type="button" name="add" id="addfive" class="btn btn-primary bx-pull-right">Add More</button>
+                                                    <button type="button" name="add" id="addfive" class="btn btn-warning  bx-pull-right">Add More</button>
 
                                                     <p>If Slab based scheme with Discount Amount:</p>
                                                     <table class="table table-bordered table-hover" id="dynamic_fieldfive">
@@ -470,7 +470,7 @@
 
 
                                                 <form class="mt-5" id="Slab_based_scheme_with_Discount">
-                                                    <button type="button" name="add" id="addsix" class="btn btn-primary bx-pull-right">Add More</button>
+                                                    <button type="button" name="add" id="addsix" class="btn btn-warning  bx-pull-right">Add More</button>
 
                                                     <p>If Slab based scheme with Discount %:</p>
                                                     <table class="table table-bordered table-hover" id="dynamic_fieldsix">
@@ -520,7 +520,7 @@
                                                     </table>
                                                 </form>
                                                 <a href="REMARKSATTACHMENTS.php" class="href">
-                                                    <button type="submit" class="btn btn-primary bx-pull-right">Next</button>
+                                                    <button type="submit" class="btn btn-warning  bx-pull-right">Next</button>
                                                 </a>
                                                 <button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
 

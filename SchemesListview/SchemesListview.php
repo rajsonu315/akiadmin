@@ -145,7 +145,7 @@
                                                                 <label class="col-sm-3 col-form-label"></label>
                                                                 <div class="col-sm-9">
                                                                     <div class="d-md-flex d-grid align-items-center gap-3">
-                                                                        <button type="submit" class="btn btn-success px-4" name="submit2">Submit</button>
+                                                                        <button type="submit" class="btn btn-warning  px-4" name="submit2">Submit</button>
                                                                         <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
                                                                     </div>
                                                                 </div>
@@ -217,7 +217,7 @@
 
 
                                 <div class="d-flex flex-column align-items-center text-center">
-                                    <!-- <img src="../assets/images/avatars/avatar-2.png" alt="Admin" class="rounded-circle p-1 bg-primary" width="110"> -->
+                                    <!-- <img src="../assets/images/avatars/avatar-2.png" alt="Admin" class="rounded-circle p-1 btn-warning " width="110"> -->
                                     <div class="mt-3">
                                         <h4>Schemes test</h4>
                                         <p class="text-secondary mb-1">Schemes testr</p>

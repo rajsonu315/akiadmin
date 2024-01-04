@@ -2,6 +2,9 @@
 <?php include('../header.php'); ?>
 
 
+
+
+
 <!--end header -->
 <!--start page wrapper -->
 <div class="page-wrapper">
@@ -138,52 +141,58 @@
 
 
 
-
-
-
-
-
-
-
-						<form class="mt-5" id="add_name">
-							<table class="table table-bordered table-hover" id="dynamic_field">
-								<td>
+						<form action="SALESCRITERIA.php" method="post"  id="add_name" class="needs-validation" novalidate>
+							<div class="" id="dynamic_field">
+								<div>
 									<div class="row" style="align-items: center;">
 										<div class="col-md-12 dynamic-field" id="dynamic-field-1">
 											<div class="row">
 
 												<div class="col-md-3 mb-3">
 													<label>Channel</label>
-													<select name="basic[]" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" class="selectpicker">
-														<option value="AL">Alabama</option>
-														<option value="AK">Alaska</option>
-														<!-- ... other options ... -->
-														<option value="WY">Wyoming</option>
-													</select>
+													<select name="basic[]" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" class="selectpicker form-control" required >
+													<option value="TypeChannel">Merge Geographical </option>
+
+												</select>
+													<div class="invalid-feedback">
+                                                this field is required
+                                            </div>
 												</div>
 												<div class="col-md-3 mb-3">
 													<label>Sub Channel</label>
-													<select name="basic[]" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" class="selectpicker">
-													</select>
+													<select name="basic[]" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" class="selectpicker form-control" required >
+													<option value="TypeChannel">Merge Geographical </option>
+
+												</select>
+													<div class="invalid-feedback">
+                                                this field is required
+                                            </div>
 												</div>
 
 												<div class="col-md-3 mb-3">
 													<label>Type:</label>
-													<select class="selectpicker" name="TypeChannel" id="TypeChannel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+													<select class="selectpicker form-control" required  name="TypeChannel" id="TypeChannel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
 
 														<option value="TypeChannel">Merge Geographical </option>
 														<option value="TypeChannel2">Retailer into One</option>
 														<option value="TypeChannel3">Retailer Category</option>
 													</select>
+													<div class="invalid-feedback">
+                                                this field is required
+                                            </div>
 												</div>
 												<div class="col-md-3 mb-3">
 													<label>Outlet:</label>
-													<select class="selectpicker" name="outletChannel" id="outletChannel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+													<select class="selectpicker form-control" required   name="outletChannel" id="outletChannel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
 
 														<option value="outletChannel">outletChannel </option>
 														<option value="outletChannel2">outletChannel2</option>
 														<option value="outletChannel3">outletChannel3</option>
 													</select>
+													
+													<div class="invalid-feedback">
+                                                this field is required
+                                            </div>
 												</div>
 
 												<div class="col-md-3">
@@ -195,17 +204,18 @@
 										</div>
 
 									</div>
-								</td>
+								</div>
 
-							</table>
+							</div>
+                            <button type="submit" class="btn btn-warning  bx-pull-right">Next</button>
+						
+						     <button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
+
+
 						</form>
 
-						<a href="SALESCRITERIA.php" class="href">
-							<button type="submit" class="btn btn-primary bx-pull-right">Next</button>
-						</a>
-						<button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
-
-
+					
+		
 
 
 					</div>
@@ -223,3 +233,4 @@
 <?php include('../footer.php'); ?>
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js'></script>
+

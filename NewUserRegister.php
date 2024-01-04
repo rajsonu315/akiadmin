@@ -64,14 +64,18 @@
                     <table id="example" class="table table-striped table-bordered" style="width:100%">
                         <thead>
                             <tr>
-                                <th>Return ID</th>
-                                <th>Salesman ID</th>
-                                <th>Salesman ID</th>
-                                <th>Salesman ID</th>
-                                <th>Approval Status</th>
-                                <th>Outlet Name
-                                </th>
-
+                                <th>Sr. no.</th>
+                                <th>Name</th>
+                                <th>Mobile No.</th>
+                                <th>Email</th>
+                                <th>TRN No</th>
+                                <th>Outlet Name</th>
+                                <th>Outlet Address,</th>
+                                <th>Retailer Type</th>
+                                <th>Trade License</th>
+                              
+                                <th>Date</th>
+                                <th>Status</th>
                                 <th>Actions</th>
 
                             </tr>
@@ -84,6 +88,12 @@
                                 <td>test</td>
                                 <td>test</td>
                                 <td>test</td>
+                                <td>test</td>
+                                <td>test</td>
+                                <td><img src="https://codervent.com/rocker/demo/vertical/assets/images/products/01.png" class="product-img-2" alt="product img"></td>
+                               
+                                <td>21-12-23</td>
+                                <td>Approve</td>
 
                                 <td>
 
@@ -93,14 +103,14 @@
                                     <div class="d-flex order-actions">
                                         <!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
 													<a href="./RetailerDetailsEdit.php" class="href">
-														<div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
+														<div class="font-22 "> <i class="lni lni-pencil-alt"></i>
 														</div>
 													</a>
 
 												</div> -->
 
                                         <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
-                                            <a href="./NewUserRegisterApprove.php" class="href">
+                                            <a href="./NewUserRegisterView.php" class="href">
                                                 <div class="font-22 "> <i class="lni lni-eye"></i>
                                                 </div>
                                             </a>

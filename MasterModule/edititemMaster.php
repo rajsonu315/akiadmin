@@ -48,9 +48,9 @@
 
 
                                             <!-- Add submit button -->
-                                            <a href="#">
-                                                <button type="button" class="btn btn-primary bx-pull-right">Submit</button>
-                                            </a>
+                                            
+                                                <button type="button" class="btn btn-warning px-5 bx-pull-right">Submit</button>
+                                            
                                             <br><br>
                                         </form>
                                     </div>

@@ -54,8 +54,82 @@
                         <div class="row">
                             <div class="col-md-3 pb-2">
                                 <label>Scheme ID:</label>
-                                <select class="selectpicker " id="one" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <select class="selectpicker form-control" id="one" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
 
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    
+                                </select>
+
+                            </div>
+
+                            <div class="col-md-3 pb-2">
+                                <label>Scheme ID:</label>
+
+                                <select class="selectpicker form-control" id="two" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+
+                                </select>
+                            </div>
+
+
+                            <div class="col-md-3 pb-2">
+                                <label>Scheme ID:</label>
+                                <select class="selectpicker form-control" id="one" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
                                     <option value="1">One</option>
                                     <option value="2">Two</option>
                                     <option value="3">Three</option>
@@ -68,36 +142,11 @@
 
                             </div>
 
-                            <div class="col-md-3 pb-2">
-                                <label>Scheme ID:</label>
-
-                                <select class="selectpicker " id="two" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
-
-                                </select>
-                            </div>
-
-
-                            <div class="col-md-3 pb-2">
-                                <label>Scheme ID:</label>
-                                <select class="selectpicker " id="one" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
-
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                    <option value="4">Four</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                    <option value="4">Four</option>
-                                </select>
-
-                            </div>
-
 
                             <div class="col-md-3 pb-2">
                                 <label>Scheme ID:</label>
 
-                                <select class="selectpicker " id="two" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <select class="selectpicker form-control" id="two" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
 
                                 </select>
                             </div>
@@ -106,7 +155,7 @@
 
 
                                 <label>Scheme ID::</label>
-                                <select class="selectpicker" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Scheme ID:" id="Company">
+                                <select class="selectpicker form-control" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Scheme ID:" id="Company">
 
                                     <option value="Scheme ID:">Scheme ID: 1</option>
                                     <option value="Scheme ID:2">Scheme ID: 2</option>
@@ -117,7 +166,7 @@
                             <div class="col-md-3 mb-3  ">
 
                                 <label>Scheme Type::</label>
-                                <select class="selectpicker" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Scheme Type:" id="Category">
+                                <select class="selectpicker form-control" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Scheme Type:" id="Category">
 
                                     <option value="Scheme Type:">Scheme Type: 1</option>
                                     <option value="Scheme Type:2">Scheme Type: 2</option>
@@ -128,7 +177,7 @@
                             <div class="col-md-3 mb-3 ">
 
                                 <label>DMS Division::</label>
-                                <select class="selectpicker" id="Category1" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="DMS Division:">
+                                <select class="selectpicker form-control" id="Category1" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="DMS Division:">
 
                                     <option value="DMS Division:">DMS Division: 1</option>
                                     <option value="DMS Division:2">DMS Division: 2</option>
@@ -138,7 +187,7 @@
                             <div class="col-md-3 mb-3 ">
 
                                 <label>Created on:</label>
-                                <select class="selectpicker" id="Category2" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category">
+                                <select class="selectpicker form-control" id="Category2" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category">
 
                                     <option value="Created on:">Created on: 1</option>
                                     <option value="Created on:2">Created on: 2</option>
@@ -148,7 +197,7 @@
                             <div class="col-md-4 mb-3 ">
 
                                 <label>Validity:</label>
-                                <select class="selectpicker" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Validity:">
+                                <select class="selectpicker form-control" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Validity:">
 
                                     <option value="Validity:">Validity: 1</option>
                                     <option value="Validity:2">Validity: 2</option>
@@ -160,7 +209,7 @@
                             <div class="col-md-4 mb-3 ">
 
                                 <label>Status::</label>
-                                <select class="selectpicker" id="Brand" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Status:">
+                                <select class="selectpicker form-control" id="Brand" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Status:">
 
                                     <option value="Status:">Status: 1</option>
                                     <option value="Status:2">Status: 2</option>
@@ -171,7 +220,7 @@
                             <div class="col-md-4 mb-3 ">
 
                                 <label>Approval Status::</label>
-                                <select class="selectpicker" id="Sub_brand" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Approval_Status:">
+                                <select class="selectpicker form-control" id="Sub_brand" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Approval_Status:">
 
                                     <option value="Approval Status:">Approval Status: 1</option>
                                     <option value="Approval Status:2">Approval Status: 2</option>
@@ -237,14 +286,14 @@
                                         </td>
 
                                         <td>
-                                            <span class="badge rounded-pill btn-success" data-bs-toggle="modal" data-bs-target="#Clarification">Clarification</span>
+                                            <span class="badge rounded-pill btn-warning " data-bs-toggle="modal" data-bs-target="#Clarification">Clarification</span>
                                             <span class="badge rounded-pill btn-outline-danger" data-bs-toggle="modal" data-bs-target="#Rejected">Rejected</span>
 
 
                                             <div class="d-flex order-actions">
                                                 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
                                                     <a href="../schemesedit/Schemes.php" class="href">
-                                                        <div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
+                                                        <div class="font-22 "> <i class="lni lni-pencil-alt"></i>
                                                         </div>
                                                     </a>
 
@@ -313,7 +362,7 @@
                                                         <label class="col-sm-3 col-form-label"></label>
                                                         <div class="col-sm-9">
                                                             <div class="d-md-flex d-grid align-items-center gap-3">
-                                                                <button type="submit" class="btn btn-success px-4" name="submit2">Submit</button>
+                                                                <button type="submit" class="btn btn-warning  px-4" name="submit2">Submit</button>
                                                                 <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
                                                             </div>
                                                         </div>
@@ -359,7 +408,7 @@
                                                         <div class="col-sm-9">
                                                             <div class="d-md-flex d-grid align-items-center gap-3">
 
-                                                                <button type="submit" class="btn btn-success px-4" name="submit2">Submit</button>
+                                                                <button type="submit" class="btn btn-warning  px-4" name="submit2">Submit</button>
                                                                 <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
                                                             </div>
                                                         </div>
@@ -429,7 +478,7 @@
 <div class="col-md-4">
 	<div class="form-group">
 		<label>Banner</label>
-		<select class="selectpicker" name="status">
+		<select class="selectpicker form-control" name="status">
 			
 			<option value="status">status 1</option>
 			<option value="status2">status 2</option>
@@ -755,186 +804,53 @@
 
 
 <script>
-    // Your JSON data
-    var jsonData = {
-        "data": [{
-                "id": 1,
-                "parent_id": 0,
-                "name": "Non Food",
-                "image": null,
-                "description": "Non Food",
-                "category_type": null,
-                "slug": "non-food",
-                "flag": {
-                    "type": "Buffer",
-                    "data": [
-                        0
-                    ]
-                },
-                "created_date": "2023-11-24T03:56:20.000Z",
-                "updated_date": "2023-11-24T03:56:20.000Z"
-            },
-            {
-                "id": 2,
-                "parent_id": 0,
-                "name": "Food",
-                "image": null,
-                "description": "Food",
-                "category_type": null,
-                "slug": "food",
-                "flag": {
-                    "type": "Buffer",
-                    "data": [
-                        0
-                    ]
-                },
-                "created_date": "2023-11-24T03:56:20.000Z",
-                "updated_date": "2023-11-24T03:56:20.000Z"
-            },
-            {
-                "id": 3,
-                "parent_id": 0,
-                "name": "PERSONAL CARE",
-                "image": null,
-                "description": "PERSONAL CARE",
-                "category_type": null,
-                "slug": "personal-care",
-                "flag": {
-                    "type": "Buffer",
-                    "data": [
-                        0
-                    ]
-                },
-                "created_date": "2023-11-24T03:56:20.000Z",
-                "updated_date": "2023-11-24T03:56:20.000Z"
-            },
-            {
-                "id": 4,
-                "parent_id": 0,
-                "name": "Loreal",
-                "image": null,
-                "description": "Loreal",
-                "category_type": null,
-                "slug": "loreal",
-                "flag": {
-                    "type": "Buffer",
-                    "data": [
-                        0
-                    ]
-                },
-                "created_date": "2023-11-24T03:56:20.000Z",
-                "updated_date": "2023-11-24T03:56:20.000Z"
-            },
-            {
-                "id": 5,
-                "parent_id": 0,
-                "name": "Garnier",
-                "image": null,
-                "description": "Garnier",
-                "category_type": null,
-                "slug": "garnier",
-                "flag": {
-                    "type": "Buffer",
-                    "data": [
-                        0
-                    ]
-                },
-                "created_date": "2023-11-24T03:56:20.000Z",
-                "updated_date": "2023-11-24T03:56:20.000Z"
-            },
-            {
-                "id": 6,
-                "parent_id": 0,
-                "name": "Maybelline",
-                "image": null,
-                "description": "Maybelline",
-                "category_type": null,
-                "slug": "maybelline",
-                "flag": {
-                    "type": "Buffer",
-                    "data": [
-                        0
-                    ]
-                },
-                "created_date": "2023-11-24T03:56:20.000Z",
-                "updated_date": "2023-11-24T03:56:20.000Z"
-            },
-            {
-                "id": 7,
-                "parent_id": 0,
-                "name": "Matrix",
-                "image": null,
-                "description": "Matrix",
-                "category_type": null,
-                "slug": "matrix",
-                "flag": {
-                    "type": "Buffer",
-                    "data": [
-                        0
-                    ]
-                },
-                "created_date": "2023-11-24T03:56:20.000Z",
-                "updated_date": "2023-11-24T03:56:20.000Z"
-            },
-            {
-                "id": 8,
-                "parent_id": 0,
-                "name": "Promo",
-                "image": null,
-                "description": "Promo",
-                "category_type": null,
-                "slug": "promo",
-                "flag": {
-                    "type": "Buffer",
-                    "data": [
-                        0
-                    ]
-                },
-                "created_date": "2023-11-24T03:56:20.000Z",
-                "updated_date": "2023-11-24T03:56:20.000Z"
-            },
-            {
-                "id": 9,
-                "parent_id": 0,
-                "name": "ESSIE",
-                "image": null,
-                "description": "ESSIE",
-                "category_type": null,
-                "slug": "essie",
-                "flag": {
-                    "type": "Buffer",
-                    "data": [
-                        0
-                    ]
-                },
-                "created_date": "2023-11-24T03:56:20.000Z",
-                "updated_date": "2023-11-24T03:56:20.000Z"
-            }
-        ]
-    };
+  // Your JSON data
+  // Function to generate dummy data
+  function generateDummyData(count) {
+    const dummyData = [];
 
-    // Simulate selectedValues for demonstration
-    var selectedValues = jsonData.data.map(item => item.name);
+    for (let i = 1; i <= count; i++) {
+      dummyData.push({
+        id: i,
+        name: `Item ${i}`,
+        value: Math.random() * 100,
+        description: `Description for Item ${i}`,
+        // Add more properties as needed
+      });
+    }
 
-    $(document).ready(function() {
-        // Your existing code
-        var secondSelect = $('#two').empty();
+    return dummyData;
+  }
 
-        if (selectedValues) {
-            selectedValues.forEach(function(value) {
-                // Find the corresponding data object based on the value
-                var dataObject = jsonData.data.find(item => item.name === value);
+  // Generate a smaller initial dataset
+  const initialDummyData = generateDummyData(20000);
 
-                console.log(dataObject);
+  // Simulate selectedValues for demonstration
+  var selectedValues = initialDummyData.map(item => item.name);
 
-                // If the data object is found, append its properties to the second select
-                if (dataObject) {
-                    secondSelect.append('<option value="' + dataObject.id + '"> ' + dataObject.name + '</option>');
-                }
-            });
+  $(document).ready(function () {
+    // Your existing code
+    var secondSelect = $('#two').empty();
+
+    if (selectedValues) {
+      selectedValues.forEach(function (value) {
+        // Find the corresponding data object based on the value
+        var dataObject = initialDummyData.find(item => item.name === value);
+
+        // If the data object is found, append its properties to the second select
+        if (dataObject) {
+          secondSelect.append('<option value="' + dataObject.id + '"> ' + dataObject.name + '</option>');
         }
+      });
+    }
 
-        // Refresh Bootstrap Select
-        secondSelect.selectpicker('refresh');
+    // Refresh Bootstrap Select
+    secondSelect.selectpicker('refresh');
+
+    // Event handler for lazy loading more data
+    secondSelect.on('shown.bs.select', function () {
+      // Load more data here based on user interaction
+      // Update the dropdown content accordingly
     });
+  });
 </script>

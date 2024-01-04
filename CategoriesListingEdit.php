@@ -113,7 +113,7 @@
 
 
                                             <!-- Add submit button -->
-                                            <button type="submit" class="btn btn-primary bx-pull-right">Submit</button>
+                                            <button type="submit" class="btn btn-warning  bx-pull-right">Submit</button>
                                             <button type="btn" class="btn btn-danger bx-pull-right">Back</button>
 
                                             <br><br>

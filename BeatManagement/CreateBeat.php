@@ -18,7 +18,7 @@
             </div>
             <div class="ms-auto">
                 <div class="btn-group">
-                    <!-- <button type="button" class="btn btn-primary">Back</button> -->
+                    <!-- <button type="button" class="btn btn-warning ">Back</button> -->
 
                 </div>
             </div>
@@ -93,7 +93,7 @@
                                                                         </div>
 
                                                                         <div class="col-md-4 mt-3">
-                                                                            <button type="button" name="add" id="addone" class="btn btn-primary bx-pull-right">Add More</button>
+                                                                            <button type="button" name="add" id="addone" class="btn btn-warning  bx-pull-right">Add More</button>
                                                                         </div>
                                                                         <div class="col-md-1">
                                                                             <div class="form-group">
@@ -126,7 +126,7 @@
                                                         </select>
                                                         </div>
                                                         <div class="col-md-6">
-                                                     <!-- <button type="button" name="add" id="addtwo" class="btn btn-primary bx-pull-right mb-2">Add More</button> -->
+                                                     <!-- <button type="button" name="add" id="addtwo" class="btn btn-warning  bx-pull-right mb-2">Add More</button> -->
                                                         </div>
                                                     </div>
                                                     <table class="table table-bordered table-hover" id="dynamic_fieldtwo" style="width: 100%;">
@@ -248,7 +248,7 @@
 
                     <div class="row">
                         <div class="d-flex justify-content-star t">
-                            <button type="submit" class="btn btn-success pb-2">Submit</button>
+                            <button type="submit" class="btn btn-warning  pb-2">Submit</button>
 
                             </a>
 

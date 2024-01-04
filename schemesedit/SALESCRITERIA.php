@@ -132,7 +132,7 @@
 
 
 								<label>Company:</label>
-								<select class="selectpicker" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+								<select class="selectpicker form-control" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
 									<option value="Company">Company 1</option>
 									<option value="Company2">Company 2</option>
@@ -143,7 +143,7 @@
 							<div class="col-md-3 mb-3 ">
 
 								<label>Category:</label>
-								<select class="selectpicker" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Category" id="Category">
+								<select class="selectpicker form-control" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Category" id="Category">
 
 									<option value="Category">Category 1</option>
 									<option value="Category2">Category 2</option>
@@ -154,7 +154,7 @@
 							<div class="col-md-3 mb-3 ">
 
 								<label>Category-1:</label>
-								<select class="selectpicker" id="Category1" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="status">
+								<select class="selectpicker form-control" id="Category1" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="status">
 
 									<option value="Category">Category 1</option>
 									<option value="Category2">Category 2</option>
@@ -164,7 +164,7 @@
 							<div class="col-md-3 mb-3 ">
 
 								<label>Category-2:</label>
-								<select class="selectpicker" id="Category2" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Category">
+								<select class="selectpicker form-control" id="Category2" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Category">
 
 									<option value="Category">Category 1</option>
 									<option value="Category2">Category 2</option>
@@ -174,7 +174,7 @@
 							<div class="col-md-3 mb-3 ">
 
 								<label>Category-3:</label>
-								<select class="selectpicker" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Category">
+								<select class="selectpicker form-control" id="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Category">
 
 									<option value="Category">Category 1</option>
 									<option value="Category2">Category 2</option>
@@ -186,7 +186,7 @@
 							<div class="col-md-3 mb-3 ">
 
 								<label>Brand:</label>
-								<select class="selectpicker" id="Brand" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Brand">
+								<select class="selectpicker form-control" id="Brand" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Brand">
 
 									<option value="Brand">Brand 1</option>
 									<option value="Brand2">Brand 2</option>
@@ -197,7 +197,7 @@
 							<div class="col-md-3 mb-3 ">
 
 								<label>Sub brand:</label>
-								<select class="selectpicker" id="Sub_brand" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Sub_brand">
+								<select class="selectpicker form-control" id="Sub_brand" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Sub_brand">
 
 									<option value="Sub_brand">Sub_brand 1</option>
 									<option value="Sub_brand2">Sub_brand 2</option>
@@ -208,7 +208,7 @@
 							<div class="col-md-3 mb-3 ">
 
 								<label>SKU:</label>
-								<select class="selectpicker" id="SKU" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="SKU">
+								<select class="selectpicker form-control" id="SKU" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="SKU">
 
 									<option value="SKU">SKU 1</option>
 									<option value="SKU2">SKU 2</option>
@@ -278,7 +278,7 @@
 
 
 						<a href="SLABS.php" class="href">
-							<button type="submit" class="btn btn-primary bx-pull-right">Next</button>
+							<button type="submit" class="btn btn-warning  bx-pull-right">Next</button>
 						</a>
 						<button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
 

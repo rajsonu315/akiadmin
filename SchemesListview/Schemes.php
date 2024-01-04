@@ -183,7 +183,7 @@
 
 											<!-- Add submit button -->
 											<!-- <a href="GEOGRAPHYDETAILS.php">
-														<button type="button" class="btn btn-primary bx-pull-right">Next</button>
+														<button type="button" class="btn btn-warning  bx-pull-right">Next</button>
 													</a> -->
 
 

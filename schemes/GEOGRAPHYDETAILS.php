@@ -127,73 +127,90 @@
 
 
                         </ul>
+                        <form action="RETAILERCATEGORY.php" class="needs-validation" novalidate>
 
-                        <div class="row">
-
-
-
+                            <div class="row">
 
 
 
 
+                                <div class="col-md-3 mb-3">
+
+                                    <label for=""> Country</label>
 
 
-                            <div class="col-md-3 mb-3">
+                                    <select class="selectpicker form-control" required id="Country" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                        <option value="1-2">Option 1.2</option>
+                                        <option value="2-3">Option 1.3</option>
+                                        <option value="3-2">Option 1.2</option>
+                                        <option value="4-3">Option 1.3</option>
+                                        <option value="5-2">Option 1.2</option>
+                                        <option value="6-3">Option 1.3</option>
+                                        <option value="1-2">Option 1.2</option>
+                                        <option value="2-3">Option 1.3</option>
+                                        <option value="3-2">Option 1.2</option>
+                                        <option value="4-3">Option 1.3</option>
+                                        <option value="5-2">Option 1.2</option>
+                                        <option value="6-3">Option 1.3</option>
 
-                                <label for=""> Country</label>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        this field is required
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for=""> State</label>
+                                    <select class="selectpicker form-control" required id="State" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                        <option value="status">status 1</option>
+                                        <option value="status2">status 2</option>
+                                        <option value="status3">status 3</option>
+                                        <option value="status2">status 2</option>
+                                        <option value="status3">status 3</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        this field is required
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for=""> Region</label>
+                                    <select class="selectpicker form-control" required id="Region" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                        <option value="status">status 1</option>
+                                        <option value="status2">status 2</option>
+                                        <option value="status3">status 3</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        this field is required
+                                    </div>
+                                </div>
 
-
-                                <select class="selectpicker" id="Country" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
-                                    <option value="1-2">Option 1.2</option>
-                                    <option value="2-3">Option 1.3</option>
-                                    <option value="3-2">Option 1.2</option>
-                                    <option value="4-3">Option 1.3</option>
-                                    <option value="5-2">Option 1.2</option>
-                                    <option value="6-3">Option 1.3</option>
-                                    <option value="1-2">Option 1.2</option>
-                                    <option value="2-3">Option 1.3</option>
-                                    <option value="3-2">Option 1.2</option>
-                                    <option value="4-3">Option 1.3</option>
-                                    <option value="5-2">Option 1.2</option>
-                                    <option value="6-3">Option 1.3</option>
-
-                                </select>
+                                <div class="col-md-3 mb-3">
+                                    <label for=""> Area</label>
+                                    <select class="selectpicker form-control" required id="Area" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                        <option value="status">status 1</option>
+                                        <option value="status2">status 2</option>
+                                        <option value="status3">status 3</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        this field is required
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-3 mb-3">
-                                <label for=""> State</label>
-                                <select class="selectpicker" id="State" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
-                                    <option value="status">status 1</option>
-                                    <option value="status2">status 2</option>
-                                    <option value="status3">status 3</option>
-                                    <option value="status2">status 2</option>
-                                    <option value="status3">status 3</option>
-                                </select>
-                            </div>
-                            <div class="col-md-3 mb-3">
-                                <label for=""> Region</label>
-                                <select class="selectpicker" id="Region" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
-                                    <option value="status">status 1</option>
-                                    <option value="status2">status 2</option>
-                                    <option value="status3">status 3</option>
-                                </select>
-                            </div>
-
-                            <div class="col-md-3 mb-3">
-                                <label for=""> Area</label>
-                                <select class="selectpicker" id="Area" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
-                                    <option value="status">status 1</option>
-                                    <option value="status2">status 2</option>
-                                    <option value="status3">status 3</option>
-                                </select>
-                            </div>
-                        </div>
 
 
 
-                        <a href="RETAILERCATEGORY.php" class="href">
-                            <button type="submit" class="btn btn-primary bx-pull-right">Next</button>
-                        </a>
-                        <button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
+                            <button type="submit" class="btn btn-warning  bx-pull-right">Next</button>
+
+                            <button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
+
+
+
+
+                        </form>
+
+
+
+
+
 
 
 
@@ -212,5 +229,3 @@
 <!--end page wrapper -->
 <?php include('../footer.php'); ?>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js'></script>
-
-

@@ -107,7 +107,7 @@
 
 
 						<!-- <a href="SALESCRITERIA.php" class="href">
-									<button type="submit" class="btn btn-primary bx-pull-right">Next</button>
+									<button type="submit" class="btn btn-warning  bx-pull-right">Next</button>
 								</a>
 								<button onclick="history.back()" type="btn" class="btn btn-danger bx-pull-right">Back</button>
  -->

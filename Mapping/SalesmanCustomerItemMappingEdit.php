@@ -18,7 +18,7 @@
                     </div>
                     <div class="ms-auto">
                         <div class="btn-group">
-                            <!-- <button type="button" class="btn btn-primary">Back</button> -->
+                            <!-- <button type="button" class="btn btn-warning ">Back</button> -->
 
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                                             
                                             <div class="row">
                                                 <div class="d-flex justify-content-star t">
-                                                    <button type="submit" class="btn btn-success pb-2">Submit</button>
+                                                    <button type="submit" class="btn btn-warning  pb-2">Submit</button>
 
                                                     </a>
 

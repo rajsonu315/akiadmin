@@ -128,7 +128,7 @@
                                         <h6 class="mb-0">Retailers (6) | Legend : <span class="text-success"><i class="lni lni-checkmark"></i> Inclusive</span> <span class="text-danger"><i class="lni lni-close"></i> Exclusive</span></h6>
                                     </div>
                                     <div class="dropdown ms-auto">
-                                        <button type="button" id="addButton" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-primary">Add</button>
+                                        <button type="button" id="addButton" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-warning ">Add</button>
                                     </div>
                                 </div>
                             </div>

@@ -129,14 +129,17 @@
 							<div class="row">
 								<div class="col-lg-12">
 									<div class="border border-3 p-4 rounded">
-										<form action="#" method="post">
+										<form action="GEOGRAPHYDETAILS.php" method="post" class="needs-validation" novalidate>
 
 											<div class="row">
 												<h5 class="mb-2"><strong>HEADER:</strong></h5>
 
 												<div class="mb-3 col-md-6">
 													<label for="SchemeName" class="form-label">*Scheme Name:</label>
-													<input type="text" class="form-control" id="SchemeName" name="SchemeName" placeholder="Enter Scheme Name">
+													<input type="text" class="form-control" required id="SchemeName" name="SchemeName" placeholder="Enter Scheme Name">
+													<div class="invalid-feedback">
+														this field is required
+													</div>
 												</div>
 												<div class="mb-3 col-md-6">
 													<label for="SchemeType" class="form-label">*Scheme Type:</label>
@@ -144,15 +147,24 @@
 														<option value="Option 1">Option 1</option>
 
 													</select>
+													<div class="invalid-feedback">
+														this field is required
+													</div>
 												</div>
 												<div class="mb-3 col-md-6">
 													<label for="SchemeOwner" class="form-label">Scheme Owner.</label>
-													<input type="text" class="form-control" id="SchemeOwner" name="SchemeOwner" placeholder="Enter Scheme Type">
+													<input type="text" class="form-control" required id="SchemeOwner" name="SchemeOwner" placeholder="Enter Scheme Type">
+													<div class="invalid-feedback">
+														this field is required
+													</div>
 												</div>
 
 												<div class="mb-3 col-md-6">
 													<label for="Validity" class="form-label">*Validity:</label>
-													<input type="text" id="Validity" class="form-control" name="datetimes" />
+													<input type="text" id="Validity" class="form-control" required name="datetimes" />
+													<div class="invalid-feedback">
+														this field is required
+													</div>
 
 												</div>
 
@@ -163,27 +175,17 @@
 
 												<div class="mb-3 col-md-12">
 													<label for="input11" class="form-label">Objective</label>
-													<textarea class="form-control" id="input11" placeholder="Objective ..." rows="3"></textarea>
+													<textarea class="form-control" required id="input11" placeholder="Objective ..." rows="3"></textarea>
+													<div class="invalid-feedback">
+														this field is required
+													</div>
 												</div>
 
-
-
-
-
-
-
 											</div>
-
-
-
-
-
-
-
 											<!-- Add submit button -->
-											<a href="GEOGRAPHYDETAILS.php">
-												<button type="button" class="btn btn-primary bx-pull-right">Next</button>
-											</a>
+
+											<button type="submit" class="btn btn-warning  bx-pull-right">Next</button>
+
 
 
 

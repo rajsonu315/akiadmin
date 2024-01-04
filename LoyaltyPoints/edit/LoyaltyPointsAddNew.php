@@ -18,7 +18,7 @@
             </div>
             <div class="ms-auto">
                 <div class="btn-group">
-                    <!-- <button type="button" class="btn btn-primary">Back</button> -->
+                    <!-- <button type="button" class="btn btn-warning ">Back</button> -->
 
                 </div>
             </div>
@@ -35,7 +35,7 @@
 
 
                         <label>category1 name:</label>
-                        <select class="selectpicker" name="category1_name" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="category1_name" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -47,7 +47,7 @@
 
 
                         <label>category2 name:</label>
-                        <select class="selectpicker" name="category2_name" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="category2_name" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -59,7 +59,7 @@
 
 
                         <label>category3 name:</label>
-                        <select class="selectpicker" name="category3_name" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="category3_name" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -71,7 +71,7 @@
 
 
                         <label>brand id:</label>
-                        <select class="selectpicker" name="brand_id" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="brand_id" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -83,7 +83,7 @@
 
 
                         <label>subBrand id:</label>
-                        <select class="selectpicker" name="subBrand_id" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="subBrand_id" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -96,7 +96,7 @@
 
 
                         <label>gio1 label:</label>
-                        <select class="selectpicker" name="gio1_label" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="gio1_label" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -109,7 +109,7 @@
 
 
                         <label>gio2 label:</label>
-                        <select class="selectpicker" name="gio2_label" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="gio2_label" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -121,7 +121,7 @@
 
 
                         <label>gio3 label:</label>
-                        <select class="selectpicker" name="gio3_label" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="gio3_label" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -133,7 +133,7 @@
 
 
                         <label>SKUsku:</label>
-                        <select class="selectpicker" name="SKUsku" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="SKUsku" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -146,7 +146,7 @@
 
 
                         <label>customer class:</label>
-                        <select class="selectpicker" name="customer_class" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="customer_class" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -160,7 +160,7 @@
 
 
                         <label>order value:</label>
-                        <select class="selectpicker" name="order_value" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="order_value" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -173,7 +173,7 @@
 
 
                         <label>loyalty point:</label>
-                        <select class="selectpicker" name="loyalty_point" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="loyalty_point" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -186,7 +186,7 @@
 
 
                         <label>discount amount:</label>
-                        <select class="selectpicker" name="discount_amount" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="discount_amount" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -198,7 +198,7 @@
 
 
                         <label>deleted status:</label>
-                        <select class="selectpicker" name="deleted_status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="deleted_status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -210,7 +210,7 @@
 
 
                         <label>status:</label>
-                        <select class="selectpicker" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
+                        <select class="selectpicker form-control" name="status" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" name="Category" name="Company" id="Company">
 
                             <option value="Company">Company 1</option>
                             <option value="Company2">Company 2</option>
@@ -222,7 +222,7 @@
 
                 <div class="row">
                     <div class="d-flex justify-content-star t">
-                        <button type="submit" class="btn btn-success pb-2">Submit</button>
+                        <button type="submit" class="btn btn-warning  pb-2">Submit</button>
 
 
 

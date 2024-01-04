@@ -19,7 +19,7 @@
             </div>
             <div class="ms-auto">
                 <div class="btn-group">
-                    <!-- <button type="button" class="btn btn-primary">Back</button> -->
+                    <!-- <button type="button" class="btn btn-warning ">Back</button> -->
 
                 </div>
             </div>
@@ -34,20 +34,11 @@
                         <div class="col-lg-12">
                             <div class="border border-3 p-4 rounded">
                                 <!-- Add Name -->
-
-
-
-                                <form action="?">
-
-
+                                <form action="" class="needs-validation" novalidate>
                                     <div class="row">
-
                                         <div class="col-md-3 mb-3">
-
                                             <label for="" class="form-label"> Type</label>
-
-
-                                            <select class="selectpicker" id="Country" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                            <select class="selectpicker form-control" id="Country" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" required>
                                                 <option value="1-2">Option 1.2</option>
                                                 <option value="2-3">Option 1.3</option>
                                                 <option value="3-2">Option 1.2</option>
@@ -60,30 +51,42 @@
                                                 <option value="4-3">Option 1.3</option>
                                                 <option value="5-2">Option 1.2</option>
                                                 <option value="6-3">Option 1.3</option>
-
                                             </select>
+                                            <div class="invalid-feedback">
+                                                this field is required
+                                            </div>
                                         </div>
 
                                         <div class="mb-3 col-md-3">
                                             <label for="SchemeName" class="form-label">Title:</label>
-                                            <input type="text" class="form-control" id="SchemeName" name="SchemeName" placeholder="Enter Scheme Name">
+                                            <input type="text" class="form-control" required id="SchemeName" name="SchemeName" placeholder="Enter Scheme Name">
+                                            <div class="invalid-feedback">
+                                                this field is required
+                                            </div>
                                         </div>
 
                                         <div class="mb-3 col-md-3">
                                             <label for="SchemeName" class="form-label">Upload File:</label>
-                                            <input type="file" class="form-control" id="SchemeName" name="SchemeName" placeholder="Enter Scheme Name">
+
+                                            <input type="file" class="form-control" required id="SchemeName" name="SchemeName" placeholder="Enter Scheme Name">
+                                            <div class="invalid-feedback">
+                                                this field is required
+                                            </div>
                                         </div>
                                         <div class="mb-3 col-md-3">
                                             <label for="Validity" class="form-label">Date:</label>
-                                            <input type="text" id="Validity" class="form-control" name="datetimes" />
+
+                                            <input type="text" id="Validity" class="form-control" required name="datetimes" />
+                                            <div class="invalid-feedback">
+                                                this field is required
+                                            </div>
                                         </div>
 
                                         <div class="col-md-3 mb-3">
 
                                             <label for="" class="form-label"> chanel</label>
-
-
-                                            <select class="selectpicker" id="Country" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                            <select class="selectpicker form-control" id="Country" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)" required>
+                                                
                                                 <option value="1-2">Option 1.2</option>
                                                 <option value="2-3">Option 1.3</option>
                                                 <option value="3-2">Option 1.2</option>
@@ -96,26 +99,32 @@
                                                 <option value="4-3">Option 1.3</option>
                                                 <option value="5-2">Option 1.2</option>
                                                 <option value="6-3">Option 1.3</option>
-
                                             </select>
+                                            <div class="invalid-feedback">
+                                                this field is required
+                                            </div>
                                         </div>
 
                                         <div class="mb-3 col-md-12">
                                             <label for="input11" class="form-label">Resion </label>
-                                            <textarea class="form-control" id="input11" placeholder="Resion  ..." rows="3"></textarea>
+                                            <textarea class="form-control" required id="input11" rows="3"></textarea>
+                                            <div class="invalid-feedback">
+                                                this field is required
+                                            </div>
                                         </div>
 
 
                                     </div>
-                                    <div class="row">
-                                        <div class="d-flex justify-content-star t">
-                                            <button type="submit" class="btn btn-success pb-2">Create Group</button>
+                                    <div class="row bx-pull-right pb-5">
+                                        <div class="d-flex justify-content-start ">
+                                            <button type="submit" class="btn btn-warning    pb-2">Create Group</button>
 
                                             </a>
 
                                         </div>
 
                                     </div>
+                                    <br><br>
                                 </form>
 
 
@@ -147,23 +156,23 @@
 
 
 <script>
-	$(document).ready(function() {
-		$("input[name='datetimes']").daterangepicker({
-			minDate: moment().startOf('day') // Set minDate to the current date
-		}, function(start, end, label) {
-			// This function is triggered when a date range is selected
-			let startDate = start.format("YYYY-MM-DD").toString();
-			let endDate = end.format("YYYY-MM-DD").toString();
+    $(document).ready(function() {
+        $("input[name='datetimes']").daterangepicker({
+            minDate: moment().startOf('day') // Set minDate to the current date
+        }, function(start, end, label) {
+            // This function is triggered when a date range is selected
+            let startDate = start.format("YYYY-MM-DD").toString();
+            let endDate = end.format("YYYY-MM-DD").toString();
 
-			// Uncomment these lines to update the selected dates immediately
-			// document.getElementById("startDate").innerHTML = "Start date: " + startDate;
-			// document.getElementById("endDate").innerHTML = "End date: " + endDate;
-		});
+            // Uncomment these lines to update the selected dates immediately
+            // document.getElementById("startDate").innerHTML = "Start date: " + startDate;
+            // document.getElementById("endDate").innerHTML = "End date: " + endDate;
+        });
 
-		// Display selected dates on button click
-		$("#showDateRange").on("click", function() {
-			let selectedDates = $("input[name='datetimes']").val();
-			$("#selectedDates").text("Selected Dates: " + selectedDates);
-		});
-	});
+        // Display selected dates on button click
+        $("#showDateRange").on("click", function() {
+            let selectedDates = $("input[name='datetimes']").val();
+            $("#selectedDates").text("Selected Dates: " + selectedDates);
+        });
+    });
 </script>

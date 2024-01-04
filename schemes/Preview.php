@@ -292,7 +292,7 @@
 
 
                                                     <div class="d-md-flex d-grid align-items-center gap-3 mt-5 ">
-                                                        <button type="button" class="btn btn-primary px-4">Submit</button>
+                                                        <button type="button" class="btn btn-warning  px-4">Submit</button>
 
 
                                                         <button onclick="history.back()" type="button" class="btn btn-danger bx-pull-right">Back</button>

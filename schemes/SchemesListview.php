@@ -137,12 +137,12 @@
 
 
                                 <div class="d-flex flex-column align-items-center text-center">
-                                    <!-- <img src="../assets/images/avatars/avatar-2.png" alt="Admin" class="rounded-circle p-1 bg-primary" width="110"> -->
+                                    <!-- <img src="../assets/images/avatars/avatar-2.png" alt="Admin" class="rounded-circle p-1 btn-warning " width="110"> -->
                                     <div class="mt-3">
                                         <h4>Schemes test</h4>
                                         <p class="text-secondary mb-1">Schemes testr</p>
                                         <p class="text-muted font-size-sm">Lorem ipsum dolor sit amet.</p>
-                                        <button class="btn btn-success">Approve</button>
+                                        <button class="btn btn-warning ">Approve</button>
                                     </div>
                                 </div>
                                 <hr class="my-4">

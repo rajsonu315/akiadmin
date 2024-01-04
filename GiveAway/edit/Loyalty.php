@@ -92,7 +92,7 @@
 
 												<div class="col-md-3 mb-3">
 													<label>Type:</label>
-													<select class="selectpicker" name="Territory" data-actions-box="true" aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" name="Category" id="Company">
+													<select class="selectpicker form-control" name="Territory" data-actions-box="true" aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" name="Category" id="Company">
 
 														<option value="Single_Order">Single Order </option>
 														<option value="QPS">QPS</option>

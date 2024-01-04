@@ -68,9 +68,11 @@
                                     <tr>
                                         <th>S.no.</th>
                                         <th>Name</th>
-                                        <th>Customer Group</th>
+                                        <th>Customer Id</th>
 
-                                        <th>Customer Group count</th>
+                                        <th>Channel</th>
+                                        <th>t1</th>
+                                        <th>t2</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -80,6 +82,8 @@
                                         <td>System Architect</td>
                                         <td>123456789</td>
                                         <td>test delhi</td>
+                                        <td>test</td>
+                                        <td>test</td>
                                         <td>
 
 
@@ -91,7 +95,7 @@
                                             <div class="d-flex order-actions">
                                                 <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
                                                     <a href="./CustomerGroupedit.php" class="href">
-                                                        <div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
+                                                        <div class="font-22 "> <i class="lni lni-pencil-alt"></i>
                                                         </div>
                                                     </a>
 

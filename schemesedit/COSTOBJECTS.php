@@ -166,7 +166,7 @@
 											<div class="d-flex order-actions">
 												<!-- <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
 													<a href="./RetailerDetailsEdit.php" class="href">
-														<div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
+														<div class="font-22 "> <i class="lni lni-pencil-alt"></i>
 														</div>
 													</a>
 

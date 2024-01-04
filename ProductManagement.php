@@ -100,7 +100,7 @@
                                     <div class="d-flex order-actions">
                                         <div class="d-flex align-items-center theme-icons shadow-sm p-2 cursor-pointer rounded">
                                             <a href="ProductManagementEdit.php" class="href">
-                                                <div class="font-22 text-primary"> <i class="lni lni-pencil-alt"></i>
+                                                <div class="font-22 "> <i class="lni lni-pencil-alt"></i>
                                                 </div>
                                             </a>
 
@@ -170,7 +170,7 @@
                 obscure Latin words, consectetur.</div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-warning ">Save changes</button>
             </div>
         </div>
     </div>
@@ -197,7 +197,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" id="uploadBtn">Upload</button>
+                <button type="button" class="btn btn-warning " id="uploadBtn">Upload</button>
             </div>
         </div>
     </div>

@@ -147,7 +147,7 @@
 										<button type="button" class="btn btn-danger px-5 bx-pull-right">Rejected</button>
 									</div>
 									<div class="col">
-										<button type="button" class="btn btn-success px-5 bx-pull-right"> Approve</button>
+										<button type="button" class="btn btn-warning  px-5 bx-pull-right"> Approve</button>
 									</div>
                                             <!-- <button type="button" class="btn btn btn-warning px-5 bx-pull-right">Submit</button> -->
                                             <br><br>
