@@ -32,6 +32,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo $base_url; ?>assets/css/sweetalert.min.css">
     <link rel='stylesheet' href='<?php echo $base_url; ?>assets/css/bootstrap-select.min.css'>
 
+
 </head>
 
 <body>
@@ -76,9 +77,15 @@
                             </a>
                         </li>
 
+                        <li> <a href="<?php echo $base_url; ?>Mapping/TelesalesMapping/TelesalesMapping.php"><i class="bx bx-right-arrow-alt"></i>Telesales Mapping
+                            </a>
+                        </li>
+
 
                     </ul>
                 </li>
+
+
                 <li>
                     <a href="<?php echo $base_url; ?>NewUserRegister.php">
                         <div class="parent-icon"> <i class="lni lni-user"></i>
@@ -326,12 +333,12 @@
                 </li>
 
                 <li>
-                    <a href="<?php echo $base_url; ?>DocumentsUpload">
+                    <a href="<?php echo $base_url; ?>DocumentsUpload/">
                         <div class="parent-icon"> <i class="bx bx-dock-left"></i>
                         </div>
                         <div class="menu-title">Documents Upload</div>
                     </a>
-                </li>   
+                </li>
 
                 <!-- <li>
                     <a href="<?php echo $base_url; ?>PermissionsAccessControl.php">

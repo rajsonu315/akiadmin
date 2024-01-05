@@ -78,60 +78,98 @@ for (var i = 0; i < buttons.length; i++) {
 
 ////////////////////////
 
-const url = 'http://3.29.220.19:4100/v1/customer/category/listing';
-const postData = {
-	"login_id": "2721",
-	"customer_id": "1",
-	"channel_id": "1",
-	"skip": "1",
-	"limit": 10
+// const url = 'http://3.29.220.19:4100/v1/customer/category/listing';
+// const postData = {
+// 	"login_id": "2721",
+// 	"customer_id": "1",
+// 	"channel_id": "1",
+// 	"skip": "1",
+// 	"limit": 10
+// };
+
+// const bearerToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNzIxIiwiaWF0IjoxNzAzMzMyNTM5LCJleHAiOjE3MDU5MjQ1MzksInR5cGUiOiJhY2Nlc3MiLCJpZCI6MSwiYWtpX2N1c3RvbWVyX2lkIjoiMjcyMSIsImFraV9jdXN0b21lcl9ubyI6IjI4NTMiLCJsb2dpbl9pZCI6IjI3MjEiLCJwYXJlbnRfaWQiOjAsIm5hbWUiOiJVbml2ZXJzaXR5IFN1cGVybWFya2V0IiwibW9iaWxlX25vIjpudWxsLCJlbWFpbCI6bnVsbCwiZGVwYXJ0bWVudCI6bnVsbCwicGFzc3dvcmQiOiI4MjdjY2IwZWVhOGE3MDZjNGMzNGExNjg5MWY4NGU3YiIsInZpZXdfcGFzc3dvcmQiOiIxMjM0NSIsImltYWdlIjpudWxsLCJ1c2VyX3R5cGUiOm51bGwsImZsYWciOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOlsxXX0sImNyZWF0ZWRfZGF0ZSI6IjIwMjMtMTItMDVUMTk6NTY6MDAuMDAwWiIsInVwZGF0ZWRfZGF0ZSI6IjIwMjMtMTItMDlUMDM6NDE6NTEuMDAwWiJ9.XBxyXvAEQSBG8pBFa71P9Jyw-jLXjInvDUVurVTGlz8'; // Replace with your actual bearer token
+
+// const fetchOptions = {
+// 	method: 'POST',
+// 	headers: {
+// 		'Content-Type': 'application/json',
+// 		'Authorization': `Bearer ${bearerToken}`,
+// 	},
+// 	body: JSON.stringify(postData),
+// };
+
+ // Your JSON data
+const jsonData2 = {
+    "status": true,
+    "message": "Category Detail",
+    "result": [{
+            "id": 77,
+            "parent_id": 1,
+            "channel_id": 1,
+            "name": "DPH",
+            "description": "DPH",
+            "slug": "dph"
+        },
+        {
+            "id": 173,
+            "parent_id": 16,
+            "channel_id": 1,
+            "name": "FACE CARE",
+            "description": "FACE CARE",
+            "slug": "face-care"
+        },
+        {
+            "id": 184,
+            "parent_id": 15,
+            "channel_id": 1,
+            "name": "PROTEIN SNACK",
+            "description": "PROTEIN SNACK",
+            "slug": "protein-snack"
+        },
+        {
+            "id": 176,
+            "parent_id": 19,
+            "channel_id": 1,
+            "name": "BABY CARE",
+            "description": "BABY CARE",
+            "slug": "baby-care"
+        },
+        {
+            "id": 218,
+            "parent_id": 28,
+            "channel_id": 1,
+            "name": "PERSONAL CARE",
+            "description": "PERSONAL CARE",
+            "slug": "personal-care"
+        },
+    ]
 };
 
-const bearerToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyNzIxIiwiaWF0IjoxNzAzMzMyNTM5LCJleHAiOjE3MDU5MjQ1MzksInR5cGUiOiJhY2Nlc3MiLCJpZCI6MSwiYWtpX2N1c3RvbWVyX2lkIjoiMjcyMSIsImFraV9jdXN0b21lcl9ubyI6IjI4NTMiLCJsb2dpbl9pZCI6IjI3MjEiLCJwYXJlbnRfaWQiOjAsIm5hbWUiOiJVbml2ZXJzaXR5IFN1cGVybWFya2V0IiwibW9iaWxlX25vIjpudWxsLCJlbWFpbCI6bnVsbCwiZGVwYXJ0bWVudCI6bnVsbCwicGFzc3dvcmQiOiI4MjdjY2IwZWVhOGE3MDZjNGMzNGExNjg5MWY4NGU3YiIsInZpZXdfcGFzc3dvcmQiOiIxMjM0NSIsImltYWdlIjpudWxsLCJ1c2VyX3R5cGUiOm51bGwsImZsYWciOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOlsxXX0sImNyZWF0ZWRfZGF0ZSI6IjIwMjMtMTItMDVUMTk6NTY6MDAuMDAwWiIsInVwZGF0ZWRfZGF0ZSI6IjIwMjMtMTItMDlUMDM6NDE6NTEuMDAwWiJ9.XBxyXvAEQSBG8pBFa71P9Jyw-jLXjInvDUVurVTGlz8'; // Replace with your actual bearer token
-
-const fetchOptions = {
-	method: 'POST',
-	headers: {
-		'Content-Type': 'application/json',
-		'Authorization': `Bearer ${bearerToken}`,
-	},
-	body: JSON.stringify(postData),
-};
-
-
+// Ensure the DOM is fully loaded before executing the script
 document.addEventListener("DOMContentLoaded", function() {
-	fetch(url, fetchOptions)
-		.then(response => {
-			if (!response.ok) {
-				throw new Error(`HTTP error! Status: ${response.status}`);
-			}
-			return response.json();
-		})
-		.then(responseData => {
-			const data = responseData.result;
-			console.log('Response:', data);
+    // Your existing code
+    const data = jsonData2.result;
+    var html = '';
 
-			var html = ''; // Initialize the html variable
+    data.forEach(function(item) {
+        html += `
+            <li class="list-group-item" data-item-id="${item.id}">
+                ${item.name}
+                <span class="badge btn-warning rounded-pill bx-pull-right">${item.id}</span>
+            </li>
+        `;
+    });
 
+    // Assuming you want to add the generated HTML to an element with the class 'list-group'
+    const listGroupElement = document.querySelector('.list-group');
 
-			// Assuming you want to add the generated HTML to an element with the class 'list-group'
-
-
-			data.forEach(function(item) {
-				html += `
-			<li class="list-group-item" data-item-id="${item.id}">
-				${item.name}
-				<span class="badge btn-warning  rounded-pill bx-pull-right">${item.id}</span>
-			</li>
-		`;
-			});
-
-			// Assuming you want to add the generated HTML to an element with the class 'list-group'
-			document.querySelector('.list-group').innerHTML = html;
-			
-		})
-		.catch(error => console.error('Error:', error));
+    if (listGroupElement) {
+        listGroupElement.innerHTML = html;
+    } else {
+        console.error('Error: Element with class "list-group" not found.');
+    }
 });
+
 
 
 
