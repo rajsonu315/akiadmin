@@ -62,6 +62,14 @@ $base_url = 'http://127.0.0.1/akiadmin/'; // Replace with your actual base URL
     })()
 </script>
 
+<script>
+$(document).ready(function(){
+  $(".filter-btn").click(function(){
+    $(".filter-form").toggle();
+  });
+});
+</script>
+
 </body>
 
 </html>

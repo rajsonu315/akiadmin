@@ -42,11 +42,14 @@
                 <form class="filter-form" style="display: none;" action="?">
                     <div class="row">
 
+                        
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Date</label>
+                            <input type="date" class="form-control selectpicker" name="Date">
+                        </div>
                         <div class="col-md-3 mb-3">
 
                             <label for=""> Country</label>
-
-
                             <select class="selectpicker" id="Country" name="Country" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
                                 <option value="1-2">Option 1.2</option>
                                 <option value="2-3">Option 1.3</option>
@@ -60,13 +63,10 @@
                                 <option value="4-3">Option 1.3</option>
                                 <option value="5-2">Option 1.2</option>
                                 <option value="6-3">Option 1.3</option>
-
                             </select>
+
                         </div>
-                        <div class="col-md-3 mb-3">
-                            <label for=""> Date</label>
-                            <input type="date" class="form-control selectpicker" name="Date">
-                        </div>
+                       
                         <div class="col-md-3 mb-3">
                             <label for=""> Territory</label>
                             <select class="selectpicker" id="State" name="Territory" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
@@ -80,6 +80,15 @@
                         <div class="col-md-3 mb-3">
                             <label for=""> Area</label>
                             <select class="selectpicker" id="Region" name="Area" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <option value="status">status 1</option>
+                                <option value="status2">status 2</option>
+                                <option value="status3">status 3</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Emirate</label>
+                            <select class="selectpicker" id="Region" name="Emirate" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
                                 <option value="status">status 1</option>
                                 <option value="status2">status 2</option>
                                 <option value="status3">status 3</option>
@@ -128,6 +137,7 @@
                                 <th>Ordering customers</th>
                                 <th>Not Ordered Customers</th>
                                 <th>Pending calls Today</th>
+                                <th>Strike Rate % </th>
 
 
                             </tr>
@@ -139,6 +149,7 @@
                                 <td>Supermarket Others</td>
                                 <td></td>
                                 <td>Dubai</td>
+                                <td></td>
                                 <td></td>
 
 

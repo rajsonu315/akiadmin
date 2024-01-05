@@ -288,6 +288,8 @@
                         </li>
                         <li> <a href="<?php echo $base_url; ?>Report/TradeStock/"><i class="bx bx-right-arrow-alt"></i>TradeStock</a>
                         </li>
+                        <li> <a href="<?php echo $base_url; ?>Report/B2BBusinessReviewreports/"><i class="bx bx-right-arrow-alt"></i>B2B Business Review reports</a>
+                        </li>
 
 
 
