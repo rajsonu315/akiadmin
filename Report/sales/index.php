@@ -124,11 +124,35 @@
                                 <option value="status3">status 3</option>
                             </select>
                         </div>
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Manager</label>
+                            <select class="selectpicker" id="Area" name="Manager" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <option value="status">status 1</option>
+                                <option value="status2">status 2</option>
+                                <option value="status3">status 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Channel Head</label>
+                            <select class="selectpicker" id="Area" name="ChannelHead" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <option value="status">status 1</option>
+                                <option value="status2">status 2</option>
+                                <option value="status3">status 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Agency</label>
+                            <select class="selectpicker" id="Area" name="Agency" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <option value="status">status 1</option>
+                                <option value="status2">status 2</option>
+                                <option value="status3">status 3</option>
+                            </select>
+                        </div>
                         <div class="col-md-12 mb-3 d-flex">
                             <div class=" ms-auto">
                                 <!-- <input type="reset" class="btn btn-outline-success px-3" value="Reset"> -->
                                 <button class="btn btn-outline-success px-3">Reset</button>
-                                <button type="submit" class="btn btn-warning  px-3">Apply</button>
+                                <button type="submit" class="btn btn-primary px-3">Apply</button>
                             </div>
                         </div>
                     </div>

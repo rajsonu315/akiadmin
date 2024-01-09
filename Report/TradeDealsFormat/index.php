@@ -43,27 +43,7 @@
                 <form class="filter-form" style="display: none;" action="?">
                     <div class="row">
 
-                        <div class="col-md-3 mb-3">
-
-                            <label for=""> Country</label>
-
-
-                            <select class="selectpicker" id="Country" name="Country" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
-                                <option value="1-2">Option 1.2</option>
-                                <option value="2-3">Option 1.3</option>
-                                <option value="3-2">Option 1.2</option>
-                                <option value="4-3">Option 1.3</option>
-                                <option value="5-2">Option 1.2</option>
-                                <option value="6-3">Option 1.3</option>
-                                <option value="1-2">Option 1.2</option>
-                                <option value="2-3">Option 1.3</option>
-                                <option value="3-2">Option 1.2</option>
-                                <option value="4-3">Option 1.3</option>
-                                <option value="5-2">Option 1.2</option>
-                                <option value="6-3">Option 1.3</option>
-
-                            </select>
-                        </div>
+                        
                         <div class="col-md-3 mb-3">
                             <label for=""> Date</label>
                             <input type="date" class="form-control selectpicker" name="Date">
@@ -143,11 +123,67 @@
                                 <option value="status3">status 3</option>
                             </select>
                         </div>
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Channel</label>
+                            <select class="selectpicker" id="Area" name="Channel" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <option value="status">status 1</option>
+                                <option value="status2">status 2</option>
+                                <option value="status3">status 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Category1</label>
+                            <select class="selectpicker" id="Area" name="Category1" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <option value="status">status 1</option>
+                                <option value="status2">status 2</option>
+                                <option value="status3">status 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Category2</label>
+                            <select class="selectpicker" id="Area" name="Category2" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <option value="status">status 1</option>
+                                <option value="status2">status 2</option>
+                                <option value="status3">status 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Category3</label>
+                            <select class="selectpicker" id="Area" name="Category3" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <option value="status">status 1</option>
+                                <option value="status2">status 2</option>
+                                <option value="status3">status 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Manager</label>
+                            <select class="selectpicker" id="Area" name="Manager" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <option value="status">status 1</option>
+                                <option value="status2">status 2</option>
+                                <option value="status3">status 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Head</label>
+                            <select class="selectpicker" id="Area" name="Head" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <option value="status">status 1</option>
+                                <option value="status2">status 2</option>
+                                <option value="status3">status 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for=""> Trade Deal Name</label>
+                            <select class="selectpicker" id="Area" name="Trade Deal Name" data-actions-box="true" multiple aria-label="Default select example" title="Selected" data-size="5" data-live-search="true" multiple data-selected-text-format="count" data-count-selected-text=" ({0} items selected)">
+                                <option value="status">status 1</option>
+                                <option value="status2">status 2</option>
+                                <option value="status3">status 3</option>
+                            </select>
+                        </div>
                         <div class="col-md-12 mb-3 d-flex">
                             <div class=" ms-auto">
                                 <!-- <input type="reset" class="btn btn-outline-success px-3" value="Reset"> -->
                                 <button class="btn btn-outline-success px-3">Reset</button>
-                                <button type="submit" class="btn btn-warning  px-3">Apply</button>
+                                <button type="submit" class="btn btn-primary px-3">Apply</button>
                             </div>
                         </div>
                     </div>

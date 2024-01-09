@@ -353,7 +353,7 @@
 
 
                 <!-- sdfgnh -->
-                <!-- <li>
+                <li>
                     <a class="has-arrow" href="javascript:;">
                         <div class="parent-icon"> <i class="fadeIn animated bx bx-collection"></i>
                         </div>
@@ -362,15 +362,15 @@
                     <ul>
                         <li> <a href="<?php echo $base_url; ?>PaymentCollection.php"><i class="bx bx-right-arrow-alt"></i>All Payment</a>
                         </li>
-                        <li> <a href="<?php echo $base_url; ?>PaymentReturned.php"><i class="bx bx-right-arrow-alt"></i> Returned</a>
+                        <!-- <li> <a href="<?php echo $base_url; ?>PaymentReturned.php"><i class="bx bx-right-arrow-alt"></i> Returned</a>
                         </li>
                         <li> <a href="<?php echo $base_url; ?>PaymentPending.php"><i class="bx bx-right-arrow-alt"></i>Pending</a>
                         </li>
                         <li> <a href="<?php echo $base_url; ?>PaymentRejected.php"><i class="bx bx-right-arrow-alt"></i> Rejected</a>
-                        </li>
+                        </li> -->
 
                     </ul>
-                </li> -->
+                </li>
 
 
                 <li>

@@ -130,7 +130,7 @@
         <div class=" ms-auto">
             <!-- <input type="reset" class="btn btn-outline-success px-3" value="Reset"> -->
             <button class="btn btn-outline-success px-3">Reset</button>
-            <button type="submit" class="btn btn-warning  px-3">Apply</button>
+            <button type="submit" class="btn btn-primary px-3">Apply</button>
         </div>
     </div>
                 </div>
